@@ -1,93 +1,11 @@
 proxies:
-  - name: "\U0001F1F9\U0001F1FCTW_1|822KB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: vpn-tw-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-tw-002.fastervpn.world
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_1|840KB/s"
+  - name: "\U0001F1EF\U0001F1F5JP_1|953KB/s"
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
     server: vpn-jp-002.fastervpn.world
     skip-cert-verify: true
     sni: vpn-jp-002.fastervpn.world
     type: hysteria2
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|530KB/s"
-    network: ws
-    port: 80
-    server: 151.101.71.151
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_2|610KB/s"
-    network: ws
-    port: 80
-    server: 151.101.24.151
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/60.0.3112.116 Mobile Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - auth: 117345a1-8108-43a8-8db0-7374547039d9
-    name: "\U0001F1ED\U0001F1F0HK_1|616KB/s"
-    obfs: salamander
-    obfs-password: uNFFqj7aeBqGNwXI
-    password: 117345a1-8108-43a8-8db0-7374547039d9
-    port: 20010
-    server: hk.adami.icu
-    skip-cert-verify: true
-    sni: hk.adami.icu
-    type: hysteria2
-    udp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_3|689KB/s"
-    network: tcp
-    port: 33819
-    server: 91.107.160.130
-    type: vless
-    udp: true
-    uuid: 73eed38e-09ea-4c07-aa95-c53684400d68
-    xudp: true
-  - client-fingerprint: qq
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_1|682KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: S2Fe4Ft_uGGNGVShoyrKHED3VaoRfjLQxDBD3LaNbgc
-      short-id: "9350a4f6c01e987a"
-    server: 67.159.52.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3dc30f8b-e411-4f68-9fda-73b63d920e1a
-    xudp: true
-    servername: deepl.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
