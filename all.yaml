@@ -1,86 +1,80 @@
 proxies:
-    - name: "\U0001F1E9\U0001F1EADE_1|568KB/s"
-      network: ws
-      port: 80
-      server: 199.232.197.131
-      servername: max-gb1.global.ssl.fastly.net
+    - name: "\U0001F1F9\U0001F1FCTW_1|822KB/s"
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-tw-002.fastervpn.world
       skip-cert-verify: true
-      tls: false
+      sni: vpn-tw-002.fastervpn.world
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|840KB/s"
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-jp-002.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-jp-002.fastervpn.world
+      type: hysteria2
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1|530KB/s"
+      network: ws
+      port: "80"
+      server: 151.101.71.151
       type: vless
       udp: true
       uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
       ws-opts:
         headers:
             Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1EC\U0001F1E7GB_1|596KB/s"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|610KB/s"
+      network: ws
+      port: "80"
+      server: 151.101.24.151
+      type: vless
+      udp: true
+      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+      ws-opts:
+        headers:
+            Host: max-gb1.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - auth: 117345a1-8108-43a8-8db0-7374547039d9
+      name: "\U0001F1ED\U0001F1F0HK_1|616KB/s"
       obfs: salamander
-      obfs-password: 3sv5vpdl9xr84lyb
-      password: 7roz68utnk7wgogj
-      port: 443
-      server: social.klipp.su
-      sni: social.klipp.su
-      tls: false
+      obfs-password: uNFFqj7aeBqGNwXI
+      password: 117345a1-8108-43a8-8db0-7374547039d9
+      port: 20010
+      server: hk.adami.icu
+      skip-cert-verify: true
+      sni: hk.adami.icu
       type: hysteria2
-    - client-fingerprint: chrome
+      udp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3|689KB/s"
+      network: tcp
+      port: "33819"
+      server: 91.107.160.130
+      type: vless
+      udp: true
+      uuid: 73eed38e-09ea-4c07-aa95-c53684400d68
+      xudp: true
+    - client-fingerprint: qq
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1|529KB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|682KB/s"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 147.45.246.77
-      servername: sellflow.org
+        public-key: S2Fe4Ft_uGGNGVShoyrKHED3VaoRfjLQxDBD3LaNbgc
+        short-id: 9350a4f6c01e987a
+      server: 67.159.52.159
+      servername: deepl.com
       tls: true
       type: vless
       udp: true
-      uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|620KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.119.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3|730KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.120.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|542KB/s"
-      network: xhttp
-      port: "443"
-      reality-opts:
-        public-key: Ga_FpKnw8ZXngh86KkciKc7SrKNljVat1_8fkyVWbjY
-        short-id: 4fd3840415403f31
-      server: 193.33.133.189
-      servername: fi1.foxnezia.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 77864cb4-7791-4e01-97ed-0aaf6904389f
-      xhttp-opts:
-        mode: auto
-        path: /
+      uuid: 3dc30f8b-e411-4f68-9fda-73b63d920e1a
       xudp: true
