@@ -1,29 +1,26 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_1|646KB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '817aa69.default.nintendo.com:112719'
-      mode: tls
-    port: 2377
-    server: 134.195.101.118
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.7MB/s"
+  - name: "\U0001F1F9\U0001F1FCTW_1|1.9MB/s"
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
-    server: 202.146.222.174
+    server: 103.115.109.49
     skip-cert-verify: true
     sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
-  - name: "\U0001F1F8\U0001F1ECSG_1|2.8MB/s"
+  - name: "\U0001F1F9\U0001F1FCTW_2|780KB/s"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: hy1.466688.xyz
+    skip-cert-verify: true
+    sni: 'https://t.me/daily_free_vpn'
+    type: hysteria2
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
     server: vpn-sg-003.fastervpn.world
     skip-cert-verify: true
     sni: vpn-sg-003.fastervpn.world
     type: hysteria2
-  - name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s"
+  - name: "\U0001F1EF\U0001F1F5JP_1|1.0MB/s"
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
     server: vpn-jp-002.fastervpn.world
