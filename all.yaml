@@ -1,363 +1,55 @@
 proxies:
-    - name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
-      network: ws
-      port: 80
-      server: 151.101.8.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_2|836KB/s"
-      network: ws
-      port: 80
-      server: 151.101.9.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_3|806KB/s"
-      network: ws
-      port: 80
-      server: 151.101.255.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_4|764KB/s"
-      network: ws
-      port: 80
-      server: 151.101.124.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_5|995KB/s"
-      network: ws
-      port: 80
-      server: 151.101.127.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_6|1.7MB/s"
-      network: ws
-      port: 80
-      server: 151.101.139.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_7|1.3MB/s"
-      network: ws
-      port: 80
-      server: 151.101.245.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_8|1.9MB/s"
-      network: ws
-      port: 80
-      server: 151.101.241.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
       port: 9002
       server: 84.239.49.180
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|1.4MB/s"
-      port: 9002
-      server: 84.239.49.184
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|1.6MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_2|1.8MB/s"
       port: 9002
       server: 84.239.49.211
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|770KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_3|1.6MB/s"
       port: 9002
-      server: 84.239.49.254
+      server: 84.239.49.182
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5|726KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_4|600KB/s"
       port: 9002
-      server: 84.239.49.171
+      server: 84.239.49.162
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|2.0MB/s"
-      port: 9002
-      server: 84.239.49.234
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_7|644KB/s"
-      port: 9002
-      server: 84.239.49.178
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_8|1.9MB/s"
-      port: 9002
-      server: 84.239.49.207
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_9|722KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_5|853KB/s"
       port: 9002
       server: 84.239.49.173
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_10|1.7MB/s"
-      port: 9002
-      server: 84.239.49.215
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_11|1.5MB/s"
-      port: 9002
-      server: 84.239.49.155
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_12|944KB/s"
-      port: 9002
-      server: 84.239.49.187
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_13|838KB/s"
-      port: 9002
-      server: 84.239.49.156
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_14|1.6MB/s"
-      port: 9002
-      server: 84.239.49.42
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_15|1.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_6|1.0MB/s"
       port: 9002
       server: 84.239.49.238
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_16|739KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_7|2.0MB/s"
       port: 9002
-      server: 84.239.14.146
+      server: 84.239.14.148
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_17|1.4MB/s"
-      port: 9002
-      server: 84.239.49.225
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_18|1.0MB/s"
-      port: 9002
-      server: 84.239.49.239
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_19|1.9MB/s"
-      port: 9002
-      server: 84.239.49.253
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_20|941KB/s"
-      port: 9002
-      server: 84.239.49.191
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_21|880KB/s"
-      port: 9002
-      server: 84.239.14.149
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_22|1.6MB/s"
-      port: 9002
-      server: 84.239.14.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_23|2.0MB/s"
-      port: 9002
-      server: 84.239.49.170
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_9|1.4MB/s"
-      network: ws
-      port: 80
-      server: 151.101.119.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE_10|1.6MB/s"
-      network: ws
-      port: 80
-      server: 151.101.101.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE_11|849KB/s"
-      network: ws
-      port: 80
-      server: 151.101.33.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s"
-      network: ws
-      port: 443
-      server: fast.cd-tur4.ir
-      servername: default.ssl.fastly.net
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
-      ws-opts:
-        headers:
-            Host: newip.global.ssl.fastly.neT.
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_12|1.5MB/s"
-      network: ws
-      port: 80
-      server: 151.101.117.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_13|573KB/s"
-      network: ws
-      port: 80
-      server: 151.101.161.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|770KB/s"
       password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
       plugin: obfs
       plugin-opts:
@@ -369,33 +61,7 @@ proxies:
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: 817aa69.default.nintendo.com:112719
-        mode: tls
-        tls: false
-      port: 2377
-      server: 134.195.101.118
-      type: ss
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_14|1.2MB/s"
-      network: ws
-      port: 80
-      server: 151.101.170.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_4|1.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2|800KB/s"
       password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
       plugin: obfs
       plugin-opts:
@@ -407,7 +73,7 @@ proxies:
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3|535KB/s"
       password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
       plugin: obfs
       plugin-opts:
@@ -418,49 +84,7 @@ proxies:
       server: 134.195.101.117
       type: ss
       udp: true
-    - name: "\U0001F1E9\U0001F1EADE_15|1.6MB/s"
-      network: ws
-      port: 80
-      server: 151.101.25.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_16|1.5MB/s"
-      network: ws
-      port: 80
-      server: 151.101.22.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_17|1.9MB/s"
-      network: ws
-      port: 80
-      server: 151.101.196.151
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
-    - name: "\U0001F1F9\U0001F1FCTW_1|3.5MB/s"
+    - name: "\U0001F1F9\U0001F1FCTW_1|1.8MB/s"
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: 443
       server: 103.115.109.49
@@ -468,7 +92,7 @@ proxies:
       sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
       tls: false
       type: hysteria2
-    - name: "\U0001F1F9\U0001F1FCTW_2|5.2MB/s"
+    - name: "\U0001F1F9\U0001F1FCTW_2|1.3MB/s"
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: 443
       server: hy1.466688.xyz
@@ -476,20 +100,12 @@ proxies:
       sni: https://t.me/daily_free_vpn
       tls: false
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_6|2.5MB/s"
-      network: tcp
-      password: a844e75e40134ee742e80ced8509b310
-      port: 17005
-      server: 43.198.98.136
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       down: 1000
-      name: "\U0001F1E9\U0001F1EADE_18|606KB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|634KB/s"
       port: 54177
       protocol: udp
       server: 5.83.129.90
@@ -498,1211 +114,538 @@ proxies:
       type: hysteria
       udp: true
       up: 500
-    - client-fingerprint: chrome
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_19|1.2MB/s"
+      name: "\U0001F1E9\U0001F1EADE_2|842KB/s"
       network: xhttp
       port: "443"
-      server: 45.130.125.6
-      servername: germany4.alibaba1405.org
+      server: 167.82.101.213
+      servername: global.fastly.com
       tls: true
       type: vless
       udp: true
-      uuid: ac006062-f051-43c6-bd4c-f409285c8635
+      uuid: 08c063d4-17d8-4d44-8f1c-6a1e782d3a1e
       xhttp-opts:
-        host: germany4.alibaba1405.org
+        host: vexikopq012.global.ssl.fastly.net
         mode: auto
-        path: /v2raylink
+        path: /
+        x-padding-bytes: 100-1000
       xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_24|1.0MB/s"
-      port: 9002
-      server: 84.239.49.40
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_20|1.7MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.57.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_21|1.9MB/s"
-      network: ws
-      port: 80
-      server: 151.101.162.151
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1E9\U0001F1EADE_22|2.0MB/s"
-      network: ws
-      port: 80
-      server: 151.101.55.151
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1E9\U0001F1EADE_23|775KB/s"
-      network: ws
-      port: 80
-      server: 151.101.9.151
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_7|1.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s"
       password: dongtaiwang.com
       port: 34567
       server: 157.254.223.44
       transport: TCP
       type: mieru
       username: dongtaiwang.com
-    - name: "\U0001F1F7\U0001F1F4RO_25|1.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_8|1.5MB/s"
       port: 9002
-      server: 193.176.84.25
+      server: 84.239.14.149
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_1|2.4MB/s"
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-sg-003.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-sg-003.fastervpn.world
+      type: hysteria2
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_5|654KB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 817aa69.default.nintendo.com:112719
+        mode: tls
+      port: 2377
+      server: 134.195.101.116
+      type: ss
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_2|2.7MB/s"
+      password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+      port: 443
+      server: db6bed98-t9zts0-tighxj-12hj8.sg.oshuawei.com
+      sni: db6bed98-t9zts0-tighxj-12hj8.sg.oshuawei.com
+      tls: true
+      type: http
+      username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.8MB/s"
+      password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+      port: 443
+      server: 2f5c3ade-tegxs0-tighxj-12hj8.jp.oshuawei.com
+      sni: 2f5c3ade-tegxs0-tighxj-12hj8.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+    - name: "\U0001F1F7\U0001F1F4RO_9|2.0MB/s"
+      port: 9002
+      server: 193.176.84.19
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_10|632KB/s"
+      port: 9002
+      server: 84.239.49.185
       skip-cert-verify: true
       tls: true
       type: http
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_24|912KB/s"
-      port: 20088
-      protocol: udp
-      server: 5.83.129.153
+    - name: "\U0001F1F7\U0001F1F4RO_11|1.5MB/s"
+      port: 9002
+      server: 84.239.49.219
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
-    - name: "\U0001F1E9\U0001F1EADE_25|1.9MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.38.151
-      servername: max-gb1.global.ssl.fastly.net
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_26|932KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.109.223
-      servername: max-gb1.global.ssl.fastly.net
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_27|1.6MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.6.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_28|2.2MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.63.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_29|2.6MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.140.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_30|950KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.139.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_31|1.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.212.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_32|2.5MB/s"
-      network: ws
-      port: "80"
-      server: de1-40.466688.xyz
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /?ed=8888&https://t.me/daily_free_vpn
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_33|1.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.71.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
-        path: /?ed=2560
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_34|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.7.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_35|2.4MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.206.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_36|2.4MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.60.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_37|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.246.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_38|1.2MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.191.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_39|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.242.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_40|2.3MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.244.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_41|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.190.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_42|2.2MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.188.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_43|2.5MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.105.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_44|1010KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.10.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_45|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.247.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_46|666KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.133.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_47|797KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.134.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_48|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.44.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_49|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.125.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_50|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.136.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_51|543KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.126.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_52|1.3MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.148.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_53|1.9MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.19.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_54|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.145.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_55|1.6MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.147.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_56|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.115.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_57|2.3MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.203.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_58|1.3MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.15.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_59|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.215.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_60|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.197.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_61|1.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.146.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_62|1.2MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.74.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_63|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.253.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_64|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.42.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_65|897KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.199.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_66|783KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.102.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_67|1.4MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.37.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_68|1.7MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.122.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_69|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.99.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_70|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.109.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_71|635KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.104.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_72|1004KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.137.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_73|2.1MB/s"
-      network: tcp
-      port: "55555"
-      reality-opts:
-        public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
-        short-id: 880eeeef4927eed5
-      server: 91.98.3.186
-      servername: yahoo.com
       tls: true
-      type: vless
-      udp: true
-      uuid: d6695105-8e40-4a45-a87e-d3cf561c9fa4
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_74|573KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.25.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_75|2.0MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.241.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_76|2.5MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.8.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_77|660KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.117.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_78|1.8MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.69.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_79|589KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.33.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_80|1.6MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.169.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_81|1.5MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.22.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_82|523KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.12.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_83|1.9MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.161.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_84|2.1MB/s"
-      network: ws
-      port: "80"
-      server: 151.101.127.151
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_8|791KB/s"
-      port: 443
-      server: 206.82.3.131
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_12|871KB/s"
+      port: 9002
+      server: 84.239.14.157
       skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: d26598cf-2cdf-4219-80d0-94646dff160d
-    - name: "\U0001F1E9\U0001F1EADE_85|833KB/s"
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_13|763KB/s"
+      port: 9002
+      server: 84.239.49.215
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_14|1.6MB/s"
+      port: 9002
+      server: 84.239.49.233
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_15|1.4MB/s"
+      port: 9002
+      server: 84.239.49.191
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_16|1.5MB/s"
+      port: 9002
+      server: 84.239.49.202
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_17|1.5MB/s"
+      port: 9002
+      server: 84.239.49.207
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_18|1.2MB/s"
+      port: 9002
+      server: 84.239.49.247
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_19|1.3MB/s"
+      port: 9002
+      server: 84.239.49.55
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_20|2.1MB/s"
+      port: 9002
+      server: 84.239.49.57
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_21|797KB/s"
+      port: 9002
+      server: 193.176.84.39
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_22|645KB/s"
+      port: 9002
+      server: 84.239.49.238
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_23|2.1MB/s"
+      port: 9002
+      server: 84.239.49.198
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_24|777KB/s"
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_25|1.9MB/s"
+      port: 9002
+      server: 84.239.49.164
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_26|1.1MB/s"
+      port: 9002
+      server: 84.239.49.157
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_27|2.1MB/s"
+      port: 9002
+      server: 84.239.49.155
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_28|1006KB/s"
+      port: 9002
+      server: 84.239.49.245
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_6|629KB/s"
+      password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+      port: 443
+      server: 9e6b55bc-t9zts0-tighxj-12hj8.sj.oshuawei.com
+      sni: 9e6b55bc-t9zts0-tighxj-12hj8.sj.oshuawei.com
+      tls: true
+      type: http
+      username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+    - name: "\U0001F1F7\U0001F1F4RO_29|931KB/s"
+      port: 9002
+      server: 84.239.14.148
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_30|1.9MB/s"
+      port: 9002
+      server: 84.239.14.160
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_31|2.1MB/s"
+      port: 9002
+      server: 84.239.49.204
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_32|1.7MB/s"
+      port: 9002
+      server: 84.239.49.176
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_33|1.5MB/s"
+      port: 9002
+      server: 84.239.49.240
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_34|1.5MB/s"
+      port: 9002
+      server: 84.239.49.209
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_35|1.6MB/s"
+      port: 9002
+      server: 84.239.49.38
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_36|2.4MB/s"
+      port: 9002
+      server: 84.239.49.196
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_7|1.6MB/s"
+      obfs: salamander
+      obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+      password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+      port: 443
+      server: vn2.yuntong.click
+      skip-cert-verify: false
+      sni: vn2.yuntong.click
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1F7\U0001F1F4RO_37|1.7MB/s"
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_38|573KB/s"
+      port: 9002
+      server: 84.239.49.199
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_39|936KB/s"
+      port: 9002
+      server: 84.239.49.254
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_40|1.9MB/s"
+      port: 9002
+      server: 84.239.49.161
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_41|792KB/s"
+      port: 9002
+      server: 84.239.49.231
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_42|1.4MB/s"
+      port: 9002
+      server: 84.239.49.235
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_43|700KB/s"
+      port: 9002
+      server: 84.239.49.166
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_44|999KB/s"
+      port: 9002
+      server: 84.239.49.225
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_45|802KB/s"
+      port: 9002
+      server: 84.239.49.182
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - encryption: none
+      name: ❓Other_1|721KB/s
       network: ws
       port: 80
-      server: 151.101.245.151
-      skip-cert-verify: true
-      tls: false
+      server: 151.101.198.151
       type: vless
       udp: true
       uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
       ws-opts:
         headers:
             Host: max-gb1.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
         path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_46|2.0MB/s"
+      port: 9002
+      server: 84.239.49.242
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_47|2.0MB/s"
+      port: 9002
+      server: 84.239.14.147
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_48|658KB/s"
+      port: 9002
+      server: 84.239.49.171
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_49|2.0MB/s"
+      port: 9002
+      server: 84.239.49.173
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_50|1.8MB/s"
+      port: 9002
+      server: 84.239.49.162
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_51|635KB/s"
+      port: 9002
+      server: 84.239.14.152
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_52|2.1MB/s"
+      port: 9002
+      server: 193.176.84.26
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_53|1.3MB/s"
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_54|2.1MB/s"
+      port: 9002
+      server: 84.239.49.180
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_55|1010KB/s"
+      port: 9002
+      server: 84.239.49.249
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1|900KB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: "8080"
+      server: 82.38.31.213
+      type: ss
+      udp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_9|772KB/s"
-      network: ws
+      grpc-opts:
+        grpc-service-name: GrpcFuckRKN2
+      name: "\U0001F1E9\U0001F1EADE_3|2.1MB/s"
+      network: grpc
       port: "443"
-      server: 172.66.40.139
-      servername: rAyAn-007.pArViN.DpDnS.OrG
+      reality-opts:
+        public-key: AXjwyGxRT-mcOzOSNYYywOWoxZ9tEvfCTo3LZDxS5Dw
+        short-id: c0ffee12
+      server: ge1.clear-vpn.org
+      servername: www.microsoft.com
       tls: true
       type: vless
       udp: true
-      uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
-      ws-opts:
-        headers:
-            Host: rAyAn-007.pArViN.DpDnS.OrG
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /
+      uuid: 5e58c2f5-b27d-4130-bd8f-dd05ee0f4825
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_10|579KB/s"
+    - name: "\U0001F1FA\U0001F1F8US_8|878KB/s"
       network: ws
-      port: "8880"
-      server: 173.245.59.30
+      port: "2095"
+      server: www.csgo.net
+      servername: cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev
       type: vless
       udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_11|760KB/s"
-      network: ws
-      port: "8880"
-      server: 173.245.59.50
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: "/?ed=2560&https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_12|835KB/s"
-      network: ws
-      port: "2086"
-      server: 172.67.89.31
-      type: vless
-      udp: true
-      uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
-      ws-opts:
-        headers:
-            Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
-        path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_86|647KB/s"
-      network: ws
-      port: "8880"
-      server: 193.176.240.129
-      type: vless
-      udp: true
-      uuid: d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a
-      ws-opts:
-        headers:
-            Host: azsv2.ir5ive.ir
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: ""
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_13|675KB/s"
-      network: ws
-      port: "8880"
-      server: 154.197.75.30
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_14|762KB/s"
-      network: ws
-      port: "8880"
-      server: 154.197.75.40
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: "/?ed=2560&https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_15|635KB/s"
-      network: ws
-      port: "8880"
-      server: 154.197.75.50
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: "/?ed=2560&https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_16|660KB/s"
-      network: ws
-      port: "8880"
-      server: 154.194.12.30
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime35.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /
+            Host: cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /fp=randomized
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1|4.6MB/s
+      name: "\U0001F1F8\U0001F1ECSG_3|4.1MB/s"
       network: raw
       port: "443"
       reality-opts:
         public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
         short-id: 0963b9822ae8b87e
-      server: 128.199.142.119
-      servername: www.maybank2u.com.sg
+      server: 157.230.254.149
+      servername: www.ocbc.com
       tls: true
       type: vless
       udp: true
       uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_17|1.0MB/s"
-      network: ws
-      port: "8880"
-      server: 103.160.204.30
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: ""
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
-      network: ws
-      port: "443"
-      server: 62.210.172.148
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9cd65844-3f28-4081-8d70-b5c61815f45d
-      ws-opts:
-        headers:
-            Host: t-panel.wasmer.app
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /ws/9cd65844-3f28-4081-8d70-b5c61815f45d
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: ws
-      name: "\U0001F1F5\U0001F1F1PL_1|2.5MB/s"
-      network: grpc
-      port: "43439"
-      reality-opts:
-        public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-        short-id: 84d5e248cb91dca0
-      server: 185.16.36.163
-      servername: www.amd.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fa4d12f8-4d4f-4fdf-a8a6-7ced1db6cf91
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EA\U0001F1EAEE_1|2.0MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-        short-id: 4c8d1e0f
-      server: 138.124.100.237
-      servername: www.amd.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_87|1.2MB/s"
-      network: tcp
+      name: "\U0001F1F8\U0001F1ECSG_4|2.7MB/s"
+      network: raw
       port: "443"
       reality-opts:
-        public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-        short-id: a1b2c3d4e5f6a7b8
-      server: 84.32.100.185
-      servername: de.moktana.app
+        public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
+        short-id: 0963b9822ae8b87e
+      server: 188.166.176.63
+      servername: www.alibaba.com
       tls: true
       type: vless
       udp: true
-      uuid: 97dc60fb-31cf-4156-be16-a3815ce64b60
+      uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
       xudp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
-      network: ws
-      port: "8880"
-      server: 45.40.147.40
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_5|3.3MB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
+        short-id: 0963b9822ae8b87e
+      server: 139.59.230.18
+      servername: www.cisco.com
+      tls: true
       type: vless
       udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /?ed=2560
+      uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_18|1.5MB/s"
-      network: ws
-      port: "8880"
-      server: 104.129.165.30
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_6|5.6MB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
+        short-id: 0963b9822ae8b87e
+      server: 159.89.198.1
+      servername: unpkg.com
+      tls: true
       type: vless
       udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime42.workers.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: ""
-      xudp: true
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.7MB/s"
-      network: ws
-      port: "8880"
-      server: 45.40.147.30
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1EC\U0001F1E7GB_3|1.7MB/s"
-      network: ws
-      port: "8880"
-      server: 50.62.194.40
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime37.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: "/?ed=2560&https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_19|775KB/s"
-      network: ws
-      port: "8880"
-      server: 185.193.30.30
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime09.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /
+      uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
       xudp: true
     - client-fingerprint: edge
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_4|4.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_1|5.2MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -1718,7 +661,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_5|3.3MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_2|4.8MB/s"
       network: tcp
       port: "443"
       reality-opts:
