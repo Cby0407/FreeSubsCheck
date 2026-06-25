@@ -1,53 +1,28 @@
 proxies:
-  - name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  - name: "\U0001F1EF\U0001F1F5JP_1|838KB/s"
+    password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
     port: 443
-    server: 13.231.108.76
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_1|834KB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 54.203.4.232
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-  - name: "\U0001F1EC\U0001F1E7GB_1|1.6MB/s"
-    password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-    port: 443
-    server: 31.76.28.28
-    sni: argg5.auragg.org
-    type: hysteria2
-  - name: "\U0001F1EF\U0001F1F5JP_2|5.2MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: hy3.466688.xyz
-    skip-cert-verify: true
-    sni: 'https://t.me/QiangLieTuiJian'
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: hy4.466688.xyz
-    skip-cert-verify: true
-    sni: 'https://t.me/QiangLieTuiJian'
-    type: hysteria2
+    server: fe04ef5e-t9zts0-tcc9uq-1rnrp.jp.oshuawei.com
+    sni: fe04ef5e-t9zts0-tcc9uq-1rnrp.jp.oshuawei.com
+    tls: true
+    type: http
+    username: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
   - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|574KB/s"
     password: dongtaiwang.com
     port: 34567
     server: 157.254.223.44
     transport: TCP
     type: mieru
     username: dongtaiwang.com
-  - name: "\U0001F1F8\U0001F1ECSG_1|3.9MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  - name: "\U0001F1FA\U0001F1F8US_2|550KB/s"
+    password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
     port: 443
-    server: vpn-sg-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-sg-001.fastervpn.world
-    type: hysteria2
+    server: 71baec62-tegxs0-tfi5fd-1imi4.sj.hyhuawei.com
+    sni: 71baec62-tegxs0-tfi5fd-1imi4.sj.hyhuawei.com
+    tls: true
+    type: http
+    username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
