@@ -1,12 +1,30 @@
 proxies:
-    - name: ❓Other_1|2.2MB/s
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s"
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: 443
-      server: vpn-sg-003.fastervpn.world
+      server: 13.212.100.129
       skip-cert-verify: true
-      sni: vpn-sg-003.fastervpn.world
+      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      tls: false
       type: hysteria2
-    - name: "\U0001F1EF\U0001F1F5JP_1|701KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s"
+      obfs: salamander
+      obfs-password: 2a7e8084206388f4
+      password: gdubbi2zb6gdp0c8
+      port: 443
+      server: 103.251.167.168
+      sni: gettestin.xxee.ru
+      tls: false
+      type: hysteria2
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F1FA\U0001F1F8US_1|555KB/s"
+      password: dongtaiwang.com
+      port: 34567
+      server: 157.254.223.44
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s"
       password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
       port: 443
       server: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
@@ -14,7 +32,7 @@ proxies:
       tls: true
       type: http
       username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_2|946KB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.4MB/s"
       password: 0b869f32-657e-11ee-a90c-f23c9313b177
       port: 3443
       server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
@@ -22,7 +40,7 @@ proxies:
       tls: true
       type: http
       username: 0b869f32-657e-11ee-a90c-f23c9313b177
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_2|1.5MB/s"
       password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
       port: 443
       server: d55aaebc-t9zts0-th1s9h-8rja.sg.oshuawei.com
@@ -30,7 +48,7 @@ proxies:
       tls: true
       type: http
       username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-    - name: "\U0001F1FA\U0001F1F8US_1|526KB/s"
+    - name: "\U0001F1FA\U0001F1F8US_2|725KB/s"
       password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
       port: 443
       server: b5fd0ba6-t9zts0-th1s9h-8rja.sj.oshuawei.com
@@ -38,3 +56,19 @@ proxies:
       tls: true
       type: http
       username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_3|710KB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
+        short-id: 0963b9822ae8b87e
+      server: 159.89.198.1
+      servername: unpkg.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
+      xudp: true
