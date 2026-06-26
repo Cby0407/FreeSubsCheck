@@ -1,54 +1,40 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.2MB/s"
-      port: 9002
-      server: 84.239.49.182
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|944KB/s"
-      port: 9002
-      server: 84.239.49.238
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|5.0MB/s"
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
-      server: 13.212.100.129
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F1F8\U0001F1ECSG_2|4.9MB/s"
+    - name: ❓Other_1|2.2MB/s
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: 443
       server: vpn-sg-003.fastervpn.world
       skip-cert-verify: true
       sni: vpn-sg-003.fastervpn.world
       type: hysteria2
-    - client-fingerprint: safari
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_3|3.4MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: Oe1AXeDO0L6_NXhNtjh3SQHOvCkfHrVZFzg1ASl4RhQ
-        short-id: 3292498d
-      server: 52.237.89.171
-      servername: www.cloudflare.com
+    - name: "\U0001F1EF\U0001F1F5JP_1|701KB/s"
+      password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+      port: 443
+      server: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
+      sni: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
       tls: true
-      type: vless
-      udp: true
-      uuid: 61f7a0ac-7500-42f1-b27b-e85cb16d6afa
-      xudp: true
+      type: http
+      username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_2|946KB/s"
+      password: 0b869f32-657e-11ee-a90c-f23c9313b177
+      port: 3443
+      server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+      sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+      tls: true
+      type: http
+      username: 0b869f32-657e-11ee-a90c-f23c9313b177
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
+      password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+      port: 443
+      server: d55aaebc-t9zts0-th1s9h-8rja.sg.oshuawei.com
+      sni: d55aaebc-t9zts0-th1s9h-8rja.sg.oshuawei.com
+      tls: true
+      type: http
+      username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    - name: "\U0001F1FA\U0001F1F8US_1|526KB/s"
+      password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+      port: 443
+      server: b5fd0ba6-t9zts0-th1s9h-8rja.sj.oshuawei.com
+      sni: b5fd0ba6-t9zts0-th1s9h-8rja.sj.oshuawei.com
+      tls: true
+      type: http
+      username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
