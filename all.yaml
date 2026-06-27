@@ -1,19 +1,29 @@
 proxies:
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
-      network: tcp
-      port: "13932"
-      server: 104.253.134.92
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+    - name: "\U0001F1EF\U0001F1F5JP_1|723KB/s"
+      password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+      port: 443
+      server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
+      tls: true
+      type: http
       udp: true
-      uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-      xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s"
+      username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_2|734KB/s"
+      password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+      port: 443
+      server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+      tls: true
+      type: http
+      udp: true
+      username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+    - name: "\U0001F1FA\U0001F1F8US_1|688KB/s"
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: 3.133.156.115
+      skip-cert-verify: true
+      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
       obfs: salamander
       obfs-password: 2a7e8084206388f4
       password: gdubbi2zb6gdp0c8
@@ -23,14 +33,28 @@ proxies:
       sni: gettestin.xxee.ru
       tls: false
       type: hysteria2
-    - name: "\U0001F1F8\U0001F1ECSG_1|613KB/s"
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1|675KB/s"
+      network: xhttp
+      port: "55117"
+      server: 104.253.134.92
+      type: vless
+      udp: true
+      uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+      xhttp-opts:
+        mode: auto
+        path: /
+        x-padding-bytes: 100-1000
+      xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3|816KB/s"
+      password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
       port: 443
-      server: vpn-sg-003.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-sg-003.fastervpn.world
-      type: hysteria2
-    - name: "\U0001F1EF\U0001F1F5JP_1|764KB/s"
+      server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+      sni: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+    - name: "\U0001F1EF\U0001F1F5JP_4|656KB/s"
       password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
       port: 443
       server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
@@ -38,58 +62,36 @@ proxies:
       tls: true
       type: http
       username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F1\U0001F1F9LT_1|1.0MB/s"
-      password: 4LuSQluWs3meAy5vOo7ikZ
-      port: 443
-      server: 80.208.229.172
-      type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_2|513KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_2|659KB/s"
       port: 1080
       server: 5.255.99.75
       type: socks5
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1486
-      name: "\U0001F1FA\U0001F1F8US_1|644KB/s"
-      password: 63872b0d-87dd-4474-b690-92773af2922e
-      port: 42531
-      server: d1.catcat321.com
-      skip-cert-verify: true
-      sni: d.usj1.cat.bilibili.com
-      type: trojan
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 2177
-      name: "\U0001F1FA\U0001F1F8US_2|640KB/s"
-      password: 7e70223b-f331-41d5-9313-02b8d2df2885
-      port: 56168
-      server: d1.catcat321.com
-      skip-cert-verify: true
-      sni: d.usj1.cat.bilibili.com
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3|538KB/s"
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_2|684KB/s"
       network: tcp
-      password: 63872b0d-87dd-4474-b690-92773af2922e
-      port: "42531"
-      server: d1.catcat321.com
-      skip-cert-verify: true
-      sni: d.usj1.cat.bilibili.com
-      type: trojan
+      port: "35007"
+      server: 104.253.134.92
+      type: vless
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_4|844KB/s"
-      password: 7e70223b-f331-41d5-9313-02b8d2df2885
-      port: 58868
-      server: d1.catcat321.com
-      skip-cert-verify: true
-      sni: d.usj1.cat.bilibili.com
-      tls: true
-      type: trojan
-      udp: true
+      uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+      xudp: true
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|525KB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|629KB/s"
+      port: 443
+      reality-opts:
+        public-key: bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo
+        short-id: 93a993bbc8b86684
+      server: 163.128.98.252
+      servername: www.apple.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
       port: 14002
       reality-opts:
         public-key: D4eZTpgaPV_2YQa7cbiDMGnZs6NBEU2JkfUroHpvoWs
@@ -101,23 +103,9 @@ proxies:
       type: vless
       udp: true
       uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_2|545KB/s"
-      port: 14005
-      reality-opts:
-        public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
-        short-id: 97a01dfaef
-      server: vip.bcjdvip.com
-      servername: apple.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_3|562KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_2|1.3MB/s"
       port: 14006
       reality-opts:
         public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
@@ -131,7 +119,7 @@ proxies:
       uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_4|576KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_3|4.3MB/s"
       port: 14001
       reality-opts:
         public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
@@ -145,7 +133,7 @@ proxies:
       uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_5|589KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_4|2.0MB/s"
       port: 14004
       reality-opts:
         public-key: zSt5a1vs3C3oxm3fSUB_egA98IO3XZr7JGzE6OdMTz8
@@ -159,7 +147,7 @@ proxies:
       uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_6|709KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_5|3.5MB/s"
       port: 14009
       reality-opts:
         public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
@@ -171,9 +159,23 @@ proxies:
       type: vless
       udp: true
       uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_6|3.7MB/s"
+      port: 14007
+      reality-opts:
+        public-key: wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU
+        short-id: 1d89ebb78c
+      server: vip.bcjdvip.com
+      servername: apple.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_7|628KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_7|3.1MB/s"
       port: 14008
       reality-opts:
         public-key: WQP0QFc9RlOg7TDAI2i_VNQEtFwB_5kE5AKykeIipm0
@@ -187,7 +189,7 @@ proxies:
       uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
     - client-fingerprint: edge
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_8|623KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_8|2.9MB/s"
       port: 14010
       reality-opts:
         public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
@@ -199,33 +201,3 @@ proxies:
       type: vless
       udp: true
       uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_2|955KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: EAxetkUM_1nerrjiX8yM7ceiOZccVFbYRiRt9ALDWzw
-        short-id: 12ec278197ed73d9
-      server: 163.128.98.179
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f68eda7b-a93a-437e-8b35-3bb6c675b025
-      xudp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_3|2.2MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo
-        short-id: 93a993bbc8b86684
-      server: 163.128.98.252
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2
-      xudp: true
