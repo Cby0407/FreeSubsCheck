@@ -1,526 +1,63 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.3MB/s"
-      port: 9002
-      server: 84.239.49.196
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|2.0MB/s"
-      port: 9002
-      server: 84.239.49.211
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|1.3MB/s"
-      port: 9002
-      server: 84.239.49.57
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|1.8MB/s"
-      port: 9002
-      server: 84.239.14.160
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5|1.7MB/s"
-      port: 9002
-      server: 84.239.49.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|1.0MB/s"
-      port: 9002
-      server: 84.239.49.235
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_7|1.4MB/s"
-      port: 9002
-      server: 84.239.49.219
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_8|522KB/s"
-      port: 9002
-      server: 193.176.84.37
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|1014KB/s"
-      port: 14001
-      reality-opts:
-        public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
-        short-id: "16"
-      server: vip.bcjdvip.com
-      servername: apple.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_2|929KB/s"
-      port: 14007
-      reality-opts:
-        public-key: wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU
-        short-id: 1d89ebb78c
-      server: vip.bcjdvip.com
-      servername: apple.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F1F7\U0001F1F4RO_9|1.1MB/s"
-      port: 9002
-      server: 84.239.49.184
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_10|805KB/s"
-      port: 9002
-      server: 193.176.84.40
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_3|756KB/s"
-      network: tcp
-      port: 14001
-      reality-opts:
-        public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
-        short-id: "16"
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_4|809KB/s"
-      network: tcp
-      port: 14002
-      reality-opts:
-        public-key: D4eZTpgaPV_2YQa7cbiDMGnZs6NBEU2JkfUroHpvoWs
-        short-id: 7cabb05b68f63b
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_5|843KB/s"
-      network: tcp
-      port: 14008
-      reality-opts:
-        public-key: WQP0QFc9RlOg7TDAI2i_VNQEtFwB_5kE5AKykeIipm0
-        short-id: 8e5d94464f
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_6|895KB/s"
-      network: tcp
-      port: 14009
-      reality-opts:
-        public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
-        short-id: 6a1a47
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_7|1.1MB/s"
-      network: tcp
-      port: 14006
-      reality-opts:
-        public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
-        short-id: ff5ebee2264c
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_8|716KB/s"
-      network: tcp
-      port: 14010
-      reality-opts:
-        public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
-        short-id: 1ebaa8ea57a71ffc
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_9|1.0MB/s"
-      network: tcp
-      port: 14003
-      reality-opts:
-        public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
-        short-id: "80963776"
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_10|725KB/s"
-      network: tcp
-      port: 14007
-      reality-opts:
-        public-key: wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU
-        short-id: 1d89ebb78c
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_11|826KB/s"
-      network: tcp
-      port: 14004
-      reality-opts:
-        public-key: zSt5a1vs3C3oxm3fSUB_egA98IO3XZr7JGzE6OdMTz8
-        short-id: 22c485f4000241
-      server: vip.bcjdvip.com
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-      xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|5.1MB/s"
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    - name: "\U0001F1F8\U0001F1ECSG_1|648KB/s"
+      password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
       port: 443
-      server: vpn-sg-003.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-sg-003.fastervpn.world
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1NL_1|782KB/s"
-      port: 1080
-      server: 5.255.99.75
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7KR_1|870KB/s"
-      password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
-      port: 31433
-      server: 163f9999-t9zts0-tc2sod-1tizo.kr.oshuawei.com
-      sni: 163f9999-t9zts0-tc2sod-1tizo.kr.oshuawei.com
+      server: cf972b6f-ta1og0-tg8syu-1nyy5.sg.oshuawei.com
+      sni: cf972b6f-ta1og0-tg8syu-1nyy5.sg.oshuawei.com
       tls: true
       type: http
-      username: bf36227c-0191-11f0-aee1-f23c91cfbbc9
-    - name: "\U0001F1F7\U0001F1F4RO_11|698KB/s"
-      port: 9002
-      server: 84.239.49.242
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_12|1.1MB/s"
-      port: 9002
-      server: 84.239.49.162
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_13|2.1MB/s"
-      port: 9002
-      server: 84.239.14.157
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_14|1.3MB/s"
-      port: 9002
-      server: 84.239.49.209
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_15|794KB/s"
-      port: 9002
-      server: 84.239.49.212
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_16|2.1MB/s"
-      port: 9002
-      server: 84.239.49.173
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_17|611KB/s"
-      port: 9002
-      server: 84.239.49.55
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_18|1.1MB/s"
-      port: 9002
-      server: 84.239.14.148
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_19|1.5MB/s"
-      port: 9002
-      server: 84.239.49.170
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_20|687KB/s"
-      port: 9002
-      server: 84.239.49.57
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_21|873KB/s"
-      port: 9002
-      server: 84.239.49.180
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_22|2.1MB/s"
-      port: 9002
-      server: 84.239.49.196
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_23|1.0MB/s"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_24|1.2MB/s"
-      port: 9002
-      server: 84.239.49.182
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_25|558KB/s"
-      port: 9002
-      server: 193.176.84.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_26|1.3MB/s"
-      port: 9002
-      server: 84.239.49.215
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_27|1.0MB/s"
-      port: 9002
-      server: 84.239.49.38
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_28|1.8MB/s"
-      port: 9002
-      server: 84.239.49.160
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_29|1.6MB/s"
-      port: 9002
-      server: 84.239.49.171
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_30|985KB/s"
-      port: 9002
-      server: 84.239.49.227
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_31|520KB/s"
-      port: 9002
-      server: 84.239.49.166
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_32|2.1MB/s"
-      port: 9002
-      server: 84.239.49.240
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_33|1.7MB/s"
-      port: 9002
-      server: 84.239.14.147
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_34|810KB/s"
-      port: 9002
-      server: 193.176.84.37
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_35|1.6MB/s"
-      port: 9002
-      server: 84.239.49.235
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_36|2.0MB/s"
-      port: 9002
-      server: 84.239.49.164
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_2|951KB/s"
-      network: tcp
-      port: "180"
-      server: 82.198.246.233
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1FAHU_1|1.7MB/s"
-      port: 8443
-      reality-opts:
-        public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-        short-id: 2715592069f36fe7
-      server: 45.198.87.143
-      servername: storage.yandex.net
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7896c501-248f-4068-bc2f-363c91ba5122
-    - name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
+      username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+    - name: "\U0001F1FA\U0001F1F8US_1|703KB/s"
+      password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
       port: 443
-      server: 46.4.230.210
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: f988b9b9-9ef7-400c-9999-0f2b1a842de2
+      server: 990a2409-t9zts0-tcr22d-1rsuw.sj.oshuawei.com
+      sni: 990a2409-t9zts0-tcr22d-1rsuw.sj.oshuawei.com
+      tls: true
+      type: http
+      username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1FAHU_2|1.8MB/s"
-      port: 8443
-      reality-opts:
-        public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-        short-id: 2715592069f36fe7
-      server: 45.198.87.149
-      servername: storage.yandex.net
+      name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+      network: ws
+      port: 19034
+      server: 45.151.132.228
+      servername: vpn47.cc.cd
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+      uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+      ws-opts:
+        headers:
+            Host: vpn47.cc.cd
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EASE_1|532KB/s"
+      network: ws
+      port: 443
+      server: 193.233.251.202
+      servername: vpn47.cc.cd
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+      ws-opts:
+        headers:
+            Host: vpn47.cc.cd
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1|868KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+        short-id: 43dcff53849b81e6
+      server: 89.105.206.151
+      servername: nl.quattro-tech.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 15634a62-7add-473b-a76c-cf26d158850d
+      xudp: true
