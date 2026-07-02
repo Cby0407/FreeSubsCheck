@@ -1,68 +1,47 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1F4RO_1|616KB/s"
-      port: 9002
-      server: 84.239.49.204
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|743KB/s"
-      port: 9002
-      server: 84.239.49.57
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_1|7.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: 47.129.160.62
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-      up: ""
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
-      password: <password>
-      port: 8443
-      server: 782f198b-te3z40-twuk0i-1hzyr.hkt.cdnhuawei.com
-      sni: 782f198b-te3z40-twuk0i-1hzyr.hkt.cdnhuawei.com
-      tls: true
-      type: http
-      username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|1.1MB/s"
-      network: ws
-      port: "443"
-      server: 109.120.176.17
-      servername: sertraline.adaspoloandco.com
+      encryption: mlkem768x25519plus.native.0rtt.jgeYdhgpctxZmBFaJyg2IjnvAuvSqymhs8XisXWmKgw
+      name: "\U0001F1E9\U0001F1EADE_1|778KB/s"
+      network: tcp
+      port: "46259"
+      reality-opts:
+        public-key: NWWP3DO2BT4eBpoZ0isFEySZzZ6pjqH_9n5Lw07AxVQ
+        short-id: fd
+      server: real.logoseti.ir
+      servername: tgju.org
       tls: true
       type: vless
       udp: true
-      uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
-      ws-opts:
-        headers:
-            Host: sertraline.adaspoloandco.com
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /download.php
+      uuid: 81684c3f-2b47-4ba1-a327-870b0aab8f1c
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|800KB/s"
+      password: ""
+      port: "1080"
+      server: 5.255.117.127
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: T-ME-V2RayyNGvpn
+      name: "\U0001F1E9\U0001F1EADE_2|577KB/s"
+      network: grpc
+      port: "2087"
+      reality-opts:
+        public-key: vo8uwC71aFoymMSeohcfUdULP8XiiPhiYysuI0MldFo
+        short-id: b74e
+      server: 141.95.107.209
+      servername: connect-sit.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 767c9180-868d-4ff0-a205-5e52383e6bf4
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_2|666KB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -75,18 +54,81 @@ proxies:
       udp: true
       uuid: 063e5d19-84f6-4132-bc36-b81522382bd5
       xudp: true
-    - client-fingerprint: chrome
-      encryption: mlkem768x25519plus.native.0rtt.jgeYdhgpctxZmBFaJyg2IjnvAuvSqymhs8XisXWmKgw
-      name: "\U0001F1E9\U0001F1EADE_1|956KB/s"
-      network: tcp
-      port: "46259"
-      reality-opts:
-        public-key: NWWP3DO2BT4eBpoZ0isFEySZzZ6pjqH_9n5Lw07AxVQ
-        short-id: fd
-      server: real.logoseti.ir
-      servername: tgju.org
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s"
+      password: 5cea6644-3b30-45f4-baa6-df9d4971d72e
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.7MB/s"
+      password: b34ae0ae-9969-45f4-a221-531f6f01db66
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3|2.1MB/s"
+      password: 7b91331f-daeb-4b77-9de3-1285c10808a7
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|726KB/s"
+      password: 7d5dbbd7-409d-40e0-b515-e71e47ddf32e
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_4|514KB/s"
+      password: 7d5dbbd7-409d-40e0-b515-e71e47ddf32e
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s"
+      password: 7b91331f-daeb-4b77-9de3-1285c10808a7
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1E6\U0001F1FAAU_1|742KB/s"
+      password: PI36027154
+      port: 443
+      server: tight-possum.rooster465.autos
+      skip-cert-verify: true
+      tls: true
+      type: trojan
+      udp: true
+    - client-fingerprint: randomized
+      encryption: none
+      name: "\U0001F1F9\U0001F1F7TR_1|831KB/s"
+      network: ws
+      port: "443"
+      server: 208.103.161.3
+      servername: Wallweb.hydradllcloud.info
       tls: true
       type: vless
       udp: true
-      uuid: 81684c3f-2b47-4ba1-a327-870b0aab8f1c
+      uuid: dd0ea052-da1d-463a-8892-0fba98024c2c
+      ws-opts:
+        headers:
+            Host: Wallweb.hydradllcloud.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+        path: /?ed=2048
+      xudp: true
+    - client-fingerprint: randomized
+      encryption: none
+      name: "\U0001F1F9\U0001F1F7TR_2|651KB/s"
+      network: ws
+      port: "443"
+      server: 208.103.161.45
+      servername: Wallweb.hydradllcloud.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: dd0ea052-da1d-463a-8892-0fba98024c2c
+      ws-opts:
+        headers:
+            Host: Wallweb.hydradllcloud.info
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /?ed=2048
       xudp: true
