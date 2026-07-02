@@ -1,7 +1,20 @@
 proxies:
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: "13377"
+      server: www.838491.xyz
+      skip-cert-verify: false
+      sni: www.838491.xyz
+      tls: false
+      type: hysteria2
+      up: ""
     - client-fingerprint: chrome
       encryption: mlkem768x25519plus.native.0rtt.jgeYdhgpctxZmBFaJyg2IjnvAuvSqymhs8XisXWmKgw
-      name: "\U0001F1E9\U0001F1EADE_1|778KB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
       network: tcp
       port: "46259"
       reality-opts:
@@ -14,93 +27,25 @@ proxies:
       udp: true
       uuid: 81684c3f-2b47-4ba1-a327-870b0aab8f1c
       xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|800KB/s"
-      password: ""
-      port: "1080"
-      server: 5.255.117.127
-      skip-cert-verify: true
-      type: socks5
-      username: ""
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: T-ME-V2RayyNGvpn
-      name: "\U0001F1E9\U0001F1EADE_2|577KB/s"
-      network: grpc
-      port: "2087"
-      reality-opts:
-        public-key: vo8uwC71aFoymMSeohcfUdULP8XiiPhiYysuI0MldFo
-        short-id: b74e
-      server: 141.95.107.209
-      servername: connect-sit.amd.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 767c9180-868d-4ff0-a205-5e52383e6bf4
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2|666KB/s"
+      name: "\U0001F1EC\U0001F1E7GB_1|543KB/s"
       network: tcp
-      port: "443"
+      port: "8443"
       reality-opts:
-        public-key: FSqk2zhXivwuJ-lGC7QqilbMXj1bzbNjjBmFurysvUU
-        short-id: b3c7678b
-      server: nl-ams-1.blook.network
-      servername: nl-ams-1.blook.network
+        public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+        short-id: "4326"
+      server: mag3.portal-guard.com
+      servername: mag3.portal-guard.com
       tls: true
       type: vless
       udp: true
-      uuid: 063e5d19-84f6-4132-bc36-b81522382bd5
+      uuid: 8ea09611-4e24-49f9-8b2a-25974d8ebf8c
       xudp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s"
-      password: 5cea6644-3b30-45f4-baa6-df9d4971d72e
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|1.7MB/s"
-      password: b34ae0ae-9969-45f4-a221-531f6f01db66
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_3|2.1MB/s"
-      password: 7b91331f-daeb-4b77-9de3-1285c10808a7
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|726KB/s"
-      password: 7d5dbbd7-409d-40e0-b515-e71e47ddf32e
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_4|514KB/s"
-      password: 7d5dbbd7-409d-40e0-b515-e71e47ddf32e
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s"
-      password: 7b91331f-daeb-4b77-9de3-1285c10808a7
-      port: 40021
-      server: us1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1E6\U0001F1FAAU_1|742KB/s"
-      password: PI36027154
-      port: 443
-      server: tight-possum.rooster465.autos
-      skip-cert-verify: true
-      tls: true
-      type: trojan
-      udp: true
     - client-fingerprint: randomized
       encryption: none
-      name: "\U0001F1F9\U0001F1F7TR_1|831KB/s"
+      name: "\U0001F1F9\U0001F1F7TR_1|2.1MB/s"
       network: ws
       port: "443"
       server: 208.103.161.3
@@ -112,12 +57,46 @@ proxies:
       ws-opts:
         headers:
             Host: Wallweb.hydradllcloud.info
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
         path: /?ed=2048
       xudp: true
     - client-fingerprint: randomized
       encryption: none
-      name: "\U0001F1F9\U0001F1F7TR_2|651KB/s"
+      name: "\U0001F1F9\U0001F1F7TR_2|1.6MB/s"
+      network: ws
+      port: "443"
+      server: 208.103.161.62
+      servername: Wallweb.hydradllcloud.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: dd0ea052-da1d-463a-8892-0fba98024c2c
+      ws-opts:
+        headers:
+            Host: Wallweb.hydradllcloud.info
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /?ed=2048
+      xudp: true
+    - client-fingerprint: randomized
+      encryption: none
+      name: "\U0001F1F9\U0001F1F7TR_3|2.1MB/s"
+      network: ws
+      port: "443"
+      server: 208.103.161.11
+      servername: Wallweb.hydradllcloud.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: dd0ea052-da1d-463a-8892-0fba98024c2c
+      ws-opts:
+        headers:
+            Host: Wallweb.hydradllcloud.info
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2048
+      xudp: true
+    - client-fingerprint: randomized
+      encryption: none
+      name: "\U0001F1F9\U0001F1F7TR_4|2.2MB/s"
       network: ws
       port: "443"
       server: 208.103.161.45
@@ -129,6 +108,6 @@ proxies:
       ws-opts:
         headers:
             Host: Wallweb.hydradllcloud.info
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /?ed=2048
       xudp: true
