@@ -1,12 +1,125 @@
 proxies:
   - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|981KB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|605KB/s"
     password: dongtaiwang.com
     port: 34567
     server: 157.254.223.44
     transport: TCP
     type: mieru
     username: dongtaiwang.com
+  - name: "\U0001F1FA\U0001F1F8US_2|1.5MB/s"
+    password: ''
+    port: 443
+    server: 38.28.193.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US_3|569KB/s"
+    password: 0b869f32-657e-11ee-a90c-f23c9313b177
+    port: 3443
+    server: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
+    sni: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
+    tls: true
+    type: http
+    username: 0b869f32-657e-11ee-a90c-f23c9313b177
+  - name: "\U0001F1EF\U0001F1F5JP_1|1015KB/s"
+    password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+    port: 443
+    server: 9d77818a-tcb5s0-te4ijj-1fqef.jp4.oshuawei.com
+    tls: true
+    type: http
+    username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+    sni: 9d77818a-tcb5s0-te4ijj-1fqef.jp4.oshuawei.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s"
+    port: 20088
+    protocol: udp
+    server: 5.83.129.153
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '500'
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_1|860KB/s"
+    network: ws
+    password: MITIVPN
+    port: 443
+    server: celestara.biz
+    skip-cert-verify: false
+    sni: De.App-Cloud.ir
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.81 Safari/537.36
+      path: /MiTiVPN=De
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_2|909KB/s"
+    network: tcp
+    port: 59391
+    reality-opts:
+      public-key: 8xLIALDKNpX87MGkxGFIfxLUoJrUnsNSxOg_fHHk6Ac
+      short-id: "5635a66ec0a7619a"
+    server: xn-usa.dbsll.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
+    xudp: true
+    servername: www.yahoo.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_1|1.8MB/s"
+    network: ws
+    password: MITIVPN
+    port: 443
+    server: 91.193.58.35
+    skip-cert-verify: false
+    sni: De.App-Cloud.ir
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /MiTiVPN=Usa
+  - name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
+    password: 80b1daab-e588-4685-85dd-77344fc0dc4b
+    port: 40021
+    server: us1.catzl.top
+    type: anytls
+    udp: true
+    sni: us1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_5|635KB/s"
+    password: d6242b11-9624-449b-bef4-498b16d02073
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_6|1.6MB/s"
+    password: d6242b11-9624-449b-bef4-498b16d02073
+    port: 40021
+    server: us1.catzl.top
+    type: anytls
+    udp: true
+    sni: us1.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_2|726KB/s"
+    password: 80b1daab-e588-4685-85dd-77344fc0dc4b
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
