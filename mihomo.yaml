@@ -1,5 +1,51 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8US_1|3.9MB/s"
+  - client-fingerprint: firefox
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc-direct
+    name: "\U0001F1E9\U0001F1EADE_1|930KB/s"
+    network: grpc
+    port: 2053
+    reality-opts:
+      public-key: waaYYZNd0vgbsNi8BO5e0FFjxFJMWnumuOdaarKsnQs
+      short-id: "e4fb18c16a95e52d"
+    server: 5.129.250.210
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9316bdbe-64c3-11f1-a103-aef63c7126b0
+    xudp: true
+    servername: cam-msk-6.videomonitor.cloud
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - fn.fifapes.monster
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1EEFI_1|2.4MB/s"
+    network: http
+    port: 2090
+    server: fn.fifapes.monster
+    type: vless
+    udp: true
+    uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+    password: 1348a838-9105-4f3e-bd04-699a9be10480
+    port: 44404
+    server: us04.network-cdn-gw-yd.net
+    type: ss
+    udp: true
+  - name: "\U0001F1F0\U0001F1F7KR_1|3.8MB/s"
+    password: d5m-5bGOsVbFgRlxsEyO3pCF
+    port: 55020
+    server: 140.245.74.46
+    skip-cert-verify: true
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s"
     network: ws
     port: 443
     server: 8.133.176.42
@@ -13,84 +59,38 @@ proxies:
         Host: nbhhh.mrcool.kdns.fr
       path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
     servername: nbhhh.mrcool.kdns.fr
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|558KB/s"
-    network: ws
+  - name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
-    server: 39.107.252.182
+    server: vpn-fr-001.fastervpn.world
     skip-cert-verify: true
-    tls: true
-    type: vless
+    sni: vpn-fr-001.fastervpn.world
+    type: hysteria2
     udp: true
-    uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-    ws-opts:
-      headers:
-        Host: nbhhh.mrcool.kdns.fr
-      path: "/proxyip=Telegram-WangCai2\U0001F1E8\U0001F1F3"
-    servername: nbhhh.mrcool.kdns.fr
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_3|1.6MB/s"
-    password: dongtaiwang.com
-    port: 34567
-    server: 157.254.223.44
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - name: "\U0001F1FA\U0001F1F8US_4|637KB/s"
-    password: 0b869f32-657e-11ee-a90c-f23c9313b177
-    port: 3443
-    server: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
-    sni: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
-    tls: true
-    type: http
-    username: 0b869f32-657e-11ee-a90c-f23c9313b177
-  - name: "\U0001F1FA\U0001F1F8US_5|592KB/s"
-    password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_1|2.7MB/s"
+    password: amazonskr05
     port: 443
-    server: 45da9ca8-tegxs0-tvb36r-1qwom.sj.hyhuawei.com
-    sni: 45da9ca8-tegxs0-tvb36r-1qwom.sj.hyhuawei.com
-    tls: true
-    type: http
-    username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
-    password: <password>
-    port: 8443
-    server: 15b72b06-ta1og0-ts3rye-mrtr.hkt.cdnhuawei.com
-    sni: 15b72b06-ta1og0-ts3rye-mrtr.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_2|1.9MB/s"
-    password: b3813e01-e131-4ed2-98fd-c3a805fc515f
-    port: 47708
-    server: hk18.network-cdn-gw-yd.net
+    server: 57.180.55.43
     type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|762KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E8\U0001F1E6CA_1|1021KB/s"
+    network: tcp
+    port: 18339
+    server: c87s5.portablesubmarines.com
+    type: vmess
+    udp: true
+    uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+    xudp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_2|4.9MB/s"
+    password: amazonskr05
     port: 443
-    server: 13.229.110.73
-    skip-cert-verify: true
-    sni: vpn-sg-001.fastervpn.world
-    type: hysteria2
-    up: ''
+    server: 52.192.80.59
+    type: ss
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
