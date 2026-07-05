@@ -1,128 +1,514 @@
 proxies:
-    - name: "\U0001F1F3\U0001F1F1NL_1|2.9MB/s"
-      password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-      port: 443
-      server: 5.255.102.165
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F2\U0001F1FEMY_1|2.5MB/s"
-      password: a95e9198-0671-11f0-9426-f23c932f2c32
-      port: "443"
-      server: bfc94a32-thtb40-thri9q-azvy.lndmy.euhuawei.com
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: a95e9198-0671-11f0-9426-f23c932f2c32
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6CA_1|902KB/s"
-      network: tcp
-      port: 18339
-      server: c87s5.portablesubmarines.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+    - name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
       udp: true
-      uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|681KB/s"
-      password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-      port: 443
-      server: 0ed2ce13-t9zts0-td1l1t-1s824.sj.oshuawei.com
-      sni: 0ed2ce13-t9zts0-td1l1t-1s824.sj.oshuawei.com
-      tls: true
-      type: http
-      username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-    - name: "\U0001F1FA\U0001F1F8US_2|660KB/s"
-      password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-      port: 443
-      server: 010e2719-t9zts0-tphxte-1h5u7.sj.oshuawei.com
-      sni: 010e2719-t9zts0-tphxte-1h5u7.sj.oshuawei.com
-      tls: true
-      type: http
-      username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_3|623KB/s"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F1FA\U0001F1F8US_4|671KB/s"
-      password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-      port: 443
-      server: b56e59a7-t9zts0-tpaqgu-1smhu.sj.oshuawei.com
-      sni: b56e59a7-t9zts0-tpaqgu-1smhu.sj.oshuawei.com
-      tls: true
-      type: http
-      username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-    - name: "\U0001F1EF\U0001F1F5JP_1|1.2MB/s"
-      password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-      port: 443
-      server: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
-      sni: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1|862KB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_1|2.4MB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2|3.1MB/s"
+      password: 041d7d7f-a1ba-4e18-a88d-0f7b2c3b3dfb
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_1|737KB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 11681
+      server: vn1.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_2|1.2MB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 11682
+      server: vn2.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_3|987KB/s"
+      password: 1724724e-5902-418c-b046-84f77413b757
+      port: 11681
+      server: vn1.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_4|1.2MB/s"
+      password: 041d7d7f-a1ba-4e18-a88d-0f7b2c3b3dfb
+      port: 40014
+      server: hk4.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_5|980KB/s"
+      password: 3cec2f75-72bc-4cb6-abe2-9263cfe40865
+      port: 11681
+      server: vn1.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|555KB/s"
+      password: 2f3dbfee-472b-4993-bfd7-845e249257ee
+      port: 42003
+      server: wandann2.wandajiasu.xyz
+      sni: any-cert.chegnxiaochang.cn
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3|3.4MB/s"
       network: tcp
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: 6ba85179e30d4fc2
-      server: 217.217.247.253
-      servername: enterprisekitten.com
+      port: 4433
+      server: 216.23.121.126
+      servername: vless-zouter-jp.pinchela.org
       tls: true
       type: vless
       udp: true
-      uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-      xudp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
-      port: 20088
-      protocol: udp
-      server: 5.83.129.153
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.1MB/s"
-      password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-      port: 443
-      server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com
-      sni: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com
-      tls: true
-      type: http
-      username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s"
-      network: ws
-      password: MiTiVPN
-      port: "443"
-      server: petrolicious.com
-      skip-cert-verify: false
-      sni: S-o-W.MaQror.ir
-      type: trojan
+      uuid: 78c3006e-2862-4b59-8444-d6e4b7d83bee
+    - name: "\U0001F1FB\U0001F1F3VN_6|1.2MB/s"
+      password: 3cec2f75-72bc-4cb6-abe2-9263cfe40865
+      port: 11682
+      server: vn2.nbjc.top
+      type: anytls
       udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
+    - name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+      password: 1724724e-5902-418c-b046-84f77413b757
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|4.9MB/s"
+      password: d3d7070b-45d2-4f64-b8dc-da4600e15f54
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_4|2.0MB/s"
+      password: 1724724e-5902-418c-b046-84f77413b757
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_3|851KB/s"
+      password: 041d7d7f-a1ba-4e18-a88d-0f7b2c3b3dfb
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_7|1012KB/s"
+      password: 91f032a3-5f6a-4d07-b05a-9326e88eca62
+      port: 11681
+      server: vn1.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_2|808KB/s"
+      password: 91f032a3-5f6a-4d07-b05a-9326e88eca62
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_4|518KB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_8|977KB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 11683
+      server: vn3.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_5|610KB/s"
+      network: tcp
+      port: 4433
+      server: 216.23.121.126
+      servername: vless-zouter-jp.pinchela.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 45937d85-1031-411c-81f3-03b0b6d6cf1c
+    - name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 40041
+      server: kr1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_5|949KB/s"
+      password: 3cec2f75-72bc-4cb6-abe2-9263cfe40865
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_9|1012KB/s"
+      password: 3cec2f75-72bc-4cb6-abe2-9263cfe40865
+      port: 40014
+      server: hk4.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_10|973KB/s"
+      password: 1724724e-5902-418c-b046-84f77413b757
+      port: 11683
+      server: vn3.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_6|2.8MB/s"
+      password: d3d7070b-45d2-4f64-b8dc-da4600e15f54
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_11|1.1MB/s"
+      password: 041d7d7f-a1ba-4e18-a88d-0f7b2c3b3dfb
+      port: 11683
+      server: vn3.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_7|2.1MB/s"
+      password: 91f032a3-5f6a-4d07-b05a-9326e88eca62
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_12|1.2MB/s"
+      password: d3d7070b-45d2-4f64-b8dc-da4600e15f54
+      port: 11682
+      server: vn2.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_13|3.9MB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 40014
+      server: hk4.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_3|1007KB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_14|843KB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 11683
+      server: vn3.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_15|519KB/s"
+      password: d3d7070b-45d2-4f64-b8dc-da4600e15f54
+      port: 11683
+      server: vn3.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_4|834KB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_2|7.5MB/s"
+      network: tcp
+      port: 4433
+      server: hk-vless-zouter.pinchela.xyz
+      servername: hk-vless-zouter.pinchela.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 45937d85-1031-411c-81f3-03b0b6d6cf1c
+    - name: "\U0001F1FA\U0001F1F8US_6|1.2MB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s"
+      password: d3d7070b-45d2-4f64-b8dc-da4600e15f54
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_16|551KB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 11681
+      server: vn1.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_3|5.3MB/s"
+      network: tcp
+      port: 4433
+      server: hk-vless-zouter.pinchela.xyz
+      servername: hk-vless-zouter.pinchela.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 78c3006e-2862-4b59-8444-d6e4b7d83bee
+    - name: "\U0001F1EF\U0001F1F5JP_8|1.9MB/s"
+      password: 3cec2f75-72bc-4cb6-abe2-9263cfe40865
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_9|2.0MB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_5|5.2MB/s"
+      password: 1724724e-5902-418c-b046-84f77413b757
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_17|622KB/s"
+      password: 041d7d7f-a1ba-4e18-a88d-0f7b2c3b3dfb
+      port: 11682
+      server: vn2.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_18|699KB/s"
+      password: 91f032a3-5f6a-4d07-b05a-9326e88eca62
+      port: 11682
+      server: vn2.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_8|2.0MB/s"
+      password: 3cec2f75-72bc-4cb6-abe2-9263cfe40865
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_6|629KB/s"
+      password: 3cec2f75-72bc-4cb6-abe2-9263cfe40865
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_7|3.4MB/s"
+      password: e5b82cb6-3581-461f-8b5c-b73cecfae958
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_8|3.3MB/s"
+      password: d3d7070b-45d2-4f64-b8dc-da4600e15f54
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_9|670KB/s"
+      password: d3d7070b-45d2-4f64-b8dc-da4600e15f54
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_19|859KB/s"
+      password: 91f032a3-5f6a-4d07-b05a-9326e88eca62
+      port: 11683
+      server: vn3.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_10|1.8MB/s"
+      password: e5e68a85-486d-48cf-b0d9-3ed8c33fd238
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - auth: 840e6be1-03bb-45b1-852d-35c02c210868
+      name: "\U0001F1EF\U0001F1F5JP_10|3.5MB/s"
+      password: 840e6be1-03bb-45b1-852d-35c02c210868
+      port: 4434
+      server: 216.23.121.126
+      skip-cert-verify: false
+      sni: hy2-zouter-jp.pinchela.org
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_4|2.4MB/s"
+      network: tcp
+      port: 4433
+      server: hk-vless-zouter.pinchela.xyz
+      servername: hk-vless-zouter.pinchela.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1EF\U0001F1F5JP_11|1.0MB/s"
+      obfs: salamander
+      obfs-password: PCBVPflh6MDUA3EM
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 4433
+      server: rb01.pinchela.org
+      skip-cert-verify: false
+      sni: rb01.pinchela.org
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_12|1.3MB/s"
+      network: tcp
+      port: 4433
+      server: 216.23.121.126
+      servername: vless-zouter-jp.pinchela.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+    - auth: 840e6be1-03bb-45b1-852d-35c02c210868
+      name: "\U0001F1F8\U0001F1ECSG_1|4.3MB/s"
+      obfs: salamander
+      obfs-password: CCi51ZAlLWstDjTH
+      password: 840e6be1-03bb-45b1-852d-35c02c210868
+      port: 443
+      server: xinjiapo.pinchela.xyz
+      skip-cert-verify: false
+      sni: xinjiapo.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1ED\U0001F1F0HK_5|3.9MB/s"
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 4436
+      server: hy2-vless-zouter.pinchela.xyz
+      skip-cert-verify: false
+      sni: hy2-vless-zouter.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s"
+      obfs: salamander
+      obfs-password: 858sILlKqRJlug5M
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 8080
+      server: fg31.56.146.135.pinchela.xyz
+      skip-cert-verify: false
+      sni: fg31.56.146.135.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: 840e6be1-03bb-45b1-852d-35c02c210868
+      name: "\U0001F1FA\U0001F1F8US_11|1.5MB/s"
+      obfs: salamander
+      obfs-password: AtEhnl5SebQY1yoK
+      password: 840e6be1-03bb-45b1-852d-35c02c210868
+      port: 4433
+      server: us01.pinchela.org
+      skip-cert-verify: false
+      sni: us01.pinchela.org
+      type: hysteria2
+      udp: true
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1ED\U0001F1F0HK_6|5.2MB/s"
+      obfs: salamander
+      obfs-password: 4KonhVPIojfXekEV
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 443
+      server: 47.75.116.73.pinchela.xyz
+      skip-cert-verify: false
+      sni: 47.75.116.73.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: 840e6be1-03bb-45b1-852d-35c02c210868
+      name: "\U0001F1EE\U0001F1E9ID_1|1.2MB/s"
+      obfs: salamander
+      obfs-password: bieaOsohYOKUTxmg
+      password: 840e6be1-03bb-45b1-852d-35c02c210868
+      port: 5566
+      server: ydnxy8.215.1.126.pinchela.xyz
+      skip-cert-verify: false
+      sni: ydnxy8.215.1.126.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: 840e6be1-03bb-45b1-852d-35c02c210868
+      name: "\U0001F1ED\U0001F1F0HK_7|3.2MB/s"
+      obfs: salamander
+      obfs-password: 4KonhVPIojfXekEV
+      password: 840e6be1-03bb-45b1-852d-35c02c210868
+      port: 443
+      server: 47.75.116.73.pinchela.xyz
+      skip-cert-verify: false
+      sni: 47.75.116.73.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: 840e6be1-03bb-45b1-852d-35c02c210868
+      name: "\U0001F1ED\U0001F1F0HK_8|3.7MB/s"
+      password: 840e6be1-03bb-45b1-852d-35c02c210868
+      port: 4436
+      server: hy2-vless-zouter.pinchela.xyz
+      skip-cert-verify: false
+      sni: hy2-vless-zouter.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1EF\U0001F1F5JP_13|3.3MB/s"
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 4434
+      server: 216.23.121.126
+      skip-cert-verify: false
+      sni: hy2-zouter-jp.pinchela.org
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_14|1.1MB/s"
+      network: tcp
+      port: 4433
+      server: 216.23.121.126
+      servername: vless-zouter-jp.pinchela.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 840e6be1-03bb-45b1-852d-35c02c210868
+    - auth: 840e6be1-03bb-45b1-852d-35c02c210868
+      name: "\U0001F1EB\U0001F1F7FR_2|2.1MB/s"
+      obfs: salamander
+      obfs-password: 858sILlKqRJlug5M
+      password: 840e6be1-03bb-45b1-852d-35c02c210868
+      port: 8080
+      server: fg31.56.146.135.pinchela.xyz
+      skip-cert-verify: false
+      sni: fg31.56.146.135.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1F8\U0001F1ECSG_2|3.8MB/s"
+      obfs: salamander
+      obfs-password: CCi51ZAlLWstDjTH
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 443
+      server: xinjiapo.pinchela.xyz
+      skip-cert-verify: false
+      sni: xinjiapo.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1EE\U0001F1E9ID_2|1.6MB/s"
+      obfs: salamander
+      obfs-password: bieaOsohYOKUTxmg
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 5566
+      server: ydnxy8.215.1.126.pinchela.xyz
+      skip-cert-verify: false
+      sni: ydnxy8.215.1.126.pinchela.xyz
+      type: hysteria2
+      udp: true
+    - auth: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      name: "\U0001F1FA\U0001F1F8US_12|2.6MB/s"
+      obfs: salamander
+      obfs-password: AtEhnl5SebQY1yoK
+      password: ff041f26-e8e8-4f7a-868d-c11b5e11ed54
+      port: 4433
+      server: us01.pinchela.org
+      skip-cert-verify: false
+      sni: us01.pinchela.org
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_9|549KB/s"
+      network: tcp
+      port: 4433
+      server: hk-vless-zouter.pinchela.xyz
+      servername: hk-vless-zouter.pinchela.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 840e6be1-03bb-45b1-852d-35c02c210868
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6|2.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_13|2.1MB/s"
       network: ws
       password: MiTiVPN
       port: "443"
@@ -133,39 +519,9 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_7|803KB/s"
-      port: 44222
-      reality-opts:
-        public-key: dUmP9FeLYzkqBP2rf4GaoZA5CJhBaAjeLzeH5bcy1V8
-        short-id: d5a9
-      server: us-lax-01.fsulink.com
-      servername: aws.amazon.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F1\U0001F1F9LT_1|690KB/s"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-        short-id: 2cfb5a0ae8ab0cb0
-      server: 45.196.31.114
-      servername: storage.yandex.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-      xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|5.1MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_2|3.3MB/s"
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: 443
       server: vpn-kr-003.fastervpn.world
@@ -173,11 +529,85 @@ proxies:
       sni: vpn-kr-003.fastervpn.world
       type: hysteria2
       udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_2|4.1MB/s"
-      password: 140dfd67-61be-45e8-b234-0a5529d47ebc
-      port: 55000
-      server: 104.234.233.100
+    - client-fingerprint: qq
+      name: "\U0001F1E9\U0001F1EADE_1|700KB/s"
+      port: 7000
+      reality-opts:
+        public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+      server: germanclouding.iranlast.com
+      servername: yahoo.com
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      tls: true
+      type: vless
       udp: true
+      uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+    - client-fingerprint: ios
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_14|1.6MB/s"
+      network: tcp
+      port: "8896"
+      reality-opts:
+        public-key: k8SeTD6AcL6sQrek1DXbIGYya6SvFpfOwNo_2QYAbkw
+        short-id: ee383485a23223b1
+      server: 143.246.136.174
+      servername: www.play.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1e031b69-f2eb-42cb-b0e8-97ed64163767
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: Y3ZOCiewH7hdmI_0g648mSF1fEIHsotbeUN7bStCqGg
+        short-id: a8a0aaad375dd0b0
+      server: 134.122.55.72
+      servername: ai.android
+      tls: true
+      type: vless
+      udp: true
+      uuid: 512790ac-e687-41f4-b655-e948181d4eb8
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1NL_2|3.3MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+      port: "443"
+      server: 5.255.102.165
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      up: ""
+    - alpn:
+        - h3
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7FR_3|1.5MB/s"
+      password: dongtaiwang.com
+      port: 33888
+      server: 62.210.24.143
+      skip-cert-verify: true
+      sni: bing.com
+      type: tuic
+      udp: true
+      udp-relay-mode: native
+      uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_3|943KB/s"
+      network: http
+      port: 80
+      server: 217.142.138.61
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+      ws-headers:
+        Host: 217.142.138.61
+      ws-path: /
