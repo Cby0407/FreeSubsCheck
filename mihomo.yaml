@@ -1,136 +1,49 @@
 proxies:
-  - name: "\U0001F1F7\U0001F1F4RO_1|1.4MB/s"
-    port: 9002
-    server: 84.239.49.187
+  - name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s"
+    password: ''
+    port: 7070
+    server: 20.83.154.79
     skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|1.7MB/s"
-    port: 9002
-    server: 84.239.49.202
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_3|747KB/s"
-    port: 9002
-    server: 84.239.49.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_4|2.1MB/s"
-    port: 9002
-    server: 84.239.49.211
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_5|2.1MB/s"
-    port: 9002
-    server: 84.239.49.57
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_6|1.6MB/s"
-    port: 9002
-    server: 84.239.14.160
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_7|2.1MB/s"
-    port: 9002
-    server: 84.239.49.159
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_8|1.6MB/s"
-    port: 9002
-    server: 84.239.49.235
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_9|682KB/s"
-    port: 9002
-    server: 84.239.49.219
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_10|826KB/s"
-    port: 9002
-    server: 193.176.84.31
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 34.219.182.57
-    skip-cert-verify: true
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 54.149.34.181
-    skip-cert-verify: true
-    type: hysteria2
-  - name: "\U0001F1F8\U0001F1ECSG_1|5.3MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 54.169.233.33
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 54.245.180.117
-    skip-cert-verify: true
-    type: hysteria2
+    type: socks5
+    username: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_2|8.4MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|750KB/s"
     obfs: ''
     obfs-password: ''
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: 18.143.178.20
+    server: 47.129.0.40
     skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    sni: vpn-sg-001.fastervpn.world
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
-    obfs: salamander
-    obfs-password: EsimObfs_9mK2x7
-    password: EsimHy2Game_7xK9mPq2
-    port: 443
-    server: 198.105.112.118
-    skip-cert-verify: false
-    sni: nl.esimpson.org
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
-    password: <password>
-    port: 8443
-    server: 474de16c-ta1og0-tb224g-1h0r9.hkt.cdnhuawei.com
-    sni: 474de16c-ta1og0-tb224g-1h0r9.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
+  - name: "\U0001F1F3\U0001F1F1NL_1|955KB/s"
+    password: ''
+    port: 1080
+    server: 5.255.117.127
+    skip-cert-verify: true
+    type: socks5
+    username: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|642KB/s"
+    name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
+    obfs: ''
+    port: 20088
+    protocol: udp
+    server: 5.83.129.153
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '500'
+    auth-str: dongtaiwang.com
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_2|1.9MB/s"
     obfs: ''
     port: 54177
     protocol: udp
@@ -140,100 +53,546 @@ proxies:
     type: hysteria
     up: '500'
     auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_2|716KB/s"
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
+  - name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
+    password: ''
+    port: 1080
+    server: 5.255.113.177
     skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
+    type: socks5
+    username: ''
+  - name: "\U0001F1E6\U0001F1EAAE_1|2.1MB/s"
+    password: ''
+    port: 1080
+    server: 74.162.65.56
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1EB\U0001F1F7FR_1|804KB/s"
+    password: ''
+    port: 1088
+    server: 144.91.111.48
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1E9\U0001F1EADE_3|2.4MB/s"
+    password: ''
+    port: 5555
+    server: 157.90.183.51
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1F9\U0001F1FCTW_1|5.6MB/s"
+    password: 2470c1e7-5b70-46a7-919a-a1d0a6dcd528
+    port: 40073
+    server: tw3.catzl.top
+    type: anytls
+    udp: true
+    sni: tw3.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_1|3.2MB/s"
+    password: 2470c1e7-5b70-46a7-919a-a1d0a6dcd528
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 40021
+    server: us1.catzl.top
+    type: anytls
+    udp: true
+    sni: us1.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_1|3.4MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 11682
+    server: vn2.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn2.nbjc.top
+  - name: "\U0001F1F9\U0001F1FCTW_2|2.7MB/s"
+    password: a309ace5-ef9e-4fd8-930f-062c358378e2
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
+    udp: true
+    sni: tw2.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_2|2.1MB/s"
+    password: 2470c1e7-5b70-46a7-919a-a1d0a6dcd528
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn1.nbjc.top
+  - name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|1.6MB/s"
+    password: a309ace5-ef9e-4fd8-930f-062c358378e2
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
+    password: a309ace5-ef9e-4fd8-930f-062c358378e2
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_3|2.5MB/s"
+    password: 2470c1e7-5b70-46a7-919a-a1d0a6dcd528
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
+    udp: true
+    sni: tw2.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_3|5.3MB/s"
+    password: 2470c1e7-5b70-46a7-919a-a1d0a6dcd528
+    port: 40014
+    server: hk4.catzl.top
+    type: anytls
+    udp: true
+    sni: hk4.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_4|5.1MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
+    network: tcp
+    port: 22001
+    reality-opts:
+      public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+      short-id: "dfa28122"
+    server: vpn2.cc.node2.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7843a94e-3c2f-4551-8333-c3418bf5ad08
+    servername: itunes.apple.com
+  - name: "\U0001F1FB\U0001F1F3VN_4|2.6MB/s"
+    password: a309ace5-ef9e-4fd8-930f-062c358378e2
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn1.nbjc.top
+  - name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_2|5.1MB/s"
+    password: 4b15f822-b771-4a70-b358-ae9613d8b0ed
+    port: 7000
+    server: free73-jp2.node2.top
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: free73-jp2.node2.top
+  - name: "\U0001F1FB\U0001F1F3VN_5|3.4MB/s"
+    password: a309ace5-ef9e-4fd8-930f-062c358378e2
+    port: 40014
+    server: hk4.catzl.top
+    type: anytls
+    udp: true
+    sni: hk4.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_6|3.4MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn1.nbjc.top
+  - name: "\U0001F1FB\U0001F1F3VN_7|2.4MB/s"
+    password: 2470c1e7-5b70-46a7-919a-a1d0a6dcd528
+    port: 11683
+    server: vn3.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn3.nbjc.top
+  - name: "\U0001F1FB\U0001F1F3VN_8|5.1MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 40014
+    server: hk4.catzl.top
+    type: anytls
+    udp: true
+    sni: hk4.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_9|2.0MB/s"
+    password: a309ace5-ef9e-4fd8-930f-062c358378e2
+    port: 11682
+    server: vn2.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn2.nbjc.top
+  - name: "\U0001F1F0\U0001F1F7KR_3|997KB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_5|1.2MB/s"
+    password: 4b53cbaa-565e-4a31-a679-d61ed4b37e3a
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
+    udp: true
+    sni: tw2.catzl.top
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_2|1.1MB/s"
+    network: tcp
+    port: 22001
+    reality-opts:
+      public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+      short-id: "dfa28122"
+    server: vpn2.cc.node2.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e2139c7-c815-4648-aab8-80846994cd3e
+    servername: itunes.apple.com
+  - auth: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    name: ❓Other_1|2.3MB/s
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    port: 44500
+    server: jnd.ssvv.space
+    skip-cert-verify: true
+    sni: bwg1.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    name: "\U0001F1E8\U0001F1F1CL_1|1.6MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    port: 44900
+    server: zl.ssvv.space
+    skip-cert-verify: true
+    sni: zl.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    name: "\U0001F1E8\U0001F1F1CL_2|1.8MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    port: 44900
+    server: zl.ssvv.space
+    skip-cert-verify: true
+    sni: zl.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    name: "\U0001F1E8\U0001F1F4CO_1|2.2MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    port: 44800
+    server: glby.ssvv.space
+    skip-cert-verify: true
+    sni: glby.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    name: "\U0001F1F9\U0001F1EDTH_1|1.8MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    port: 44400
+    server: tg.ssvv.space
+    skip-cert-verify: true
+    sni: tg.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    name: "\U0001F1E7\U0001F1F7BR_1|1.9MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    port: 44600
+    server: bx.ssvv.space
+    skip-cert-verify: true
+    sni: bx.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    name: "\U0001F1EF\U0001F1F5JP_3|3.9MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    port: 44100
+    server: rb.ssvv.space
+    skip-cert-verify: true
+    sni: rb.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    name: "\U0001F1E8\U0001F1F4CO_2|2.5MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    port: 44800
+    server: glby.ssvv.space
+    skip-cert-verify: true
+    sni: glby.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    name: "\U0001F1EF\U0001F1F5JP_4|2.3MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    port: 44100
+    server: rb.ssvv.space
+    skip-cert-verify: true
+    sni: rb.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    name: "\U0001F1E6\U0001F1F7AR_1|891KB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    port: 44700
+    server: agt.ssvv.space
+    skip-cert-verify: true
+    sni: bwg1.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    name: "\U0001F1E6\U0001F1F7AR_2|1.3MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: d9fcaab4-6c1b-47fc-ada0-004180a9f42c
+    port: 44700
+    server: agt.ssvv.space
+    skip-cert-verify: true
+    sni: bwg1.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    name: "\U0001F1F9\U0001F1EDTH_2|2.7MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    port: 44400
+    server: tg.ssvv.space
+    skip-cert-verify: true
+    sni: tg.ssvv.space
+    type: hysteria2
+    udp: true
+  - auth: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    name: "\U0001F1E7\U0001F1F7BR_2|2.5MB/s"
+    obfs: salamander
+    obfs-password: PCJFWOrvfTkGBbaP
+    password: fab70d73-cfdb-4d9b-89e9-18ddf1453de4
+    port: 44600
+    server: bx.ssvv.space
+    skip-cert-verify: true
+    sni: bx.ssvv.space
+    type: hysteria2
+    udp: true
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|628KB/s"
+    name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s"
     network: ws
     port: 443
-    server: x4g-production-eaf4.up.railway.app
+    server: x4g-production-fa85.up.railway.app
     tls: true
     type: vless
     udp: true
-    uuid: 84e14d6a-a8c2-1261-ede6-1e856f8689a3
+    uuid: cce4dc53-f94c-a593-5a2c-32e154968603
     ws-opts:
       headers:
-        Host: x4g-production-eaf4.up.railway.app
+        Host: x4g-production-fa85.up.railway.app
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /ws/84e14d6a-a8c2-1261-ede6-1e856f8689a3
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /ws/cce4dc53-f94c-a593-5a2c-32e154968603
     xudp: true
-    servername: x4g-production-eaf4.up.railway.app
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_5|964KB/s"
-    network: ws
-    port: 443
-    server: arg-production-d5dd.up.railway.app
-    tls: true
-    type: vless
+    servername: x4g-production-fa85.up.railway.app
+  - name: "\U0001F1ED\U0001F1F0HK_3|3.8MB/s"
+    password: 1df3ece1218bedba28c6c6ac726a07bb
+    port: 39001
+    server: 114.80.8.128
+    skip-cert-verify: true
+    sni: www.yrtok.com
+    type: trojan
     udp: true
-    uuid: 783d7c26-c3c7-f74c-a111-0fa31d2d7642
-    ws-opts:
-      headers:
-        Host: arg-production-d5dd.up.railway.app
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /ws/783d7c26-c3c7-f74c-a111-0fa31d2d7642
-    xudp: true
-    servername: arg-production-d5dd.up.railway.app
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_6|1.2MB/s"
-    network: ws
-    port: 443
-    server: x4g-production-6ea9.up.railway.app
+    network: tcp
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_6|1.6MB/s"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.4MB/s"
+    port: 9002
+    server: 84.239.49.231
+    skip-cert-verify: true
+    sni: www.bing.com
     tls: true
-    type: vless
-    udp: true
-    uuid: 24378979-9a7c-7261-3ca5-f1abc4d2bd81
-    ws-opts:
-      headers:
-        Host: x4g-production-6ea9.up.railway.app
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /ws/24378979-9a7c-7261-3ca5-f1abc4d2bd81
-    xudp: true
-    servername: x4g-production-6ea9.up.railway.app
-  - client-fingerprint: chrome
+    type: http
+  - name: "\U0001F1F8\U0001F1ECSG_2|3.7MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 13.213.12.36
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+    type: hysteria2
+  - client-fingerprint: qq
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_3|1.7MB/s"
+    name: "\U0001F1F5\U0001F1F1PL_1|891KB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: yEydqOwqjqCNfaraTQgod69v4j0XjDNIb1cvKtEiPig
-      short-id: "c92e"
-    server: irvasl.982550140.xyz
+      public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+      short-id: "abcd"
+    server: 151.245.192.192
     tls: true
     type: vless
     udp: true
-    uuid: 5ff59653-1905-475a-b92d-8baedca54a3b
+    uuid: ad2c4a66-2b1b-472a-922a-9f88b0b48390
     xudp: true
-    servername: www.cloudflare.com
-  - country: "\U0001F1FA\U0001F1F8US"
-    delay: 1309
-    name: "\U0001F1FA\U0001F1F8US_7|633KB/s"
+    servername: auto.malina24.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_7|1.1MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: yDeMJ5l8Gv81vFdKRzjpwKPnIXDjM2rMyZW1va24sEE
+      short-id: ''
+    server: 193.9.44.224
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1d5a4918-2831-4171-8846-95028303f262
+    xudp: true
+    servername: gateway.icloud.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_8|784KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: ZDn8_M2k8Mvkk1z22VN_2c8TCmAPqC1KXVrLMcel9zk
+      short-id: "aa0d0a"
+    server: 45.39.230.228
+    tls: true
+    type: vless
+    udp: true
+    uuid: Telegram-CNT-Cafe
+    xudp: true
+    servername: www.yahoo.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: ios
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_3|1017KB/s"
+    network: ws
+    port: 443
+    server: x4g-production-6e53.up.railway.app
+    tls: true
+    type: vless
+    udp: true
+    uuid: 43dd521f-39b4-0a5d-0e67-6146c3fe5fdb
+    ws-opts:
+      headers:
+        Host: x4g-production-6e53.up.railway.app
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /ws/43dd521f-39b4-0a5d-0e67-6146c3fe5fdb
+    xudp: true
+    servername: x4g-production-6e53.up.railway.app
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_2|992KB/s"
+    password: amazonskr05
+    port: 443
+    server: 15.188.74.101
+    type: ss
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_4|3.3MB/s"
+    network: ws
+    port: 8880
+    server: download.yunzhongzhuan.com
+    type: vless
+    udp: true
+    uuid: c6d29888-78d5-446a-b2f0-f3968e6d1634
+    ws-opts:
+      headers:
+        Host: lingering-cherry-5f41.42-08a.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK_5|4.8MB/s"
+    network: ws
+    port: 8880
+    server: themeforest.net
+    type: vless
+    udp: true
+    uuid: 530868e7-d788-4595-b2d6-6a40c098164d
+    ws-opts:
+      headers:
+        Host: crimson-sea-a4bb.343-1a7.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+    xudp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|791KB/s"
+    port: 9002
+    server: 84.239.49.59
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_9|620KB/s"
+    password: XG59623478
+    port: 443
+    server: novel-bat.rooster465.autos
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+    network: tcp
+    sni: novel-bat.rooster465.autos
+  - name: "\U0001F1F5\U0001F1F1PL_2|922KB/s"
+    password: XG59623478
+    port: 443
+    server: included-hedgehog.rooster465.autos
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+    network: tcp
+    sni: included-hedgehog.rooster465.autos
+  - name: "\U0001F1FA\U0001F1F8US_10|2.3MB/s"
     password: XG59623478
     port: 443
     server: frank-piranha.rooster465.autos
@@ -242,20 +601,32 @@ proxies:
     udp: true
     network: tcp
     sni: frank-piranha.rooster465.autos
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E6\U0001F1FAAU"
-    delay: 776
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F8\U0001F1ECSG_3|3.3MB/s"
-    network: none
-    port: 35488
-    server: 185.36.192.228
+  - name: "\U0001F1F3\U0001F1F1NL_4|2.2MB/s"
+    password: XG59623478
+    port: 443
+    server: classic-duckling.rooster465.autos
     skip-cert-verify: true
-    type: vmess
-    uuid: fb5a4283-dbfb-458b-8619-c4a53739f781
-    servername: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+    network: tcp
+    sni: classic-duckling.rooster465.autos
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F1F7\U0001F1FARU_1|1.8MB/s"
+    network: grpc
+    port: 48212
+    reality-opts:
+      public-key: 8rZnE8gkbRv3ZVHUvkyrMZnmoIRhtncAgQpUAPAwIlo
+      short-id: "62b5466a2183d4da"
+    server: 5.42.100.84
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2f93a08b-5c23-502c-936d-a53072cf9882
+    xudp: true
+    servername: yandex.ru
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
