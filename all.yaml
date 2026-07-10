@@ -1,275 +1,167 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|667KB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|3.0MB/s"
       password: amazonskr05
-      port: "443"
-      server: 13.193.101.147
-      type: ss
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|623KB/s"
-      password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
       port: 443
-      server: 5a4bdbc5-t9zts0-tairte-1m0fq.sj.oshuawei.com
-      sni: 5a4bdbc5-t9zts0-tairte-1m0fq.sj.oshuawei.com
+      server: 13.192.184.199
+      type: ss
+    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
+      port: 9002
+      server: 84.239.49.187
+      skip-cert-verify: true
       tls: true
       type: http
-      username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|1022KB/s"
-      port: 20088
-      protocol: udp
-      server: 5.83.129.153
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2|909KB/s"
+      port: 9002
+      server: 84.239.49.202
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3|662KB/s"
+      port: 9002
+      server: 84.239.49.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_4|1.8MB/s"
+      port: 9002
+      server: 84.239.49.211
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_5|2.0MB/s"
+      port: 9002
+      server: 84.239.49.57
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_6|1.7MB/s"
+      port: 9002
+      server: 84.239.14.160
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_7|1.5MB/s"
+      port: 9002
+      server: 84.239.49.185
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_8|514KB/s"
+      port: 9002
+      server: 84.239.49.209
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_9|795KB/s"
+      port: 9002
+      server: 84.239.49.159
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_10|1.6MB/s"
+      port: 9002
+      server: 84.239.49.247
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_11|524KB/s"
+      port: 9002
+      server: 84.239.49.235
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_12|1.1MB/s"
+      port: 9002
+      server: 84.239.49.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_13|1.2MB/s"
+      port: 9002
+      server: 193.176.84.32
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_14|803KB/s"
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_2|685KB/s"
-      obfs: ""
+      name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
       port: 54177
-      protocol: udp
       server: 5.83.129.90
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
+      udp: true
       up: "500"
-    - cipher: aes-256-cfb
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 480
-      name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.180.199.237
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|3.3MB/s"
-      network: tcp
-      password: 1df3ece1218bedba28c6c6ac726a07bb
-      port: "39001"
-      server: 114.80.8.128
-      skip-cert-verify: true
-      sni: 114.80.8.128
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_2|1.8MB/s"
-      network: tcp
-      password: 1df3ece1218bedba28c6c6ac726a07bb
-      port: "39001"
-      server: 114.80.8.128
-      skip-cert-verify: true
-      sni: www.yrtok.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-      password: 2344de02-ccf3-40bd-b6d3-223788dc4e66
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|623KB/s"
-      password: a57e04bc-a621-4a18-a29d-f146bbf0f48b
-      port: 40073
-      server: tw3.catzl.top
-      type: anytls
-      udp: true
-    - client-fingerprint: edge
+    - client-fingerprint: qq
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_3|693KB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 59dc7294-fd7a-4298-9969-b4e30e2a9454
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_4|1.2MB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d9e8fe97-4902-49c4-89d0-01161e02c122
-    - name: "\U0001F1F9\U0001F1FCTW_2|3.7MB/s"
-      password: e0020d74-1663-4f7d-a915-dd5dda3445d7
-      port: 40073
-      server: tw3.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_3|2.7MB/s"
-      password: 2344de02-ccf3-40bd-b6d3-223788dc4e66
-      port: 40072
-      server: tw2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_4|5.2MB/s"
-      password: a57e04bc-a621-4a18-a29d-f146bbf0f48b
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_3|890KB/s"
-      password: a57e04bc-a621-4a18-a29d-f146bbf0f48b
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_5|1000KB/s"
-      password: 2344de02-ccf3-40bd-b6d3-223788dc4e66
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
-      udp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_5|1.0MB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 85a16790-3a01-42a9-b14c-91635dfb51c6
-    - name: "\U0001F1EF\U0001F1F5JP_2|2.7MB/s"
-      password: e0020d74-1663-4f7d-a915-dd5dda3445d7
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_3|877KB/s"
-      password: a57e04bc-a621-4a18-a29d-f146bbf0f48b
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_6|1.1MB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 346cc04e-ea8a-48d3-850b-ff8d8b3b2c38
-    - name: "\U0001F1EF\U0001F1F5JP_4|2.1MB/s"
-      password: 2344de02-ccf3-40bd-b6d3-223788dc4e66
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_7|858KB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2b114349-f0f6-4729-b01b-b11645254930
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_8|1.0MB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3c47a4e1-27f5-486f-a596-fab68a4f9464
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_9|1.2MB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 895cffd4-3577-4e28-9a2a-4c4f725b930a
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_10|1.2MB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 96aeb8f2-b54f-430b-aade-3c7cd021a420
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_11|1.1MB/s"
-      network: tcp
-      port: 22001
-      reality-opts:
-        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-        short-id: dfa28122
-      server: vpn2.cc.node2.top
-      servername: itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 737246d5-56e3-4215-bc61-7eacdb704817
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1|746KB/s"
+      name: "\U0001F1E6\U0001F1F9AT_1|1.2MB/s"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: Qse9gI7x_oaUtYpat3UdIMdIU8x_nYIGegq96omgXg0
-        short-id: fa1aa700
-      server: am.janvpn.ru
-      servername: vk-portal.net
+        public-key: HfuHCLrjmpMIqPbZ61f_MvdigyWZ3Oj_ZaxdlMdcdFA
+        short-id: 3a03e85af8d9f63e
+      server: netcap.oblakoapp.com
+      servername: live.oblakoapp.com
       tls: true
       type: vless
       udp: true
-      uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
+      uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_2|1.3MB/s"
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_1|1.0MB/s"
+      network: tcp
+      port: "40443"
+      reality-opts:
+        public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
+        short-id: ""
+      server: 81.19.137.144
+      servername: deepl.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1EASE_1|1.5MB/s"
+      network: xhttp
+      port: "443"
+      server: zadefree-hyperlink.hyperfreelink.com
+      servername: zadefree-hyperlink.hyperfreelink.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e725086-dabd-ae9d-ffa5-3bab782249e1
+      xhttp-opts:
+        path: /video
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|2.0MB/s"
       network: tcp
       password: XG59623478
       port: 443
