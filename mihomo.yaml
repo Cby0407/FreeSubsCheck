@@ -1,92 +1,216 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8US_1|839KB/s"
-    password: 67296329-ea7f-42d6-9a40-a83dfd1c92e0
+  - name: "\U0001F1F0\U0001F1F7KR_1|3.1MB/s"
+    password: eb23e13f-4eaf-4535-b9e7-2fbbe318cdfe
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_1|8.3MB/s"
+    password: b4f953a4-ef42-41c2-81d9-d61aee97a35b
+    port: 40014
+    server: hk4.catzl.top
+    type: anytls
+    udp: true
+    sni: hk4.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|3.3MB/s"
+    password: b4f953a4-ef42-41c2-81d9-d61aee97a35b
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_1|639KB/s"
+    password: eb23e13f-4eaf-4535-b9e7-2fbbe318cdfe
     port: 40021
     server: us1.catzl.top
     type: anytls
     udp: true
     sni: us1.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
-    password: 67296329-ea7f-42d6-9a40-a83dfd1c92e0
+  - name: "\U0001F1FB\U0001F1F3VN_2|3.9MB/s"
+    password: eb23e13f-4eaf-4535-b9e7-2fbbe318cdfe
+    port: 40014
+    server: hk4.catzl.top
+    type: anytls
+    udp: true
+    sni: hk4.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s"
+    password: eb23e13f-4eaf-4535-b9e7-2fbbe318cdfe
     port: 40022
     server: us2.catzl.top
     type: anytls
     udp: true
     sni: us2.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s"
-    password: 67296329-ea7f-42d6-9a40-a83dfd1c92e0
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
-    password: b4f953a4-ef42-41c2-81d9-d61aee97a35b
-    port: 40021
-    server: us1.catzl.top
-    type: anytls
-    udp: true
-    sni: us1.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_2|2.3MB/s"
+  - name: "\U0001F1EF\U0001F1F5JP_1|2.7MB/s"
     password: b4f953a4-ef42-41c2-81d9-d61aee97a35b
     port: 40055
     server: jp5.catzl.top
     type: anytls
     udp: true
     sni: jp5.catzl.top
-  - auth: e03d4b91-3525-444c-b60c-2cc5f6457ab6
-    name: "\U0001F1F8\U0001F1ECSG_1|2.7MB/s"
-    obfs: salamander
-    obfs-password: uqmgFZmVNHNYGxaH
-    password: e03d4b91-3525-444c-b60c-2cc5f6457ab6
-    port: 39999
-    server: jjz.jjznodenode.top
+  - name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s"
+    password: eb23e13f-4eaf-4535-b9e7-2fbbe318cdfe
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s"
+    password: b4f953a4-ef42-41c2-81d9-d61aee97a35b
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_3|5.2MB/s"
+    password: amazonskr05
+    port: 443
+    server: 52.195.12.64
+    type: ss
+    udp: true
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 54.255.102.19
     skip-cert-verify: true
-    sni: jjz.jjznodenode.top
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
     udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|1.5MB/s"
-    password: 1df3ece1218bedba28c6c6ac726a07bb
-    port: 39001
-    server: 114.80.8.128
-    skip-cert-verify: true
-    sni: www.yrtok.com
-    type: trojan
+    name: "\U0001F1F0\U0001F1F7KR_3|3.3MB/s"
+    network: ws
+    port: 443
+    server: 118.218.10.159
+    tls: true
+    type: vless
     udp: true
+    uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
+    ws-opts:
+      headers:
+        Host: zdy.vavava.kdns.fr
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /pyip=ProxyIP.CMLiussss.net
+    xudp: true
+    servername: zdy.vavava.kdns.fr
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_4|4.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 18.183.180.62
+    type: ss
+    udp: true
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8US_4|573KB/s"
+    network: ws
+    port: 443
+    server: 162.159.0.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+    ws-opts:
+      headers:
+        Host: soucuovls.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /pyip=proxyip.cmliussss.net
+    xudp: true
+    servername: soucuovls.pages.dev
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EA\U0001F1EAEE_1|1.7MB/s"
     network: tcp
+    port: 2087
+    reality-opts:
+      public-key: J2RPvguvaBHlFDFOcZHs4sY9wSNIGNvvmDZud49A7i8
+      short-id: "9f0a1b2c"
+    server: msk.24pitbullstore.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 570779d8-b4cd-4b3c-a8bd-6127f51c4d48
+    xudp: true
+    servername: msk.24pitbullstore.ru
+  - client-fingerprint: edge
+    name: "\U0001F1E9\U0001F1EADE_1|707KB/s"
+    network: tcp
+    port: 8443
+    server: vpn.oplatasite.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: bb229808-c207-428c-a398-0b4bf30f29be
+    xudp: true
+    servername: vpn.oplatasite.ru
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - biscotti.yektanet.com
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_2|1.2MB/s"
+    network: http
+    port: 12767
+    server: 91.99.173.29
+    type: vless
+    udp: true
+    uuid: 7ff3f986-f72c-4ebd-9eaa-bba121399cd2
+    xudp: true
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|1.6MB/s"
-    network: tcp
-    password: 1df3ece1218bedba28c6c6ac726a07bb
-    port: 39001
-    server: 114.80.8.128
-    skip-cert-verify: true
-    sni: www.yrtok.com
-    type: trojan
+    name: "\U0001F1FA\U0001F1F8US_5|745KB/s"
+    network: ws
+    port: 443
+    server: 154.23.163.105
+    tls: true
+    type: vless
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_1|1.5MB/s"
-    obfs: salamander
-    obfs-password: 53cgqwhojoxri5lr
-    password: elknam6l7izf3z71
-    port: 52018
-    server: assets.gateway-stream.com
-    skip-cert-verify: false
-    sni: assets.gateway-stream.com
-    type: hysteria2
-    up: ''
+    uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
+    ws-opts:
+      headers:
+        Host: zdy.vavava.kdns.fr
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.CMLiussss.net
+    xudp: true
+    servername: zdy.vavava.kdns.fr
+  - name: "\U0001F1F3\U0001F1F1NL_1|2.5MB/s"
+    network: tcp
+    port: 2082
+    server: run.gigicalla.ir
+    type: vless
+    udp: true
+    uuid: 5da0ef6a-eb08-4a7c-a982-b68d3a04b0a8
+    xudp: true
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_3|1.3MB/s"
-    password: 1df3ece1218bedba28c6c6ac726a07bb
-    port: 39001
-    server: 114.80.8.128
-    skip-cert-verify: true
-    sni: 114.80.8.128
-    type: trojan
-    udp: true
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_2|2.7MB/s"
     network: tcp
+    port: 443
+    reality-opts:
+      public-key: L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww
+      short-id: "ed7b9bdfedb9b8e5"
+    server: 144.124.249.252
+    tls: true
+    type: vless
+    udp: true
+    uuid: 40de6299-d792-4868-8a82-411ead0aa943
+    xudp: true
+    servername: gateway.icloud.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_1|3.6MB/s"
+    password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+    port: 50099
+    server: namrcg001640lrm.cybervena.com
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
