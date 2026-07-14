@@ -1,9 +1,16 @@
 proxies:
+  - name: "\U0001F1F3\U0001F1F1NL_1|831KB/s"
+    password: ''
+    port: 1080
+    server: 5.255.99.75
+    skip-cert-verify: true
+    type: socks5
+    username: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|614KB/s"
+    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s"
     obfs: ''
     port: 20088
     protocol: udp
@@ -13,239 +20,315 @@ proxies:
     type: hysteria
     up: '500'
     auth-str: dongtaiwang.com
-  - name: "\U0001F1F9\U0001F1FCTW_1|1.8MB/s"
-    password: 0549dab0-e54f-4ea2-888d-3d63e2834a5b
-    port: 17964
-    server: jjz.jjznodenode.top
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
+    network: ws
+    port: 443
+    server: 172.67.71.247
+    tls: true
+    type: vless
+    udp: true
+    uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+    ws-opts:
+      headers:
+        Host: octopusss5.info
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /udfyfws
+    xudp: true
+    servername: octopusss5.info
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_3|2.1MB/s"
+    obfs: ''
+    port: 54177
+    protocol: udp
+    server: 5.83.129.90
     skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '500'
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1FB\U0001F1F3VN_1|6.4MB/s"
+    password: 9c9e1185-fac8-47af-bc03-c2038c934a8b
+    port: 40014
+    server: hk4.catzl.top
     type: anytls
     udp: true
-    sni: jjz.jjznodenode.top
-  - name: "\U0001F1FA\U0001F1F8US_1|929KB/s"
-    password: 0db4b079-bb85-42ac-a72e-8603e591aa6e
-    port: 40021
-    server: us1.catzl.top
-    type: anytls
-    udp: true
-    sni: us1.catzl.top
-  - name: "\U0001F1EB\U0001F1F7FR_1|2.3MB/s"
-    password: 0549dab0-e54f-4ea2-888d-3d63e2834a5b
-    port: 17966
-    server: jjz.jjznodenode.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: jjz.jjznodenode.top
-  - name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
-    password: 0549dab0-e54f-4ea2-888d-3d63e2834a5b
-    port: 17963
-    server: jjz.jjznodenode.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: jjz.jjznodenode.top
-  - name: "\U0001F1EB\U0001F1F7FR_2|1.3MB/s"
-    password: 0549dab0-e54f-4ea2-888d-3d63e2834a5b
-    port: 17965
-    server: jjz.jjznodenode.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: jjz.jjznodenode.top
-  - name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s"
-    password: 5bdb735e-5855-4200-8642-34688635505c
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_3|590KB/s"
-    password: 5bdb735e-5855-4200-8642-34688635505c
-    port: 40021
-    server: us1.catzl.top
-    type: anytls
-    udp: true
-    sni: us1.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_2|2.0MB/s"
-    password: 0db4b079-bb85-42ac-a72e-8603e591aa6e
-    port: 40073
-    server: tw3.catzl.top
-    type: anytls
-    udp: true
-    sni: tw3.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_3|1.9MB/s"
+    sni: hk4.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_1|6.5MB/s"
     password: 0db4b079-bb85-42ac-a72e-8603e591aa6e
     port: 40071
     server: tw1.catzl.top
     type: anytls
     udp: true
     sni: tw1.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_2|2.4MB/s"
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
+    network: tcp
+    port: 40444
+    reality-opts:
+      public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+      short-id: "b3f2a1c9"
+    server: 5.253.38.67
+    tls: true
+    type: vless
+    udp: true
+    uuid: e2724c00-69e4-4ff2-a174-a8856428c6ee
+    servername: www.lovelive-anime.jp
+  - name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
+    password: 58402d7a-f8fa-4592-9971-1cd44b080358
+    port: 40021
+    server: us1.catzl.top
+    type: anytls
+    udp: true
+    sni: us1.catzl.top
+  - name: "\U0001F1F8\U0001F1ECSG_1|7.0MB/s"
+    password: 4b15f822-b771-4a70-b358-ae9613d8b0ed
+    port: 443
+    server: free77-sg3.node2.top
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: free77-sg3.node2.top
+  - name: "\U0001F1F0\U0001F1F7KR_1|3.1MB/s"
+    password: 58402d7a-f8fa-4592-9971-1cd44b080358
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_2|1.5MB/s"
+    password: 9c9e1185-fac8-47af-bc03-c2038c934a8b
+    port: 40073
+    server: tw3.catzl.top
+    type: anytls
+    udp: true
+    sni: tw3.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|3.5MB/s"
+    password: 58402d7a-f8fa-4592-9971-1cd44b080358
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_3|2.5MB/s"
+    password: 9c9e1185-fac8-47af-bc03-c2038c934a8b
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_3|3.2MB/s"
+    password: 0db4b079-bb85-42ac-a72e-8603e591aa6e
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s"
+    password: 9c9e1185-fac8-47af-bc03-c2038c934a8b
+    port: 40021
+    server: us1.catzl.top
+    type: anytls
+    udp: true
+    sni: us1.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_4|3.6MB/s"
+    password: 9c9e1185-fac8-47af-bc03-c2038c934a8b
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_1|4.5MB/s"
+    password: 58402d7a-f8fa-4592-9971-1cd44b080358
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_5|3.4MB/s"
+    password: 0db4b079-bb85-42ac-a72e-8603e591aa6e
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_3|1.6MB/s"
+    password: 58402d7a-f8fa-4592-9971-1cd44b080358
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_2|2.5MB/s"
+    password: 9c9e1185-fac8-47af-bc03-c2038c934a8b
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s"
+    password: 0db4b079-bb85-42ac-a72e-8603e591aa6e
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_6|2.4MB/s"
+    password: 58402d7a-f8fa-4592-9971-1cd44b080358
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_6|3.5MB/s"
+    password: 9c9e1185-fac8-47af-bc03-c2038c934a8b
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_3|3.2MB/s"
     password: 0db4b079-bb85-42ac-a72e-8603e591aa6e
     port: 40055
     server: jp5.catzl.top
     type: anytls
     udp: true
     sni: jp5.catzl.top
-  - name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
-    password: 0549dab0-e54f-4ea2-888d-3d63e2834a5b
-    port: 17967
-    server: jjz.jjznodenode.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: jjz.jjznodenode.top
-  - name: "\U0001F1EF\U0001F1F5JP_3|2.6MB/s"
-    password: 0549dab0-e54f-4ea2-888d-3d63e2834a5b
-    port: 17962
-    server: jjz.jjznodenode.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: jjz.jjznodenode.top
-  - auth: e03d4b91-3525-444c-b60c-2cc5f6457ab6
-    name: "\U0001F1EF\U0001F1F5JP_4|3.3MB/s"
-    obfs: salamander
-    obfs-password: CJzHgzdjH1M1kt25
-    password: e03d4b91-3525-444c-b60c-2cc5f6457ab6
-    port: 40000
-    server: jjz.jjznodenode.top
-    skip-cert-verify: true
-    sni: jjz.jjznodenode.top
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s"
-    network: tcp
-    port: 18443
-    server: 149.104.30.114
-    type: vless
-    uuid: 5fd31072-8511-4ce3-a466-9e02f3c96410
   - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_1|2.9MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: allowing-halibut.rooster465.autos
-    skip-cert-verify: false
-    sni: allowing-halibut.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_2|3.2MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: awake-satyr.rooster465.autos
-    skip-cert-verify: false
-    sni: awake-satyr.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_3|2.8MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: aware-lionfish.rooster465.autos
-    skip-cert-verify: false
-    sni: aware-lionfish.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_4|3.5MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: clear-heron.rooster465.autos
-    skip-cert-verify: false
-    sni: clear-heron.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_5|1.3MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: climbing-frog.rooster465.autos
-    skip-cert-verify: false
-    sni: climbing-frog.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_6|2.1MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: excited-squirrel.rooster465.autos
-    skip-cert-verify: false
-    sni: excited-squirrel.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|1.3MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: logical-koala.rooster465.autos
-    skip-cert-verify: false
-    sni: logical-koala.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_5|2.6MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: noble-tahr.rooster465.autos
-    skip-cert-verify: false
-    sni: noble-tahr.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_3|3.2MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: saved-tuna.rooster465.autos
-    skip-cert-verify: false
-    sni: saved-tuna.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_4|2.4MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: sharp-scorpion.rooster465.autos
-    skip-cert-verify: false
-    sni: sharp-scorpion.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_7|3.3MB/s"
-    network: tcp
-    password: CF68213490
-    port: 443
-    server: star-bluejay.rooster465.autos
-    skip-cert-verify: false
-    sni: star-bluejay.rooster465.autos
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_6|2.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s"
     network: tcp
-    port: 18007
+    port: 40444
     reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    server: 3.114.220.22
+      public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+      short-id: "b3f2a1c9"
+    server: 5.253.38.67
     tls: true
     type: vless
     udp: true
-    uuid: 814bd064-544d-4255-a070-5705c03f6da9
+    uuid: a2e10948-6f31-42dc-86e6-791480d376ff
+    servername: www.lovelive-anime.jp
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_8|1.0MB/s"
+    network: tcp
+    port: 40444
+    reality-opts:
+      public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+      short-id: "b3f2a1c9"
+    server: 5.253.38.67
+    tls: true
+    type: vless
+    udp: true
+    uuid: 238740e4-6060-44fa-bcda-ddc6206701d8
+    servername: www.lovelive-anime.jp
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_9|2.0MB/s"
+    network: tcp
+    port: 40444
+    reality-opts:
+      public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+      short-id: "b3f2a1c9"
+    server: 5.253.38.67
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6dd8057c-86a6-4188-befc-8081e5d0acc7
+    servername: www.lovelive-anime.jp
+  - name: "\U0001F1ED\U0001F1F0HK_1|5.0MB/s"
+    password: 1df3ece1218bedba28c6c6ac726a07bb
+    port: 39001
+    server: 114.80.8.128
+    skip-cert-verify: true
+    sni: 114.80.8.128
+    type: trojan
+    udp: true
+    network: tcp
+  - name: "\U0001F1ED\U0001F1F0HK_2|5.4MB/s"
+    password: 1df3ece1218bedba28c6c6ac726a07bb
+    port: 39001
+    server: 114.80.8.128
+    skip-cert-verify: true
+    sni: www.yrtok.com
+    type: trojan
+    udp: true
+    network: tcp
+  - name: "\U0001F1FA\U0001F1F8US_10|680KB/s"
+    network: ws
+    port: 443
+    server: 106.15.124.10
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
+    ws-opts:
+      headers:
+        Host: edge-4cb23bf6.pages.dev
+      path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    servername: edge-4cb23bf6.pages.dev
+  - client-fingerprint: edge
+    name: "\U0001F1EB\U0001F1EEFI_1|680KB/s"
+    network: tcp
+    port: 8443
+    server: fin.oplatasite.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: bb229808-c207-428c-a398-0b4bf30f29be
     xudp: true
-    servername: www.apple.com
+    servername: vpn.oplatasite.ru
+  - client-fingerprint: chrome
+    name: "\U0001F1EA\U0001F1F8ES_1|728KB/s"
+    network: tcp
+    port: 54180
+    reality-opts:
+      public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+      short-id: "c6e19c434dc87df7"
+    server: 157.180.91.156
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6f6c0ab3-3484-4856-a13c-0a826a30ed53
+    xudp: true
+    servername: login.yahoo.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
+    network: tcp
+    port: 54380
+    reality-opts:
+      public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+      short-id: "c6e19c434dc87df7"
+    server: 204.168.220.38
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6f6c0ab3-3484-4856-a13c-0a826a30ed53
+    xudp: true
+    servername: login.yahoo.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F7\U0001F1F4RO_1|659KB/s"
+    network: tcp
+    port: 54440
+    reality-opts:
+      public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+      short-id: "c6e19c434dc87df7"
+    server: 204.168.220.38
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6f6c0ab3-3484-4856-a13c-0a826a30ed53
+    xudp: true
+    servername: login.yahoo.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
