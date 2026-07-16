@@ -1,53 +1,22 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1E7GB_1|2.3MB/s"
-      password: 87xvPPL2WVWnKcse
-      port: "8505"
-      server: c331s1.portablesubmarines.com
-      type: ss
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6CA_1|1.0MB/s"
-      obfs: salamander
-      obfs-password: t-me-V2RayyNGvpn
-      password: V2RayyNGvpn
-      port: 42286
-      server: 66.92.161.59
-      skip-cert-verify: true
-      sni: www.amd.com
-      tls: false
-      type: hysteria2
-    - auth: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-      name: "\U0001F1F5\U0001F1F1PL_1|1.5MB/s"
-      password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-      port: 443
-      server: pl02.auragg.org
-      skip-cert-verify: true
-      sni: pl02.auragg.org
-      type: hysteria2
-    - auth: b547b58b-6628-4127-b67d-40aa0be26c67
-      name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s"
-      password: b547b58b-6628-4127-b67d-40aa0be26c67
-      port: 443
-      server: 139.59.98.251
-      skip-cert-verify: true
-      sni: addons.mozilla.org
-      type: hysteria2
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_1|1.0MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
       network: tcp
-      port: 8899
-      reality-opts:
-        public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-        short-id: 11d27eb4
-      server: 152.67.211.233
-      servername: www.lovelive-anime.jp
-      tls: true
-      type: vless
+      password: NQ26071394
+      port: "443"
+      server: amazing-troll.rooster465.autos
+      skip-cert-verify: false
+      sni: amazing-troll.rooster465.autos
+      type: trojan
       udp: true
-      uuid: 02656f5e-7691-4851-98eb-d0cccc2a74f4
-      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|609KB/s"
+      password: ""
+      port: "443"
+      server: 38.28.193.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -57,7 +26,7 @@ proxies:
                 - www.lovelive-anime.jp
         path:
             - /
-      name: "\U0001F1F8\U0001F1ECSG_2|1.8MB/s"
+      name: ❓Other_1|1.6MB/s
       network: tcp
       port: 8899
       reality-opts:
@@ -70,38 +39,65 @@ proxies:
       udp: true
       uuid: 46eadc95-b3ff-4060-8504-98d3d4032110
       xudp: true
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F1FA\U0001F1F8US_2|648KB/s"
+      password: dongtaiwang.com
+      port: 34567
+      server: 157.254.223.44
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1|634KB/s"
-      network: tcp
+      grpc-opts:
+        grpc-service-name: api.v1.StreamService
+      name: "\U0001F1F1\U0001F1F9LT_1|1.5MB/s"
+      network: grpc
       port: "443"
       reality-opts:
-        public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-        short-id: 43dcff53849b81e6
-      server: 89.105.212.138
-      servername: nl.quattro-tech.ru
+        public-key: Bo6VOZzJ5Z9w328L1F1sQzlzLNbiIpuWbV021xPltxE
+        short-id: cd40e7dbd53a28ce
+      server: relay.oneoneok.com
+      servername: relay.oneoneok.com
       tls: true
       type: vless
       udp: true
-      uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
+      uuid: f3720808-2ea6-438c-a7f1-e75f0c2d8dfb
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7GB_2|665KB/s"
-      password: Vr06rU_v1vFPYeXq9zbsAA
-      port: "1080"
-      server: 188.119.149.27
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EE\U0001F1EAIE_1|1.1MB/s"
+      name: "\U0001F1EE\U0001F1EAIE_1|917KB/s"
       password: 4VR7sUSWI06eV7Gsw-A9xw
       port: "8243"
       server: speed.giftcardbazarbot.com
       type: ss
       udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_1|639KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 4G362XRViqnlWvDCmzR_XN6b4kDfS-RmWlnHPhAB90c
+        short-id: bbdd53bb15d0a149
+      server: 31.76.84.160
+      servername: wikihow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b71118c-7406-484e-a31c-184fb90f77c6
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_2|2.3MB/s"
+      password: NQ26071394
+      port: "443"
+      server: amazing-troll.rooster465.autos
+      skip-cert-verify: false
+      sni: amazing-troll.rooster465.autos
+      type: trojan
+      udp: true
     - auth: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
-      name: "\U0001F1F5\U0001F1F1PL_2|2.1MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
@@ -112,7 +108,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: 5c4a1e4c-c679-4030-8b5d-9704e4891223
-      name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams01
       password: 5c4a1e4c-c679-4030-8b5d-9704e4891223
@@ -123,7 +119,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: 5c4a1e4c-c679-4030-8b5d-9704e4891223
-      name: "\U0001F1F5\U0001F1F1PL_3|1.3MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_2|1.9MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: 5c4a1e4c-c679-4030-8b5d-9704e4891223
@@ -134,7 +130,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
-      name: "\U0001F1FA\U0001F1F8US_1|1.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
       obfs: salamander
       obfs-password: whale-hy-e235
       password: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
@@ -146,45 +142,20 @@ proxies:
       udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_4|695KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1|542KB/s"
       network: tcp
-      port: 39154
+      port: 22001
       reality-opts:
-        public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU
-        short-id: d68bea4c
-      server: ams2.globalschool.edu.kg
-      servername: ozon.ru
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: vpn2.cc.node2.top
+      servername: itunes.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
+      uuid: ac11d48c-efcd-41d4-b5b9-6424039a4e89
     - auth: 1ec334a4-f44b-4f7f-907d-315d0fb51149
-      name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e235
-      password: 1ec334a4-f44b-4f7f-907d-315d0fb51149
-      port: 443
-      server: 23.144.20.235
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|1002KB/s"
-      network: tcp
-      port: 10001
-      reality-opts:
-        public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns
-        short-id: 1299373a
-      server: cdn.globalschool.edu.kg
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c4a1e4c-c679-4030-8b5d-9704e4891223
-    - auth: 1ec334a4-f44b-4f7f-907d-315d0fb51149
-      name: "\U0001F1F3\U0001F1F1NL_3|2.0MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_2|2.0MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams01
       password: 1ec334a4-f44b-4f7f-907d-315d0fb51149
@@ -195,7 +166,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
-      name: "\U0001F1F3\U0001F1F1NL_4|2.1MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_3|2.1MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams01
       password: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
@@ -206,7 +177,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: 1ec334a4-f44b-4f7f-907d-315d0fb51149
-      name: "\U0001F1F5\U0001F1F1PL_5|2.3MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_3|2.0MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: 1ec334a4-f44b-4f7f-907d-315d0fb51149
@@ -218,7 +189,7 @@ proxies:
       udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_6|1.0MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_4|621KB/s"
       network: tcp
       port: 39154
       reality-opts:
@@ -232,7 +203,7 @@ proxies:
       uuid: 1ec334a4-f44b-4f7f-907d-315d0fb51149
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|1.2MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|950KB/s"
       network: tcp
       port: 10001
       reality-opts:
@@ -243,21 +214,10 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c36a16a0-36ff-42d5-bd79-fd55bcb643fc
-    - auth: 5c4a1e4c-c679-4030-8b5d-9704e4891223
-      name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e235
-      password: 5c4a1e4c-c679-4030-8b5d-9704e4891223
-      port: 443
-      server: 23.144.20.235
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
+      uuid: 1ec334a4-f44b-4f7f-907d-315d0fb51149
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_7|553KB/s"
+      name: "\U0001F1F5\U0001F1F1PL_5|546KB/s"
       network: tcp
       port: 39154
       reality-opts:
@@ -270,7 +230,7 @@ proxies:
       udp: true
       uuid: 19b896e1-b370-42a9-b21b-f1debf961b9c
     - auth: 19b896e1-b370-42a9-b21b-f1debf961b9c
-      name: "\U0001F1EE\U0001F1F8IS_1|1.6MB/s"
+      name: "\U0001F1EE\U0001F1F8IS_1|2.1MB/s"
       obfs: salamander
       obfs-password: whale-obfs-2026
       password: 19b896e1-b370-42a9-b21b-f1debf961b9c
@@ -281,7 +241,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
-      name: "\U0001F1F3\U0001F1F1NL_5|2.6MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_4|2.8MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams01
       password: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
@@ -291,33 +251,8 @@ proxies:
       sni: ok.ru
       type: hysteria2
       udp: true
-    - auth: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
-      name: "\U0001F1EE\U0001F1F8IS_2|2.2MB/s"
-      obfs: salamander
-      obfs-password: whale-obfs-2026
-      password: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
-      port: 443
-      server: 188.241.54.30
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_3|962KB/s"
-      network: tcp
-      port: 10001
-      reality-opts:
-        public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns
-        short-id: 1299373a
-      server: cdn.globalschool.edu.kg
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
     - auth: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
-      name: "\U0001F1F3\U0001F1F1NL_6|2.2MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_5|2.3MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams01
       password: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
@@ -328,7 +263,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-      name: "\U0001F1F5\U0001F1F1PL_8|2.1MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_6|1.7MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
@@ -339,7 +274,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
-      name: "\U0001F1F5\U0001F1F1PL_9|2.2MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_7|1.8MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
@@ -349,19 +284,8 @@ proxies:
       sni: ok.ru
       type: hysteria2
       udp: true
-    - auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e235
-      password: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      port: 443
-      server: 23.144.20.235
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|3.1MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s"
       network: ws
       port: 443
       server: 91.193.59.191
@@ -374,42 +298,9 @@ proxies:
         headers:
             Host: vp15.cc.cd
         path: /
-    - auth: 19b896e1-b370-42a9-b21b-f1debf961b9c
-      name: "\U0001F1F3\U0001F1F1NL_7|1.4MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-ams01
-      password: 19b896e1-b370-42a9-b21b-f1debf961b9c
-      port: 443
-      server: 195.63.143.185
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      name: "\U0001F1F3\U0001F1F1NL_8|2.0MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-ams01
-      password: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      port: 443
-      server: 195.63.143.185
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      name: "\U0001F1EE\U0001F1F8IS_3|2.0MB/s"
-      obfs: salamander
-      obfs-password: whale-obfs-2026
-      password: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      port: 443
-      server: 188.241.54.30
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_10|576KB/s"
+      name: "\U0001F1F5\U0001F1F1PL_8|867KB/s"
       network: tcp
       port: 39154
       reality-opts:
@@ -421,20 +312,9 @@ proxies:
       type: vless
       udp: true
       uuid: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-    - auth: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
-      name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e235
-      password: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
-      port: 443
-      server: 23.144.20.235
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_4|929KB/s"
+      name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
       network: tcp
       port: 10001
       reality-opts:
@@ -448,54 +328,7 @@ proxies:
       uuid: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_11|672KB/s"
-      network: tcp
-      port: 39154
-      reality-opts:
-        public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU
-        short-id: d68bea4c
-      server: ams2.globalschool.edu.kg
-      servername: ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
-    - auth: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
-      name: "\U0001F1FA\U0001F1F8US_6|2.4MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e235
-      password: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
-      port: 443
-      server: 23.144.20.235
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - auth: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-      name: "\U0001F1FA\U0001F1F8US_7|1.7MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e235
-      password: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-      port: 443
-      server: 23.144.20.235
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - auth: 19b896e1-b370-42a9-b21b-f1debf961b9c
-      name: "\U0001F1FA\U0001F1F8US_8|1.2MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e235
-      password: 19b896e1-b370-42a9-b21b-f1debf961b9c
-      port: 443
-      server: 23.144.20.235
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_5|1.1MB/s"
+      name: "\U0001F1E9\U0001F1EADE_3|1009KB/s"
       network: tcp
       port: 10001
       reality-opts:
@@ -508,7 +341,7 @@ proxies:
       udp: true
       uuid: 19b896e1-b370-42a9-b21b-f1debf961b9c
     - auth: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
-      name: "\U0001F1F5\U0001F1F1PL_12|2.3MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_9|2.4MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: 3160e48c-5e0d-40fe-aa19-43ce0520b55e
@@ -519,7 +352,7 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      name: "\U0001F1F5\U0001F1F1PL_13|2.3MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_10|2.0MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: d6525532-97bc-4bd3-b6f6-114cedeb4d87
@@ -529,69 +362,50 @@ proxies:
       sni: ok.ru
       type: hysteria2
       udp: true
-    - auth: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-      name: "\U0001F1EE\U0001F1F8IS_4|2.0MB/s"
-      obfs: salamander
-      obfs-password: whale-obfs-2026
-      password: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-      port: 443
-      server: 188.241.54.30
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
-    - auth: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-      name: "\U0001F1F3\U0001F1F1NL_9|2.6MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-ams01
-      password: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
-      port: 443
-      server: 195.63.143.185
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|814KB/s"
       network: ws
-      port: 2053
-      server: 103.106.228.126
-      servername: vp11.cc.cd
+      port: 34237
+      server: 140.83.54.126
+      servername: vp12.cc.cd
       tls: true
       type: vless
       udp: true
       uuid: 7b102311-43fd-4e8f-877e-8090623c101d
       ws-opts:
         headers:
-            Host: vp11.cc.cd
+            Host: vp12.cc.cd
         path: /
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_6|1.1MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_2|730KB/s"
       network: tcp
-      port: 10001
+      port: 10002
       reality-opts:
-        public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns
-        short-id: 1299373a
-      server: cdn.globalschool.edu.kg
-      servername: www.icloud.com
+        public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg
+        short-id: 8a430229
+      server: media.globalschool.edu.kg
+      servername: www.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-    - auth: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
-      name: "\U0001F1EC\U0001F1E7GB_3|1.0MB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e110
-      password: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
-      port: 443
-      server: 212.135.39.110
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
+      uuid: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_3|1.1MB/s"
+      network: tcp
+      port: 10002
+      reality-opts:
+        public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg
+        short-id: 8a430229
+      server: media.globalschool.edu.kg
+      servername: www.apple.com
+      tls: true
+      type: vless
       udp: true
+      uuid: 5136ab11-4e0f-4cd2-b134-f054f8cb3537
     - auth: 19b896e1-b370-42a9-b21b-f1debf961b9c
-      name: "\U0001F1F5\U0001F1F1PL_14|2.2MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_11|2.1MB/s"
       obfs: salamander
       obfs-password: whale-hy-ams02
       password: 19b896e1-b370-42a9-b21b-f1debf961b9c
@@ -601,20 +415,9 @@ proxies:
       sni: ok.ru
       type: hysteria2
       udp: true
-    - auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      name: "\U0001F1EC\U0001F1E7GB_4|560KB/s"
-      obfs: salamander
-      obfs-password: whale-hy-e110
-      password: d6525532-97bc-4bd3-b6f6-114cedeb4d87
-      port: 443
-      server: 212.135.39.110
-      skip-cert-verify: true
-      sni: ok.ru
-      type: hysteria2
-      udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_7|516KB/s"
+      name: "\U0001F1E9\U0001F1EADE_4|1.6MB/s"
       network: tcp
       port: 10001
       reality-opts:
@@ -626,3 +429,141 @@ proxies:
       type: vless
       udp: true
       uuid: 8fcb22d1-dc1c-479c-ad96-e5fe05851a89
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_5|1.1MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: L7JB_3bRdr08McJ2_RNR6thyx1s65gdj6OeLdkJ463s
+        short-id: c98e3dfeb3aff317
+      server: de.themesh.site
+      servername: de.themesh.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FARU_1|829KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: zA-R_HtKJR1Hb0c1KXA3Yxh1TH_SPi1oV6cDfWURdQs
+        short-id: d4f1c403150d9964
+      server: ru.themesh.site
+      servername: ru.themesh.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
+      xudp: true
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8US_4|728KB/s"
+      network: xhttp
+      port: "443"
+      server: 3x-ui-upgrade-production-47a9.up.railway.app
+      servername: 3x-ui-upgrade-production-47a9.up.railway.app
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4baff4e1-2ba3-459e-9fd2-ebd386a9594b
+      xhttp-opts: {}
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_3|3.6MB/s"
+      network: ws
+      port: "2087"
+      server: 91.193.59.230
+      servername: vp14.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp14.cc.cd
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_4|4.5MB/s"
+      network: ws
+      port: "443"
+      server: 91.193.59.240
+      servername: vp13.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp13.cc.cd
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_5|3.4MB/s"
+      network: ws
+      port: "8443"
+      server: 91.193.58.194
+      servername: vp33.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp33.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_6|880KB/s"
+      network: ws
+      port: "2053"
+      server: 91.193.59.76
+      servername: vp14.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp14.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_7|1.6MB/s"
+      network: ws
+      port: "443"
+      server: 91.193.59.69
+      servername: vp13.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp13.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_8|2.5MB/s"
+      network: ws
+      port: "2096"
+      server: 91.193.59.118
+      servername: vp40.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      ws-opts:
+        headers:
+            Host: vp40.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /
+      xudp: true
