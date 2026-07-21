@@ -1,146 +1,79 @@
 proxies:
-  - alpn:
-      - h3
-    auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-    name: "\U0001F1E8\U0001F1EDCH_1|2.2MB/s"
-    password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-    port: 25447
-    server: 144.31.107.101
+  - name: "\U0001F1FA\U0001F1F8US_1|3.8MB/s"
+    password: ''
+    port: 1080
+    server: 212.58.132.5
     skip-cert-verify: true
-    sni: devideo.h2corp.org
-    type: hysteria2
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1E9\U0001F1EADE_1|800KB/s"
-    port: 26691
-    protocol: udp
-    server: 5.83.129.143
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    name: "\U0001F1F8\U0001F1ECSG_1|675KB/s"
-    network: xhttp
-    packet-encoding: xudp
-    port: 443
-    server: cdd.themesh.site
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6fa9f6ae-877b-4858-b128-a8377fd9038b
-    xhttp-opts:
-      host: cdd.themesh.site
-      mode: packet-up
-      path: /api/v3/content/
-      sc-max-each-post-bytes: 1500000
-      sc-min-posts-interval-ms: 50-100
-      seq-key: x_seq
-      seq-placement: query
-      session-key: x_session
-      session-placement: query
-      uplink-chunk-size: 4096-8192
-      uplink-data-key: X-Data
-      uplink-data-placement: header
-      uplink-http-method: GET
-      x-padding-header: Referer
-      x-padding-key: utm_source
-      x-padding-method: tokenish
-      x-padding-placement: queryInHeader
-    servername: cdd.themesh.site
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EE\U0001F1F7IR_1|1015KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
-    port: 5555
-    server: 78.159.240.215
-    skip-cert-verify: false
-    sni: 31.56.188.66.tyr-agentstvo.tech
-    type: hysteria2
-    up: ''
-  - client-fingerprint: ios
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_1|2.1MB/s"
-    network: tcp
-    port: 31756
-    reality-opts:
-      public-key: th7nCtb3xOyevrg9Vm9XclCuol64RRKwr7zMwVr-ZUc
-      short-id: "4c94e5"
-    server: ipl2.lliinn.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    servername: iosapps.itunes.apple.com
-  - name: "\U0001F1F3\U0001F1F1NL_1|765KB/s"
+    type: socks5
+    username: ''
+  - name: "\U0001F1F3\U0001F1F1NL_1|1012KB/s"
+    password: ''
     port: 1080
     server: 5.255.99.75
+    skip-cert-verify: true
     type: socks5
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_2|652KB/s"
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
+    username: ''
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
+    password: ''
+    port: 1080
+    server: 5.255.123.162
     skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_3|573KB/s"
+    type: socks5
+    username: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s"
     obfs: ''
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
+    obfs-password: ''
+    password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+    port: 52454
+    server: 45.88.43.116
     skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-    auth-str: dongtaiwang.com
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
   - client-fingerprint: chrome
-    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1FARU_1|787KB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
     network: tcp
-    port: 443
+    port: 40444
     reality-opts:
-      public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-      short-id: "2e40144ddc07e8e1"
-    server: fi04.tunnely.ru
+      public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+      short-id: "b3f2a1c9"
+    server: 5.253.38.67
     tls: true
     type: vless
     udp: true
-    uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
-    xudp: true
-    servername: fi04.tunnely.ru
-  - name: "\U0001F1FA\U0001F1F8US_1|628KB/s"
-    password: d3e29b13-777a-4fef-841b-6537bcb1ed83
-    port: 40021
-    server: us1.catzl.top
-    type: anytls
-    udp: true
-    sni: us1.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_1|563KB/s"
+    uuid: 5be46bff-2566-4083-8892-2d0462c1561f
+    servername: www.lovelive-anime.jp
+  - name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s"
     password: 88809e84-f7ea-447e-b0b0-858903b3ff40
-    port: 40073
-    server: tw3.catzl.top
+    port: 40042
+    server: kr2.catzl.top
     type: anytls
     udp: true
-    sni: tw3.catzl.top
+    sni: kr2.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|3.6MB/s"
+    password: 88809e84-f7ea-447e-b0b0-858903b3ff40
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_3|2.8MB/s"
+    password: d3e29b13-777a-4fef-841b-6537bcb1ed83
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_1|2.1MB/s"
+    password: 88809e84-f7ea-447e-b0b0-858903b3ff40
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
+    udp: true
+    sni: tw2.catzl.top
   - name: "\U0001F1F9\U0001F1FCTW_2|2.0MB/s"
     password: d3e29b13-777a-4fef-841b-6537bcb1ed83
     port: 40072
@@ -148,54 +81,117 @@ proxies:
     type: anytls
     udp: true
     sni: tw2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s"
+    password: 8c01f995-3dbc-4a5f-884b-a3311c5ec30f
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_4|947KB/s"
+    password: 8c01f995-3dbc-4a5f-884b-a3311c5ec30f
+    port: 40021
+    server: us1.catzl.top
+    type: anytls
+    udp: true
+    sni: us1.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_4|2.0MB/s"
+    password: 8c01f995-3dbc-4a5f-884b-a3311c5ec30f
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_5|4.3MB/s"
+    password: d3e29b13-777a-4fef-841b-6537bcb1ed83
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_6|4.0MB/s"
+    password: 8c01f995-3dbc-4a5f-884b-a3311c5ec30f
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_5|1.8MB/s"
+    password: 88809e84-f7ea-447e-b0b0-858903b3ff40
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1ED\U0001F1F0HK_1|634KB/s"
+    password: 6b0f285d-f83b-401f-9c9d-9960bc52a200
+    port: 8201
+    server: 141.11.76.57
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_2|571KB/s"
+    password: 4173181f-08f9-4415-9dbe-67ab8ad7eca6
+    port: 8201
+    server: 141.11.76.57
+    skip-cert-verify: true
+    type: anytls
+    udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_3|2.7MB/s"
     password: 6rcBjQuF0jM6if5e
     port: 52355
     server: bgp-1313122-228.834928.xyz
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1E6\U0001F1FAAU_1|576KB/s"
-    password: 6rcBjQuF0jM6if5e
-    port: 24329
-    server: bgp-1313122-228.834928.xyz
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1F9\U0001F1F7TR_1|1.2MB/s"
-    password: 6rcBjQuF0jM6if5e
-    port: 20363
-    server: bgp-1313122-228.834928.xyz
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F3IN_1|2.5MB/s"
+    name: "\U0001F1EE\U0001F1F3IN_1|3.6MB/s"
     password: 6rcBjQuF0jM6if5e
     port: 14323
     server: bgp-1313122-228.834928.xyz
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1ED\U0001F1F0HK_1|3.6MB/s"
+    name: "\U0001F1E6\U0001F1FAAU_1|1.5MB/s"
+    password: 6rcBjQuF0jM6if5e
+    port: 24329
+    server: bgp-1313122-228.834928.xyz
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1ED\U0001F1F0HK_3|4.5MB/s"
     password: 6rcBjQuF0jM6if5e
     port: 20511
     server: bgp-1313122-228.834928.xyz
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|2.6MB/s"
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
     network: tcp
-    password: BxceQaOe
-    port: 9149
-    server: 18.163.84.233
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
+    port: 443
+    reality-opts:
+      public-key: cu2H4WP9LU3ZdD85MNr8w4jUS79Wx6YVUxVeRGVBQyc
+      short-id: "be05a235"
+    server: 144.24.206.147
+    tls: true
+    type: vless
     udp: true
+    uuid: 49972d73-a5c1-414d-9787-6f2c2a0c76d8
+    servername: tv.apple.com
+  - alpn:
+      - h3
+    auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+    name: "\U0001F1E8\U0001F1EDCH_1|2.7MB/s"
+    password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+    port: 25447
+    server: 144.31.107.101
+    skip-cert-verify: true
+    sni: devideo.h2corp.org
+    type: hysteria2
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_4|833KB/s"
+    name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -208,24 +204,62 @@ proxies:
     uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
     xudp: true
     servername: akenai.kyras.pw
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_3|692KB/s"
-    network: xhttp
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s"
+    network: tcp
     port: 443
     reality-opts:
-      public-key: 1LFURXcCXDG7GjYZJOiKhSIGTGqlrvnLOuUalz_eR0g
-      short-id: "0123456789abcdef"
-    server: nl-2.s.darkpn.com
+      public-key: 3EuP8uX9rTJ-qw6O1hg2KWgD1fbY73-ZfT1Q8I_Srkw
+      short-id: "693ee677b7bc4ad1"
+    server: nl-1-tb.124515.xyz
     tls: true
     type: vless
     udp: true
-    uuid: 27c1d725-629c-4e65-9271-d6f5df82c7e9
-    xhttp-opts:
-      mode: packet-up
-      path: /assets/bundle.js
+    uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
     xudp: true
-    servername: nl-2.s.darkpn.com
+    servername: nl-1-tb.124515.xyz
+  - client-fingerprint: qq
+    encryption: none
+    grpc-opts:
+      grpc-service-name: auragrpc
+    name: "\U0001F1EC\U0001F1E7GB_1|1.5MB/s"
+    network: grpc
+    port: 8444
+    reality-opts:
+      public-key: DYhUefVTZg0ol7QLdgp6hqcZ_TjIt02uoZk8iQz4WHM
+      short-id: "d6b2e9f1a4c8d3f5"
+    server: nl01.auragg.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+    xudp: true
+    servername: cloudflare.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: auragrpc
+    name: "\U0001F1EC\U0001F1E7GB_2|593KB/s"
+    network: grpc
+    port: 443
+    reality-opts:
+      public-key: TGJxKbPG8ds2NwK6uhgQURUfVJ01BcRh3Eaoy3dtdGA
+      short-id: "a3d8f1e9b2c7d4e6"
+    server: ge03.auragg.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+    xudp: true
+    servername: cloudflare.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1E9\U0001F1EADE_3|1.6MB/s"
+    password: amazonskr05
+    port: 443
+    server: 18.159.53.205
+    type: ss
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
