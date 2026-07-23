@@ -1,187 +1,105 @@
 proxies:
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
-    password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
-    port: 82
-    server: 94.183.124.95
-    type: ss
-    udp: true
-  - name: "\U0001F1EE\U0001F1F3IN_1|2.9MB/s"
-    password: ''
-    port: 1088
-    server: 144.24.111.128
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.1MB/s"
+    port: 9002
+    server: 84.239.49.225
     skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1FA\U0001F1F8US_2|3.7MB/s"
-    password: ''
-    port: 1080
-    server: 212.58.132.5
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|571KB/s"
+    port: 9002
+    server: 84.239.14.159
     skip-cert-verify: true
-    type: socks5
-    username: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|712KB/s"
-    password: CF68213490
-    port: 443
-    server: tolerant-rattler.rooster465.autos
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    network: tcp
-    sni: tolerant-rattler.rooster465.autos
-  - name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s"
-    password: a29d68ba-09ea-4c20-8de2-e235266b3537
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_1|3.3MB/s"
-    password: 6ec24da3-90cb-4c19-9d80-1cae03a93cc6
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_2|1.2MB/s"
-    password: a29d68ba-09ea-4c20-8de2-e235266b3537
-    port: 40072
-    server: tw2.catzl.top
-    type: anytls
-    udp: true
-    sni: tw2.catzl.top
-  - name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s"
-    password: 6ec24da3-90cb-4c19-9d80-1cae03a93cc6
-    port: 40042
-    server: kr2.catzl.top
-    type: anytls
-    udp: true
-    sni: kr2.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s"
-    password: 6ec24da3-90cb-4c19-9d80-1cae03a93cc6
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_3|2.0MB/s"
-    password: a29d68ba-09ea-4c20-8de2-e235266b3537
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_6|685KB/s"
-    password: 6ec24da3-90cb-4c19-9d80-1cae03a93cc6
-    port: 40021
-    server: us1.catzl.top
-    type: anytls
-    udp: true
-    sni: us1.catzl.top
-  - name: "\U0001F1FB\U0001F1F3VN_1|5.5MB/s"
-    password: a29d68ba-09ea-4c20-8de2-e235266b3537
-    port: 40014
-    server: hk4.catzl.top
-    type: anytls
-    udp: true
-    sni: hk4.catzl.top
-  - name: "\U0001F1F0\U0001F1F7KR_2|3.6MB/s"
-    password: 6ec24da3-90cb-4c19-9d80-1cae03a93cc6
-    port: 40041
-    server: kr1.catzl.top
-    type: anytls
-    udp: true
-    sni: kr1.catzl.top
-  - name: "\U0001F1F0\U0001F1F7KR_3|4.2MB/s"
-    password: a29d68ba-09ea-4c20-8de2-e235266b3537
-    port: 40042
-    server: kr2.catzl.top
-    type: anytls
-    udp: true
-    sni: kr2.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
-    password: a29d68ba-09ea-4c20-8de2-e235266b3537
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_2|5.3MB/s"
-    password: 6ec24da3-90cb-4c19-9d80-1cae03a93cc6
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1F0\U0001F1F7KR_4|3.9MB/s"
-    password: a29d68ba-09ea-4c20-8de2-e235266b3537
-    port: 40041
-    server: kr1.catzl.top
-    type: anytls
-    udp: true
-    sni: kr1.catzl.top
-  - name: "\U0001F1FB\U0001F1F3VN_2|1.4MB/s"
-    password: 6ec24da3-90cb-4c19-9d80-1cae03a93cc6
-    port: 40014
-    server: hk4.catzl.top
-    type: anytls
-    udp: true
-    sni: hk4.catzl.top
-  - client-fingerprint: safari
-    flow: xtls-rprx-vision
-    name: ❓Other_1|639KB/s
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: cu2H4WP9LU3ZdD85MNr8w4jUS79Wx6YVUxVeRGVBQyc
-      short-id: "be05a235"
-    server: 144.24.206.147
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 49972d73-a5c1-414d-9787-6f2c2a0c76d8
-    servername: tv.apple.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: neurex
-    name: "\U0001F1E8\U0001F1EDCH_1|3.2MB/s"
-    network: grpc
-    port: 16923
-    reality-opts:
-      public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-      short-id: "10ffb85da1c2d986"
-    server: 152.233.31.72
+  - name: "\U0001F1F7\U0001F1F4RO_3|574KB/s"
+    port: 9002
+    server: 84.239.14.149
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: da986116-4cb4-4b34-a738-4680949213b8
-    servername: api-maps.yandex.ru
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_7|652KB/s"
-    network: ws
-    port: 443
-    server: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
+  - name: "\U0001F1F7\U0001F1F4RO_4|1.3MB/s"
+    port: 9002
+    server: 84.239.49.207
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 79773255-2235-505f-a009-3bbaeb8a32fc
-    ws-opts:
-      headers:
-        Host: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: /ws/79773255-2235-505f-a009-3bbaeb8a32fc
-    xudp: true
-    servername: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
+  - name: "\U0001F1F7\U0001F1F4RO_5|1.6MB/s"
+    port: 9002
+    server: 84.239.49.253
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_6|1.8MB/s"
+    port: 9002
+    server: 84.239.49.196
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_7|994KB/s"
+    port: 9002
+    server: 84.239.49.211
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_8|587KB/s"
+    port: 9002
+    server: 84.239.49.178
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_9|521KB/s"
+    port: 9002
+    server: 84.239.49.239
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_10|540KB/s"
+    port: 9002
+    server: 84.239.49.55
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_11|2.2MB/s"
+    port: 9002
+    server: 84.239.49.57
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_12|1.6MB/s"
+    port: 9002
+    server: 84.239.49.245
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_13|1.2MB/s"
+    port: 9002
+    server: 84.239.14.152
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_14|1.9MB/s"
+    port: 9002
+    server: 193.176.84.32
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F3\U0001F1F4NO_1|2.6MB/s"
+    name: "\U0001F1F3\U0001F1F4NO_1|2.1MB/s"
     obfs: ''
     obfs-password: ''
     password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
@@ -191,75 +109,680 @@ proxies:
     sni: hopp-legend-se.roxa.org
     type: hysteria2
     up: ''
-  - name: "\U0001F1FA\U0001F1F8US_8|1.2MB/s"
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_1|550KB/s"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: "\U0001F1F7\U0001F1F4RO_15|1.1MB/s"
+    port: 9002
+    server: 84.239.49.38
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_16|855KB/s"
+    port: 9002
+    server: 84.239.49.212
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_17|650KB/s"
+    port: 9002
+    server: 84.239.49.199
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_18|746KB/s"
+    port: 9002
+    server: 84.239.49.166
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_19|626KB/s"
+    port: 9002
+    server: 84.239.49.215
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1E6\U0001F1FAAU_1|2.5MB/s"
+    port: 443
+    server: 103.62.50.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - client-fingerprint: chrome
+    name: "\U0001F1E6\U0001F1FAAU_2|2.2MB/s"
+    password: JA96378052
+    port: 443
+    server: evident-gnat.rooster465.autos
+    skip-cert-verify: false
+    type: trojan
+    udp: true
+    network: tcp
+    sni: evident-gnat.rooster465.autos
+  - name: "\U0001F1EE\U0001F1F3IN_1|2.9MB/s"
+    password: ''
+    port: 1088
+    server: 144.24.111.128
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US_2|3.3MB/s"
+    password: ''
+    port: 1080
+    server: 212.58.132.5
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s"
+    password: a29d68ba-09ea-4c20-8de2-e235266b3537
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_1|1.6MB/s"
+    password: a29d68ba-09ea-4c20-8de2-e235266b3537
+    port: 40014
+    server: hk4.catzl.top
+    type: anytls
+    udp: true
+    sni: hk4.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_1|2.9MB/s"
+    password: a29d68ba-09ea-4c20-8de2-e235266b3537
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_1|3.3MB/s"
+    password: a29d68ba-09ea-4c20-8de2-e235266b3537
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
     network: ws
     port: 443
-    server: 60.205.5.16
+    server: 194.48.140.109
     skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
     ws-opts:
       headers:
-        Host: vp66.cc.cd
-      path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-    servername: vp66.cc.cd
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_2|1.7MB/s"
     network: ws
     port: 443
-    server: 104.19.149.174
+    server: 194.48.140.109
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
     ws-opts:
       headers:
-        Host: l-j-v-MiTiVPN---MiTiVPN-o.MAQROR.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: >-
-        /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=ams
-    xudp: true
-    servername: l-j--vMiTiVPN---MiTiVPN-o.MAQROR.ir
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH_2|1.4MB/s"
-    network: tcp
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_3|995KB/s"
+    network: ws
     port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: 45.131.212.6
+    server: 217.144.189.5
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 2a77a470-315c-493d-b690-59b814a804cb
-    xudp: true
-    servername: abuse.sellflow.org
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_1|587KB/s"
-    network: tcp
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_4|1.3MB/s"
+    network: ws
     port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: 45.131.212.14
+    server: 5.35.32.238
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 2a77a470-315c-493d-b690-59b814a804cb
-    xudp: true
-    servername: abuse.sellflow.org
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_5|1.2MB/s"
+    network: ws
+    port: 443
+    server: 185.185.51.207
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_6|711KB/s"
+    network: ws
+    port: 443
+    server: 109.69.57.181
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_7|2.0MB/s"
+    network: ws
+    port: 443
+    server: 80.71.232.52
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_8|849KB/s"
+    network: ws
+    port: 443
+    server: 185.185.51.207
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_9|1.2MB/s"
+    network: ws
+    port: 443
+    server: 185.37.8.234
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_10|675KB/s"
+    network: ws
+    port: 443
+    server: 77.105.142.249
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_11|815KB/s"
+    network: ws
+    port: 443
+    server: 82.115.6.21
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_12|737KB/s"
+    network: ws
+    port: 443
+    server: 194.87.227.155
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_13|2.0MB/s"
+    network: ws
+    port: 443
+    server: 109.69.57.181
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_14|809KB/s"
+    network: ws
+    port: 443
+    server: 77.246.104.142
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_15|2.0MB/s"
+    network: ws
+    port: 443
+    server: 31.15.19.10
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_16|1.2MB/s"
+    network: ws
+    port: 443
+    server: 77.105.142.249
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_17|1.1MB/s"
+    network: ws
+    port: 443
+    server: 91.201.115.92
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_18|646KB/s"
+    network: ws
+    port: 443
+    server: 217.144.190.14
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_19|729KB/s"
+    network: ws
+    port: 443
+    server: 64.188.68.11
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_20|1.2MB/s"
+    network: ws
+    port: 443
+    server: 185.37.8.234
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_21|1.1MB/s"
+    network: ws
+    port: 443
+    server: 140.238.208.210
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_22|1.0MB/s"
+    network: ws
+    port: 443
+    server: 103.177.249.122
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_23|1.2MB/s"
+    network: ws
+    port: 443
+    server: 89.110.71.35
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_24|1.1MB/s"
+    network: ws
+    port: 443
+    server: 5.35.32.238
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_25|1.5MB/s"
+    network: ws
+    port: 443
+    server: 79.132.139.128
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_26|1.4MB/s"
+    network: ws
+    port: 443
+    server: 146.103.33.57
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_27|1.5MB/s"
+    network: ws
+    port: 443
+    server: 80.76.35.90
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_28|1.4MB/s"
+    network: ws
+    port: 443
+    server: 64.188.68.11
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_29|572KB/s"
+    network: ws
+    port: 443
+    server: 95.164.90.133
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_30|1.3MB/s"
+    network: ws
+    port: 443
+    server: 185.232.204.222
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_31|695KB/s"
+    network: ws
+    port: 443
+    server: 31.15.19.10
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_32|904KB/s"
+    network: ws
+    port: 443
+    server: 93.183.91.207
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_33|1.2MB/s"
+    network: ws
+    port: 443
+    server: 43.250.54.63
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_34|1.6MB/s"
+    network: ws
+    port: 443
+    server: 45.89.63.101
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_35|837KB/s"
+    network: ws
+    port: 443
+    server: 45.131.187.210
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+    ws-opts:
+      headers:
+        Host: ger.wafer.fun
+      path: /Ts7kIzm7a8mYEOrQCXl1
+    servername: ger.wafer.fun
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_36|816KB/s"
+    network: ws
+    port: 443
+    server: 80.76.35.90
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_37|1.3MB/s"
+    network: ws
+    port: 443
+    server: 81.22.132.47
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+    ws-opts:
+      headers:
+        Host: cloudflare.vhub.pro
+      path: /websocket
+    servername: cloudflare.vhub.pro
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F1\U0001F1F9LT_1|1.3MB/s"
+    port: 443
+    reality-opts:
+      public-key: 3ioSDy998cS2J-O6M9rzh8fDaybnOJ2PDPfd7ulFpH4
+      short-id: "51941b7edff5bc55"
+    server: lt-vlss.w-mebel.pro
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
+    network: tcp
+    servername: w-mebel.pro
   - client-fingerprint: edge
     flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1FBLV_1|545KB/s"
+    name: "\U0001F1F1\U0001F1FBLV_1|1.2MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -272,28 +795,9 @@ proxies:
     uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
     xudp: true
     servername: ajax.googleapis.com
-  - name: "\U0001F1ED\U0001F1F0HK_2|552KB/s"
-    network: ws
-    port: 2086
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: bba14c1d-f08c-4c9a-ac87-cf85d38d8aff
-    ws-opts:
-      headers:
-        Host: tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
-      path: >-
-        /eyJqdW5rIjoiRGtvTEVIeGU4cXFaTVVZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -308,7 +812,7 @@ proxies:
     servername: www.mozilla.org
   - client-fingerprint: edge
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -321,6 +825,51 @@ proxies:
     uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
     xudp: true
     servername: ajax.googleapis.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s"
+    network: tcp
+    port: 26968
+    reality-opts:
+      public-key: IwMxv6Qwg6pWExtNPebIfOc6nhG82nNyKYVlKQwOPhI
+      short-id: "edec63"
+    server: doufovh.papstore.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9b4986aa-c166-49ca-b5dc-56469dab532f
+    xudp: true
+    servername: images-na.ssl-images-amazon.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_1|5.1MB/s"
+    network: tcp
+    port: 29545
+    reality-opts:
+      public-key: FGDyizfv3NMbMAUExJGHZ4Pqkq9794Zg_JWfufkXnhI
+      short-id: "722f0f29c8"
+    server: blunt.papapple.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9b4986aa-c166-49ca-b5dc-56469dab532f
+    xudp: true
+    servername: academy.nvidia.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_2|3.7MB/s"
+    network: tcp
+    port: 36667
+    reality-opts:
+      public-key: i4smxojAlvqK3M7rk6Qf4WHp4m6drZQpSaICbuvn7ko
+      short-id: "8a4c39dbee"
+    server: shown.papapple.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9b4986aa-c166-49ca-b5dc-56469dab532f
+    xudp: true
+    servername: updates.cdn-apple.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
