@@ -1,69 +1,111 @@
 proxies:
-  - name: "\U0001F1EE\U0001F1F3IN_1|2.6MB/s"
-    password: ''
-    port: 1088
-    server: 144.24.111.128
+  - auth: Apt1923_N9x234gn_Nal5Nx3j_s
+    name: "\U0001F1F5\U0001F1F1PL_1|548KB/s"
+    password: Apt1923_N9x234gn_Nal5Nx3j_s
+    port: 8443
+    server: 92.118.205.239
     skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1FA\U0001F1F8US_1|3.4MB/s"
-    password: ''
-    port: 1080
-    server: 212.58.132.5
+    sni: grape-power-pl.ddnsguru.com
+    type: hysteria2
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s"
+    network: xhttp
+    port: 2083
+    reality-opts:
+      public-key: BUX5SiLVfg6xJeJWXfrw2mGGPTGn9Q7X7XQRrg0hdkA
+      short-id: "13f19f"
+    server: DE248RX.fillmoo.pro
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5c9c9331-c42f-4be4-998a-5daa22ecdebb
+    xhttp-opts:
+      mode: auto
+      path: /
+    xudp: true
+    servername: www.samsung.com
+  - down: ''
+    fingerprint: 236656426d6094bd5dac2054533d713854d14ce89a41ca0da7e9a6a14d2a7edf
+    name: "\U0001F1EE\U0001F1F3IN_1|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 820b8f3a-4c7a-4d19-9e75-4c8e109454b5
+    port: 51000
+    server: 144.24.109.215
+    skip-cert-verify: false
+    sni: cn.cremedelamer.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: 395981c03224ffc29cdda4e168cada627e08bba5af89cc711e6c136580445bf4
+    name: "\U0001F1E7\U0001F1F7BR_1|1.4MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 820b8f3a-4c7a-4d19-9e75-4c8e109454b5
+    port: 51000
+    server: 144.22.197.28
+    skip-cert-verify: false
+    sni: cn.cremedelamer.com
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1E6\U0001F1FAAU_1|1.1MB/s"
+    port: 443
+    server: 103.62.50.130
     skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1FB\U0001F1F3VN_1|9.8MB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
-    port: 40014
-    server: hk4.catzl.top
-    type: anytls
+    tls: true
+    type: http
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: api.v1.StreamService
+    name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
+    network: grpc
+    port: 443
+    reality-opts:
+      public-key: HAqqALwpxu_tx-IFcYaZWVshVKyKttGGrxoEfuP_Lgs
+      short-id: "fde63d9c58210bf9"
+    server: core.noneok.com
+    tls: true
+    type: vless
     udp: true
-    sni: hk4.catzl.top
-  - name: "\U0001F1F0\U0001F1F7KR_1|2.8MB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
-    port: 40041
-    server: kr1.catzl.top
-    type: anytls
+    uuid: 340e4de3-144b-49c4-ad72-b49b35713728
+    xudp: true
+    servername: core.noneok.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|1.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 45.131.212.6
+    tls: true
+    type: vless
     udp: true
-    sni: kr1.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
-    port: 40021
-    server: us1.catzl.top
-    type: anytls
+    uuid: 2a77a470-315c-493d-b690-59b814a804cb
+    xudp: true
+    servername: abuse.sellflow.org
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_2|731KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 45.131.212.14
+    tls: true
+    type: vless
     udp: true
-    sni: us1.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_1|4.5MB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
-  - name: "\U0001F1F0\U0001F1F7KR_2|3.4MB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
-    port: 40042
-    server: kr2.catzl.top
-    type: anytls
-    udp: true
-    sni: kr2.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_1|4.3MB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_2|796KB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
-    port: 40072
-    server: tw2.catzl.top
-    type: anytls
-    udp: true
-    sni: tw2.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-    password: f44c0ba9-3ae3-489c-90a3-0ff0c2edb9b9
+    uuid: 2a77a470-315c-493d-b690-59b814a804cb
+    xudp: true
+    servername: abuse.sellflow.org
+  - name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
+    password: a5b6d3d5-898c-4581-906a-cf17d35d6a23
     port: 40022
     server: us2.catzl.top
     type: anytls
