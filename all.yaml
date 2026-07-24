@@ -1,35 +1,33 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
-      port: 9002
-      server: 84.239.49.245
-      skip-cert-verify: true
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: neurex
+      name: "\U0001F1E6\U0001F1F9AT_1|1019KB/s"
+      network: grpc
+      port: 16923
+      reality-opts:
+        public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+        short-id: 10ffb85da1c2d986
+      server: 152.53.47.153
+      servername: api-maps.yandex.ru
       tls: true
-      type: http
+      type: vless
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|607KB/s"
-      port: 9002
-      server: 84.239.49.209
+      uuid: df16d19f-4f64-4655-9906-10922ae8fdb2
+    - auth: nNS3WyiBOL
+      name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
+      obfs: salamander
+      obfs-password: vwrgaergG
+      password: nNS3WyiBOL
+      port: 19108
+      server: 178.128.65.195
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|1.5MB/s"
-      port: 9002
-      server: 84.239.49.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|645KB/s"
-      port: 9002
-      server: 84.239.49.247
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
+      sni: aws.amazon.com
+      type: hysteria2
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s"
+      name: ❓Other_1|1.6MB/s
       network: ws
       port: 443
       server: 18.139.162.187
@@ -44,20 +42,9 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /glasspanel/0038ba35_0_1bdabe931208/
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F9\U0001F1FCTW_1|3.3MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: 817aa69.default.nintendo.com:112719
-        mode: tls
-      port: 2377
-      server: 118.163.200.38
-      type: ss
-      udp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_2|1.6MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|2.2MB/s"
       network: ws
       port: 8080
       server: 20.191.143.151
@@ -72,39 +59,11 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
         path: /glasspanel/0038ba35_0_1bdabe931208/
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F9\U0001F1FCTW_2|3.8MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: 817aa69.default.nintendo.com:112719
-        mode: tls
-      port: 2377
-      server: 118.163.200.39
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1|561KB/s"
-      network: ws
-      port: 10243
-      server: 150.230.204.21
-      servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
-      ws-opts:
-        headers:
-            Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /glasspanel/0038ba35_0_1bdabe931208/
-      xudp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|879KB/s"
       port: 20088
       protocol: udp
       server: 5.83.129.153
@@ -112,23 +71,28 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "500"
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_3|2.7MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
-      server: vpn-tw-002.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-tw-002.fastervpn.world
-      type: hysteria2
-      up: ""
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: api.v1.StreamService
+      name: "\U0001F1E9\U0001F1EADE_2|1.9MB/s"
+      network: grpc
+      port: "443"
+      reality-opts:
+        public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
+        short-id: 5bc76436f2905fba
+      server: store.noneok.com
+      servername: store.noneok.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 340e4de3-144b-49c4-ad72-b49b35713728
+      xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
       network: ws
       port: "443"
       server: 104.18.16.56
@@ -140,18 +104,104 @@ proxies:
       ws-opts:
         headers:
             Host: l-j-v-MiTiVPN---MiTiVPN-oo.App-Cloud.ir
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
-      obfs: salamander
-      obfs-password: vwrgaergG
-      password: nNS3WyiBOL
-      port: "19108"
-      server: 178.128.65.195
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2|548KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A
+        short-id: bd8a588cebc3395a
+      server: ltu-02.node.lumixnet.com
+      servername: ltu-02.node.lumixnet.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8645697d-51c1-4e90-aca5-ba63a0392f11
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_2|2.0MB/s"
+      network: tcp
+      port: "40118"
+      reality-opts:
+        public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+        short-id: 5895914d
+      server: apinbxs.eovay.com
+      servername: www.lamer.com.sg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
+      password: 89938622-e997-43cf-a023-9d694fe27aae
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s"
+      password: 0e0a0170-b81d-43d1-9496-4067850a206b
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|3.1MB/s"
+      password: c4c49b23-6893-4058-9120-0c724a8b80b2
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_5|852KB/s"
+      password: c4c49b23-6893-4058-9120-0c724a8b80b2
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|603KB/s"
+      password: 0e0a0170-b81d-43d1-9496-4067850a206b
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_6|555KB/s"
+      password: dongtaiwang.com
+      port: 44356
+      server: hy2.561891.xyz
       skip-cert-verify: true
-      sni: aws.amazon.com
+      sni: hy2.561891.xyz
       type: hysteria2
-      up: ""
+      udp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FARU_1|919KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+        short-id: d67ec5a8fc40ebea
+      server: tur02.myxasecure.space
+      servername: tur02.myxasecure.space
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+      xudp: true
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1E9\U0001F1EADE_3|2.9MB/s"
+      password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+      port: 17306
+      server: 89.144.35.232
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: tuic
+      udp: true
+      udp-relay-mode: native
+      uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
