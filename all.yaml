@@ -1,7 +1,45 @@
 proxies:
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 042a1881-44e4-4781-bd40-bf75164faf4f
+      port: "443"
+      server: germany1.noesissite.ru
+      skip-cert-verify: false
+      sni: germany1.noesissite.ru
+      type: hysteria2
+      up: ""
     - auth: a39361a0-9f4b-4475-b616-75b23fe2e8eb
       down: 600
-      name: "\U0001F1F8\U0001F1ECSG_1|5.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|2.7MB/s"
+      obfs: salamander
+      obfs-password: Ml0mynbAAQFLiEHW
+      password: a39361a0-9f4b-4475-b616-75b23fe2e8eb
+      port: 16412
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: caltech.edu
+      type: hysteria2
+      udp: true
+      up: 600
+    - auth: 68a4360c-abcd-4706-8a0e-12b15f783caa
+      down: 600
+      name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s"
+      obfs: salamander
+      obfs-password: jeYOv5JGpoD18RDV
+      password: 68a4360c-abcd-4706-8a0e-12b15f783caa
+      port: 10000
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: waseda.jp
+      type: hysteria2
+      udp: true
+      up: 600
+    - auth: a39361a0-9f4b-4475-b616-75b23fe2e8eb
+      down: 600
+      name: "\U0001F1F8\U0001F1ECSG_1|3.8MB/s"
       obfs: salamander
       obfs-password: SUkzQojZTehSMtgv
       password: a39361a0-9f4b-4475-b616-75b23fe2e8eb
@@ -12,33 +50,114 @@ proxies:
       type: hysteria2
       udp: true
       up: 600
-    - name: ❓Other_1|788KB/s
+    - auth: 68a4360c-abcd-4706-8a0e-12b15f783caa
+      down: 600
+      name: "\U0001F1ED\U0001F1F0HK_1|4.8MB/s"
+      obfs: salamander
+      obfs-password: HjyTyVI8DTFN3drr
+      password: 68a4360c-abcd-4706-8a0e-12b15f783caa
+      port: 58977
+      server: ace.fffo.cc
+      skip-cert-verify: false
+      sni: hk.xianggang.fifafa.vip
+      type: hysteria2
+      udp: true
+      up: 600
+    - auth: 68a4360c-abcd-4706-8a0e-12b15f783caa
+      down: 600
+      name: "\U0001F1F9\U0001F1EDTH_1|4.0MB/s"
+      obfs: salamander
+      obfs-password: hZyUD1BY0JOe4Gdz
+      password: 68a4360c-abcd-4706-8a0e-12b15f783caa
+      port: 58978
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: chula.ac.th
+      type: hysteria2
+      udp: true
+      up: 600
+    - auth: a39361a0-9f4b-4475-b616-75b23fe2e8eb
+      down: 600
+      name: "\U0001F1ED\U0001F1F0HK_2|5.4MB/s"
+      obfs: salamander
+      obfs-password: HjyTyVI8DTFN3drr
+      password: a39361a0-9f4b-4475-b616-75b23fe2e8eb
+      port: 58977
+      server: ace.fffo.cc
+      skip-cert-verify: false
+      sni: hk.xianggang.fifafa.vip
+      type: hysteria2
+      udp: true
+      up: 600
+    - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
       password: cd34ab03-3c3f-4409-8ab3-e29c2a343320
       port: 40021
       server: us1.catzl.top
       type: anytls
       udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s"
-      password: cd34ab03-3c3f-4409-8ab3-e29c2a343320
-      port: 40072
-      server: tw2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s"
       password: cd34ab03-3c3f-4409-8ab3-e29c2a343320
       port: 40022
       server: us2.catzl.top
       type: anytls
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s"
+    - auth: a39361a0-9f4b-4475-b616-75b23fe2e8eb
+      down: 600
+      name: "\U0001F1F9\U0001F1EDTH_2|7.7MB/s"
+      obfs: salamander
+      obfs-password: hZyUD1BY0JOe4Gdz
+      password: a39361a0-9f4b-4475-b616-75b23fe2e8eb
+      port: 58978
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: chula.ac.th
+      type: hysteria2
+      udp: true
+      up: 600
+    - name: "\U0001F1EF\U0001F1F5JP_2|2.0MB/s"
       password: cd34ab03-3c3f-4409-8ab3-e29c2a343320
       port: 40055
       server: jp5.catzl.top
       type: anytls
       udp: true
+    - auth: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      name: "\U0001F1F9\U0001F1EDTH_3|3.5MB/s"
+      obfs: salamander
+      obfs-password: hZyUD1BY0JOe4Gdz
+      password: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      port: 58978
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: chula.ac.th
+      type: hysteria2
+      udp: true
+    - auth: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      name: "\U0001F1ED\U0001F1F0HK_3|3.8MB/s"
+      obfs: salamander
+      obfs-password: HjyTyVI8DTFN3drr
+      password: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      port: 58977
+      server: ace.fffo.cc
+      skip-cert-verify: false
+      sni: hk.xianggang.fifafa.vip
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FCTW_1|3.3MB/s"
+      network: tcp
+      port: 34904
+      reality-opts:
+        public-key: MBWlhBFPeKpuWPVee20IK_3KHqz6vVhdct04h3SIthM
+      server: ace.fffo.cc
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0bed0052-c091-43b3-977a-77b0e52139fd
     - client-fingerprint: ios
       flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1EDTH_1|2.9MB/s"
+      name: "\U0001F1F9\U0001F1EDTH_4|3.0MB/s"
       network: tcp
       port: 34511
       reality-opts:
@@ -49,8 +168,21 @@ proxies:
       type: vless
       udp: true
       uuid: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
+      network: tcp
+      port: 18908
+      reality-opts:
+        public-key: kjewPfL0X7EIlyGmly1ehwxC5v68aP0OD6w5AJOF5y4
+      server: ace.fffo.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0bed0052-c091-43b3-977a-77b0e52139fd
     - auth: 454ce700-b17c-42de-b510-274a0ebcac71
-      name: "\U0001F1F8\U0001F1ECSG_2|3.4MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_2|4.4MB/s"
       obfs: salamander
       obfs-password: SUkzQojZTehSMtgv
       password: 454ce700-b17c-42de-b510-274a0ebcac71
@@ -60,9 +192,22 @@ proxies:
       sni: sg.xinjiapo.fifafa.vip
       type: hysteria2
       udp: true
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FCTW_2|1.3MB/s"
+      network: tcp
+      port: 34904
+      reality-opts:
+        public-key: MBWlhBFPeKpuWPVee20IK_3KHqz6vVhdct04h3SIthM
+      server: ace.fffo.cc
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_2|2.0MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_3|1.2MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -73,21 +218,32 @@ proxies:
       type: vless
       udp: true
       uuid: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
-    - client-fingerprint: qq
+    - auth: 454ce700-b17c-42de-b510-274a0ebcac71
+      name: "\U0001F1EF\U0001F1F5JP_4|2.9MB/s"
+      obfs: salamander
+      obfs-password: jeYOv5JGpoD18RDV
+      password: 454ce700-b17c-42de-b510-274a0ebcac71
+      port: 10000
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: waseda.jp
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_3|2.3MB/s"
+      name: "\U0001F1F9\U0001F1EDTH_5|3.4MB/s"
       network: tcp
-      port: 443
+      port: 34511
       reality-opts:
-        public-key: By_NWNm2JKt4cGvoCTGCZYYXqHBFXMoI371o6lCNBGs
-      server: 156.246.93.110
-      servername: www.amazon.com
+        public-key: eM_KnpK3_i02Yhfa5R7ChtBtUSsSVLJDzTjRTt94NUg
+      server: sg.dickaws.top
+      servername: www.chula.ac.th
       tls: true
       type: vless
       udp: true
       uuid: 454ce700-b17c-42de-b510-274a0ebcac71
     - auth: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
-      name: "\U0001F1F8\U0001F1ECSG_3|3.8MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_3|4.2MB/s"
       obfs: salamander
       obfs-password: SUkzQojZTehSMtgv
       password: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
@@ -97,8 +253,100 @@ proxies:
       sni: sg.xinjiapo.fifafa.vip
       type: hysteria2
       udp: true
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
+      network: tcp
+      port: 18908
+      reality-opts:
+        public-key: kjewPfL0X7EIlyGmly1ehwxC5v68aP0OD6w5AJOF5y4
+      server: ace.fffo.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
     - auth: 0bed0052-c091-43b3-977a-77b0e52139fd
-      name: "\U0001F1F8\U0001F1ECSG_4|3.8MB/s"
+      name: "\U0001F1F9\U0001F1EDTH_6|3.2MB/s"
+      obfs: salamander
+      obfs-password: hZyUD1BY0JOe4Gdz
+      password: 0bed0052-c091-43b3-977a-77b0e52139fd
+      port: 58978
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: chula.ac.th
+      type: hysteria2
+      udp: true
+    - auth: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      name: "\U0001F1FA\U0001F1F8US_6|2.3MB/s"
+      obfs: salamander
+      obfs-password: Ml0mynbAAQFLiEHW
+      password: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      port: 16412
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: caltech.edu
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_7|820KB/s"
+      network: tcp
+      port: 18908
+      reality-opts:
+        public-key: kjewPfL0X7EIlyGmly1ehwxC5v68aP0OD6w5AJOF5y4
+      server: ace.fffo.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 454ce700-b17c-42de-b510-274a0ebcac71
+    - auth: 0bed0052-c091-43b3-977a-77b0e52139fd
+      name: "\U0001F1ED\U0001F1F0HK_4|3.9MB/s"
+      obfs: salamander
+      obfs-password: HjyTyVI8DTFN3drr
+      password: 0bed0052-c091-43b3-977a-77b0e52139fd
+      port: 58977
+      server: ace.fffo.cc
+      skip-cert-verify: false
+      sni: hk.xianggang.fifafa.vip
+      type: hysteria2
+      udp: true
+    - auth: 0bed0052-c091-43b3-977a-77b0e52139fd
+      name: "\U0001F1EF\U0001F1F5JP_5|3.6MB/s"
+      obfs: salamander
+      obfs-password: jeYOv5JGpoD18RDV
+      password: 0bed0052-c091-43b3-977a-77b0e52139fd
+      port: 10000
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: waseda.jp
+      type: hysteria2
+      udp: true
+    - auth: 0bed0052-c091-43b3-977a-77b0e52139fd
+      name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
+      obfs: salamander
+      obfs-password: Ml0mynbAAQFLiEHW
+      password: 0bed0052-c091-43b3-977a-77b0e52139fd
+      port: 16412
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: caltech.edu
+      type: hysteria2
+      udp: true
+    - auth: 454ce700-b17c-42de-b510-274a0ebcac71
+      name: "\U0001F1FA\U0001F1F8US_9|2.0MB/s"
+      obfs: salamander
+      obfs-password: Ml0mynbAAQFLiEHW
+      password: 454ce700-b17c-42de-b510-274a0ebcac71
+      port: 16412
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: caltech.edu
+      type: hysteria2
+      udp: true
+    - auth: 0bed0052-c091-43b3-977a-77b0e52139fd
+      name: "\U0001F1F8\U0001F1ECSG_4|2.6MB/s"
       obfs: salamander
       obfs-password: SUkzQojZTehSMtgv
       password: 0bed0052-c091-43b3-977a-77b0e52139fd
@@ -108,21 +356,54 @@ proxies:
       sni: sg.xinjiapo.fifafa.vip
       type: hysteria2
       udp: true
-    - client-fingerprint: safari
+    - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_4|1.8MB/s"
+      name: "\U0001F1F9\U0001F1EDTH_7|2.6MB/s"
       network: tcp
-      port: 443
+      port: 34511
       reality-opts:
-        public-key: By_NWNm2JKt4cGvoCTGCZYYXqHBFXMoI371o6lCNBGs
-      server: 156.246.93.110
-      servername: www.amazon.com
+        public-key: eM_KnpK3_i02Yhfa5R7ChtBtUSsSVLJDzTjRTt94NUg
+      server: sg.dickaws.top
+      servername: www.chula.ac.th
       tls: true
       type: vless
       udp: true
       uuid: 0bed0052-c091-43b3-977a-77b0e52139fd
+    - auth: 454ce700-b17c-42de-b510-274a0ebcac71
+      name: "\U0001F1F9\U0001F1EDTH_8|3.7MB/s"
+      obfs: salamander
+      obfs-password: hZyUD1BY0JOe4Gdz
+      password: 454ce700-b17c-42de-b510-274a0ebcac71
+      port: 58978
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: chula.ac.th
+      type: hysteria2
+      udp: true
+    - auth: 454ce700-b17c-42de-b510-274a0ebcac71
+      name: "\U0001F1ED\U0001F1F0HK_5|3.3MB/s"
+      obfs: salamander
+      obfs-password: HjyTyVI8DTFN3drr
+      password: 454ce700-b17c-42de-b510-274a0ebcac71
+      port: 58977
+      server: ace.fffo.cc
+      skip-cert-verify: false
+      sni: hk.xianggang.fifafa.vip
+      type: hysteria2
+      udp: true
+    - auth: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      name: "\U0001F1EF\U0001F1F5JP_6|2.6MB/s"
+      obfs: salamander
+      obfs-password: jeYOv5JGpoD18RDV
+      password: 0131d47d-8d2a-4002-9553-0d4ed4e0ca5a
+      port: 10000
+      server: ace.fffo.cc
+      skip-cert-verify: true
+      sni: waseda.jp
+      type: hysteria2
+      udp: true
     - auth: nNS3WyiBOL
-      name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_10|1.6MB/s"
       obfs: salamander
       obfs-password: vwrgaergG
       password: nNS3WyiBOL
@@ -131,59 +412,90 @@ proxies:
       skip-cert-verify: true
       sni: aws.amazon.com
       type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|921KB/s"
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 45.131.212.22
-      servername: de.sellflow.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: ❓Other_2|1.2MB/s
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 45.131.212.17
-      servername: de.sellflow.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0108c657-a9bd-4c99-9179-74050cf78889
     - down: ""
-      fingerprint: 06c9289b97b5b4d2a002cce385e52ed6a434c9e0b4e56fc8eb7f608b7079ea9d
-      name: "\U0001F1E9\U0001F1EADE_2|1.8MB/s"
-      obfs: salamander
-      obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-      password: T-me-V2RayyNGvpn
-      port: "443"
-      server: 91.107.178.22
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EADE_2|1.7MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+      port: "8443"
+      server: 76.164.202.213
+      skip-cert-verify: false
+      sni: mercedes-grape.yyuyy.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1FB\U0001F1F3VN_1|769KB/s"
+      network: tcp
+      password: 7e70223b-f331-41d5-9313-02b8d2df2885
+      port: "20029"
+      server: d3.catcat321.com
       skip-cert-verify: true
-      sni: www.refersion.com
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F9\U0001F1FCTW_3|1.8MB/s"
+      network: tcp
+      password: 7e70223b-f331-41d5-9313-02b8d2df2885
+      port: "20109"
+      server: d3.catcat321.com
+      skip-cert-verify: true
+      sni: TW.catxstar.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_5|692KB/s"
+      network: tcp
+      password: 7e70223b-f331-41d5-9313-02b8d2df2885
+      port: "20072"
+      server: d3.catcat321.com
+      skip-cert-verify: true
+      sni: SG.catxstar.com
+      type: trojan
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
+      port: "443"
+      server: ro.h2corp.org
+      skip-cert-verify: false
+      sni: ro.h2corp.org
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_3|520KB/s"
-      obfs: salamander
-      obfs-password: xK9mN2pLq5vR8wB3
+      name: "\U0001F1EF\U0001F1F5JP_7|804KB/s"
+      obfs: ""
+      obfs-password: ""
       password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-      port: "20378"
-      server: us2.dexlos.com
+      port: "21762"
+      server: jp9.dexlos.com
       skip-cert-verify: false
       sni: ""
       type: hysteria2
       up: ""
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1EAAE_1|1.8MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|699KB/s"
+      network: tcp
+      port: "50443"
+      reality-opts:
+        public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
+        short-id: ""
+      server: 89.208.113.54
+      servername: www.icloud.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1EAAE_1|798KB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -195,4 +507,22 @@ proxies:
       type: vless
       udp: true
       uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|598KB/s"
+      network: ws
+      port: "443"
+      server: 208.103.161.96
+      servername: polshaov.ochmaybrooooo.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc959c72-5891-459d-8b20-81fa0fe0baa2
+      ws-opts:
+        headers:
+            Host: polshaov.ochmaybrooooo.online
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: /
       xudp: true
