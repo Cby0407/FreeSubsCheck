@@ -3,7 +3,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: TunService
-    name: "\U0001F1F9\U0001F1F7TR_1|942KB/s"
+    name: "\U0001F1F9\U0001F1F7TR_1|2.7MB/s"
     network: grpc
     port: 8443
     reality-opts:
@@ -16,71 +16,9 @@ proxies:
     uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
     xudp: true
     servername: download.nvidia.com
-  - name: "\U0001F1F3\U0001F1F1NL_1|645KB/s"
-    network: tcp
-    port: 62145
-    server: 141.148.235.102
-    type: vless
-    udp: true
-    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-    xudp: true
-  - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: vpn-fr-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-fr-002.fastervpn.world
-    type: hysteria2
-  - name: "\U0001F1F5\U0001F1F1PL_1|730KB/s"
-    password: e04a51d1-0450-4919-b924-bd08501934bf
-    port: 443
-    server: 2.59.163.171
-    sni: 2.59.163.171.nip.io
-    type: hysteria2
-  - name: "\U0001F1F7\U0001F1FARU_1|1.9MB/s"
-    password: e04a51d1-0450-4919-b924-bd08501934bf
-    port: 443
-    server: 80.66.78.105
-    sni: 80.66.78.105.nip.io
-    type: hysteria2
-  - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-    name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
-    password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-    port: 443
-    server: wopa3.api3-max.ru
-    skip-cert-verify: true
-    sni: wopa3.api3-max.ru
-    type: hysteria2
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1EDCH_1|2.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-    port: 25447
-    server: 144.31.107.101
-    skip-cert-verify: true
-    sni: devideo.h2corp.org
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|684KB/s"
-    obfs: ''
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-    auth-str: dongtaiwang.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F9\U0001F1F7TR_2|1.1MB/s"
+    name: "\U0001F1F9\U0001F1F7TR_2|2.1MB/s"
     network: xhttp
     port: 443
     reality-opts:
@@ -92,53 +30,132 @@ proxies:
     udp: true
     uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
     xhttp-opts:
+      host: download.nvidia.com
       mode: auto
       path: /
     xudp: true
     servername: download.nvidia.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|1.0MB/s"
-    network: ws
-    password: 5xjmr1dz66pgsew0
-    port: 8443
-    server: undef.network
-    skip-cert-verify: false
-    sni: com.digitalposts.dpdns.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /bkdicj
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1EASE_1|1.2MB/s"
+    name: "\U0001F1E8\U0001F1F3CN_1|2.4MB/s"
     network: xhttp
     port: 443
     reality-opts:
-      public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+      public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
       short-id: ''
-    server: 170.168.99.3
+    server: 157.22.19.5
     tls: true
     type: vless
     udp: true
-    uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+    uuid: c97b2158-64c9-1f55-8167-72970d347288
     xhttp-opts:
       mode: auto
       path: /
     xudp: true
-    servername: cdn.steamstatic.com
-  - cipher: aes-256-cfb
-    name: "\U0001F1F8\U0001F1EASE_2|1.2MB/s"
-    password: amazonskr05
-    port: 443
-    server: 51.20.125.180
-    type: ss
+    servername: download.nvidia.com
+  - name: "\U0001F1F9\U0001F1FCTW_1|646KB/s"
+    password: bdb4905c-fba8-47ff-b2a2-a51412218f86
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
     udp: true
+    sni: tw2.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_2|5.0MB/s"
+    password: bdb4905c-fba8-47ff-b2a2-a51412218f86
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_1|5.2MB/s"
+    password: bdb4905c-fba8-47ff-b2a2-a51412218f86
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_1|3.5MB/s"
+    password: bdb4905c-fba8-47ff-b2a2-a51412218f86
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|3.3MB/s"
+    password: bdb4905c-fba8-47ff-b2a2-a51412218f86
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - alpn:
+      - h3
+    auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+    name: "\U0001F1E8\U0001F1EDCH_1|1.6MB/s"
+    password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+    port: 25447
+    server: 144.31.107.101
+    skip-cert-verify: true
+    sni: devideo.h2corp.org
+    type: hysteria2
+  - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    name: "\U0001F1EB\U0001F1F7FR_1|2.6MB/s"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-fr-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-fr-002.fastervpn.world
+    type: hysteria2
+  - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+    name: "\U0001F1EC\U0001F1E7GB_1|3.3MB/s"
+    password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+    port: 443
+    server: wopa7.api3-max.ru
+    skip-cert-verify: true
+    sni: wopa7.api3-max.ru
+    type: hysteria2
+  - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+    name: "\U0001F1EC\U0001F1E7GB_2|3.1MB/s"
+    password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+    port: 443
+    server: taga9.api3-max.ru
+    skip-cert-verify: true
+    sni: taga9.api3-max.ru
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_2|2.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-fr-002.fastervpn.world
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
+    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+    port: 20041
+    server: hkdcrtc-e.catcat321.com
+    skip-cert-verify: true
+    sni: de.catxstar.com
+    type: trojan
+    udp: true
+    network: tcp
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_1|3.3MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: e04a51d1-0450-4919-b924-bd08501934bf
+    port: 443
+    server: 80.66.78.105
+    skip-cert-verify: false
+    sni: 80.66.78.105.nip.io
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
