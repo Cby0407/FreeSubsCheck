@@ -1,75 +1,85 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EASE_1|1.4MB/s"
-    network: xhttp
+  - name: "\U0001F1F7\U0001F1F4RO_1|519KB/s"
+    password: None
+    port: 9002
+    server: 84.239.14.156
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - auth: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+    name: "\U0001F1F7\U0001F1FARU_1|785KB/s"
+    password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
     port: 443
-    reality-opts:
-      public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-      short-id: ''
-    server: 170.168.99.3
-    tls: true
+    server: usa1.spectrumproxy.shop
+    skip-cert-verify: true
+    sni: usa1.spectrumproxy.shop
+    type: hysteria2
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
+    network: tcp
+    packet-encoding: xudp
+    port: 62145
+    server: 141.148.229.153
     type: vless
-    udp: true
-    uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    servername: cdn.steamstatic.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F9\U0001F1F7TR_1|2.1MB/s"
-    network: xhttp
+    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  - name: "\U0001F1E8\U0001F1F4CO_1|719KB/s"
+    network: tcp
+    packet-encoding: xudp
+    port: 62145
+    server: 149.130.190.189
+    type: vless
+    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  - name: "\U0001F1E8\U0001F1EDCH_1|1.0MB/s"
+    port: 9443
+    server: 37.120.213.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E8\U0001F1F4CO_2|788KB/s"
+    port: 62145
+    server: 157.137.216.150
+    type: vless
+    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+    network: tcp
+  - name: "\U0001F1E8\U0001F1F4CO_3|804KB/s"
+    port: 62145
+    server: 157.137.224.94
+    type: vless
+    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+    network: tcp
+  - name: "\U0001F1FA\U0001F1F8US_1|891KB/s"
+    password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
     port: 443
-    reality-opts:
-      public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-      short-id: ''
-    server: 170.168.97.3
+    server: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+    sni: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
     tls: true
-    type: vless
-    udp: true
-    uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    servername: download.nvidia.com
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: TunService
-    name: "\U0001F1F9\U0001F1F7TR_2|2.1MB/s"
-    network: grpc
-    port: 8443
-    reality-opts:
-      public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-      short-id: ''
-    server: 170.168.97.3
+    type: http
+    username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.3MB/s"
+    port: 9443
+    server: 37.120.233.34
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
+  - name: "\U0001F1F3\U0001F1F1NL_2|1006KB/s"
+    password: ''
+    port: 1080
+    server: 5.255.117.127
+    skip-cert-verify: true
+    type: socks5
     udp: true
-    uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-    xudp: true
-    servername: download.nvidia.com
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1F3CN_1|1.8MB/s"
-    network: xhttp
+    username: ''
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.8MB/s"
+    password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
     port: 443
-    reality-opts:
-      public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
-      short-id: ''
-    server: 157.22.19.5
+    server: 2af4e0ee-ta1og0-ta6lxc-jjv2.sg.oshuawei.com
+    sni: 2af4e0ee-ta1og0-ta6lxc-jjv2.sg.oshuawei.com
     tls: true
-    type: vless
-    udp: true
-    uuid: c97b2158-64c9-1f55-8167-72970d347288
-    xhttp-opts: {}
-    xudp: true
-    servername: download.nvidia.com
+    type: http
+    username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EA\U0001F1F8ES_1|1.5MB/s"
+    name: "\U0001F1EA\U0001F1F8ES_1|1.2MB/s"
     network: xhttp
     port: 443
     reality-opts:
@@ -85,197 +95,64 @@ proxies:
       path: /
     xudp: true
     servername: download.nvidia.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_1|1.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|518KB/s"
+    network: ws
     port: 443
-    server: usa1.spectrumproxy.shop
-    skip-cert-verify: false
-    sni: usa1.spectrumproxy.shop
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|514KB/s"
-    network: tcp
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    port: 20041
-    server: Hkdcrtc-e.catcat321.com
-    skip-cert-verify: true
-    sni: de.catxstar.com
-    type: trojan
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_1|611KB/s"
-    password: test123
-    port: 1080
-    server: 185.145.99.41
-    skip-cert-verify: true
-    type: socks5
-    username: test123
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|567KB/s"
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    port: 20004
-    server: oplosgru-c.catcat321.com
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: oplosgru-c.catcat321.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_2|636KB/s"
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    port: 20004
-    server: oplosgru-c.catcat321.com
-    skip-cert-verify: false
-    sni: hk.catxstar.com
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1EF\U0001F1F5JP_3|5.1MB/s"
-    password: 7c2e8db6-32df-4dd9-acfb-af31ea8b7a30
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-    password: 7c2e8db6-32df-4dd9-acfb-af31ea8b7a30
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: "\U0001F1FB\U0001F1F3VN_1|1.0MB/s"
-    password: 7c2e8db6-32df-4dd9-acfb-af31ea8b7a30
-    port: 11683
-    server: vn3.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn3.nbjc.top
-  - name: "\U0001F1FB\U0001F1F3VN_2|641KB/s"
-    password: 7c2e8db6-32df-4dd9-acfb-af31ea8b7a30
-    port: 11681
-    server: vn1.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn1.nbjc.top
-  - name: "\U0001F1F0\U0001F1F7KR_1|589KB/s"
-    password: 7c2e8db6-32df-4dd9-acfb-af31ea8b7a30
-    port: 40042
-    server: kr2.catzl.top
-    type: anytls
-    udp: true
-    sni: kr2.catzl.top
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 9149
-    server: 16.162.22.218
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - name: "\U0001F1F8\U0001F1ECSG_2|681KB/s"
-    password: BxceQaOe
-    port: 9149
-    server: 16.162.22.218
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_3|699KB/s"
-    password: BxceQaOe
-    port: 9149
-    server: 16.162.22.218
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_4|687KB/s"
-    network: tcp
-    password: ND91608427
-    port: 443
-    server: definite-sturgeon.rooster465.autos
-    skip-cert-verify: true
-    sni: definite-sturgeon.rooster465.autos
-    type: trojan
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_1|808KB/s"
-    password: 1BARPLkaLl
-    port: 32914
-    server: 45.130.22.70
-    skip-cert-verify: true
-    sni: 45.130.22.70
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_2|919KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-      short-id: "15affa0af66dfc79"
-    server: 130.12.242.106
+    server: soskeynets-vpn-co-production.up.railway.app
     tls: true
     type: vless
     udp: true
-    uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+    uuid: 0a1486b6-d54f-c050-2c0b-80ba5f8966a6
+    ws-opts:
+      headers:
+        Host: line-vpn-co-production.up.railway.app
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: /ws/0a1486b6-d54f-c050-2c0b-80ba5f8966a6
     xudp: true
-    servername: deepl.com
+    servername: line-vpn-co-production.up.railway.app
   - client-fingerprint: chrome
     encryption: none
-    grpc-opts:
-      grpc-service-name: TunService
-    name: "\U0001F1F9\U0001F1F7TR_3|1.0MB/s"
-    network: grpc
-    port: 8443
+    name: "\U0001F1F9\U0001F1F7TR_1|536KB/s"
+    network: xhttp
+    port: 443
     reality-opts:
       public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
       short-id: ''
-    server: 170.168.97.5
+    server: 170.168.97.3
     tls: true
     type: vless
     udp: true
-    uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
+    uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+    xhttp-opts:
+      mode: auto
+      path: /
     xudp: true
     servername: download.nvidia.com
-  - name: "\U0001F1FA\U0001F1F8US_3|651KB/s"
-    network: ws
-    port: 57878
-    server: 38.246.226.240
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EASE_1|531KB/s"
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+      short-id: ''
+    server: 170.168.99.3
+    tls: true
     type: vless
     udp: true
-    uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /535f0e03
+    uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+    xhttp-opts:
+      mode: auto
+      path: /
     xudp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_2|1.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-    port: 443
-    server: 138.124.68.188
-    skip-cert-verify: false
-    sni: usa1.spectrumproxy.shop
-    type: hysteria2
-    up: ''
+    servername: cdn.steamstatic.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
