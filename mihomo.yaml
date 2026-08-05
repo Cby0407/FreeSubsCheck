@@ -1,45 +1,183 @@
 proxies:
-  - name: "\U0001F1FB\U0001F1F3VN_1|942KB/s"
-    password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
-    port: 11681
-    server: vn1.nbjc.top
+  - name: "\U0001F1ED\U0001F1F0HK_1|981KB/s"
+    password: ''
+    port: 20000
+    server: 59.38.113.185
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US_1|3.5MB/s"
+    password: ''
+    port: 1080
+    server: 212.58.132.5
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|875KB/s"
+    network: raw
+    port: 443
+    server: 217.60.193.1
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+    xudp: true
+    servername: ddc-akn.astralweb.tech
+  - name: "\U0001F1F9\U0001F1FCTW_1|1.3MB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 40071
+    server: tw1.catzl.top
     type: anytls
     udp: true
-    sni: vn1.nbjc.top
-  - name: "\U0001F1FB\U0001F1F3VN_2|737KB/s"
+    sni: tw1.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_1|2.6MB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_1|1.2MB/s"
     password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
     port: 11683
     server: vn3.nbjc.top
     type: anytls
     udp: true
     sni: vn3.nbjc.top
-  - name: "\U0001F1EF\U0001F1F5JP_1|2.6MB/s"
+  - name: "\U0001F1FB\U0001F1F3VN_2|966KB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn1.nbjc.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|5.0MB/s"
+    password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_1|3.8MB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_2|3.7MB/s"
     password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
     port: 40055
     server: jp5.catzl.top
     type: anytls
     udp: true
     sni: jp5.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
+  - name: "\U0001F1FB\U0001F1F3VN_3|1.4MB/s"
+    password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
+    port: 11682
+    server: vn2.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn2.nbjc.top
+  - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
     password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
     port: 40022
     server: us2.catzl.top
     type: anytls
     udp: true
     sni: us2.catzl.top
-  - auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
-    name: "\U0001F1EF\U0001F1F5JP_2|559KB/s"
-    password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-    port: 52454
-    server: 45.88.43.116
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_2|1.7MB/s"
+    password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
+    udp: true
+    sni: tw2.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_4|1.9MB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 11682
+    server: vn2.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn2.nbjc.top
+  - name: "\U0001F1F9\U0001F1FCTW_3|1.2MB/s"
+    password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_5|913KB/s"
+    password: a3030b5f-7c2e-4e72-9d14-6581a4656af3
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn1.nbjc.top
+  - name: "\U0001F1FB\U0001F1F3VN_6|1.9MB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 11683
+    server: vn3.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn3.nbjc.top
+  - name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_3|4.0MB/s"
+    password: 891125da-653c-418d-a1f5-36974a8df516
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
   - client-fingerprint: chrome
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: update
-    name: "\U0001F1F0\U0001F1F7KR_1|2.8MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_2|3.3MB/s"
+    network: grpc
+    packet-encoding: xudp
+    port: 10126
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: hk1-r.link-t7.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: "\U0001F1ED\U0001F1F0HK_3|5.1MB/s"
+    network: grpc
+    packet-encoding: xudp
+    port: 10127
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: hk2-r.link-t7.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: "\U0001F1F0\U0001F1F7KR_4|1023KB/s"
     network: grpc
     packet-encoding: xudp
     port: 10047
@@ -52,49 +190,101 @@ proxies:
     udp: true
     uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
     servername: s0.awsstatic.com
-  - name: "\U0001F1FA\U0001F1F8US_2|647KB/s"
-    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-    port: 443
-    server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-    sni: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-    tls: true
-    type: http
-    username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|2.2MB/s"
+    name: "\U0001F1E9\U0001F1EADE_2|2.5MB/s"
     network: ws
-    port: 2096
-    server: 104.17.70.206
+    port: 2087
+    server: 104.18.19.39
     tls: true
     type: vless
     udp: true
-    uuid: bbb97927-d9d8-475e-928b-b723e61f5e51
+    uuid: 78bb684e-0c43-45f7-aefb-e16368228948
     ws-opts:
       headers:
-        Host: freenet.sahanwickramasinghevip.shop
+        Host: ftp.skylinknet.ir
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/35.0.1916.153 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
       path: /
     xudp: true
-    servername: freenet.sahanwickramasinghevip.shop
-  - client-fingerprint: firefox
-    name: "\U0001F1EB\U0001F1EEFI_1|904KB/s"
-    network: xhttp
+    servername: ftp.skylinknet.ir
+  - name: "\U0001F1FA\U0001F1F8US_4|685KB/s"
+    password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
     port: 443
-    server: 193.84.3.57
+    server: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+    sni: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+    tls: true
+    type: http
+    username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+  - auth: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+    name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+    password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+    port: 8443
+    server: 86.107.178.66
+    skip-cert-verify: true
+    sni: grape-zet-turbo-nl.yyuyy.com
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_3|1.6MB/s"
+    obfs: salamander
+    obfs-password: detgimgm8qh8i2g2
+    password: ik0zt621uw9iqvsi
+    port: 52023
+    server: assets.gateway-stream.com
+    skip-cert-verify: false
+    sni: assets.gateway-stream.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
+    obfs: salamander
+    obfs-password: T@T*FP7uq=!t
+    password: f64c72a1-7e1f-4dd1-8929-7e41682542e2
+    port: 10086
+    server: fr2.xiaoliyu.cyou
+    skip-cert-verify: true
+    sni: fr2.xiaoliyu.cyou
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_4|8.4MB/s"
+    network: tcp
+    port: 41528
+    reality-opts:
+      public-key: vSXM6NtiXtPcwqZpXCTpKLBOPewzcEfr9-p18aiywio
+      short-id: "b4"
+    server: 47.86.249.58
     tls: true
     type: vless
     udp: true
-    uuid: 3817f8d1-094d-4860-ac22-5e5d17943765
-    xhttp-opts: {}
+    uuid: 97672a88-ec39-4234-a102-1df6f9236f36
     xudp: true
-    servername: hlb.tunnelguard.ru
-  - name: "\U0001F1F9\U0001F1FCTW_1|1.7MB/s"
+    servername: www.apple.com
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.1MB/s"
+    password: 55354c2b8ee339571bd657a9bb9858cc
+    port: 40783
+    server: 106.75.132.91
+    skip-cert-verify: true
+    type: trojan
+    network: tcp
+  - cipher: aes-256-cfb
+    name: "\U0001F1F8\U0001F1EASE_1|2.5MB/s"
+    password: amazonskr05
+    port: 443
+    server: 13.61.13.49
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s"
+    password: amazonskr05
+    port: 443
+    server: 3.85.61.177
+    type: ss
+    udp: true
+  - name: "\U0001F1F9\U0001F1FCTW_4|2.1MB/s"
     network: tcp
     password: 55354c2b8ee339571bd657a9bb9858cc
     port: 39221
@@ -103,6 +293,14 @@ proxies:
     sni: speed-01.aliyun-web-tracker.cn
     type: trojan
     udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1F0\U0001F1F7KR_5|1.1MB/s"
+    password: qwerREWQ@@
+    port: 2078
+    server: 27.255.82.134
+    skip-cert-verify: false
+    type: ss
+    udp: false
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
