@@ -1,139 +1,185 @@
 proxies:
-    - alpn:
-        - h2
-      client-fingerprint: chrome
+    - client-fingerprint: qq
       encryption: none
-      name: "\U0001F1F0\U0001F1FFKZ_1|2.4MB/s"
-      network: xhttp
-      port: "443"
-      server: 185.136.12.190
-      servername: deu683.lackerdeu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
-      xhttp-opts:
-        host: deu683.lackerdeu.org
-        mode: auto
-        path: /api/v1/
-      xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|2.3MB/s"
-      password: admin
-      port: "1080"
-      server: 143.198.85.89
-      skip-cert-verify: true
-      type: socks5
-      username: admin
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F3\U0001F1F1NL_1|2.9MB/s"
-      password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-      port: 17306
-      reduce-rtt: false
-      request-timeout: 0
-      server: 89.144.35.232
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1EAEE_1|1.1MB/s"
       network: tcp
-      port: 443
-      server: ddc-chr.astralweb.tech
-      servername: ddc-chr.astralweb.tech
+      port: "443"
+      reality-opts:
+        public-key: g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ
+        short-id: ""
+      server: 91.235.234.186
+      servername: us7fs3.proxen.pdevinfra.com
       tls: true
       type: vless
       udp: true
-      uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+      uuid: 4593aa27-a2a1-412f-935f-3829495c0970
+      xudp: true
     - alpn:
         - h2
-        - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1FARU_1|1.1MB/s"
-      network: xhttp
-      port: 443
-      server: 135.106.140.23
-      servername: qwesd.rutendingaltos.top
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1|1.7MB/s"
+      network: ws
+      port: "443"
+      server: i3.cloud--vpn.site
+      servername: ssl.fastly.com
       tls: true
       type: vless
       udp: true
-      uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-      xhttp-opts:
-        host: qwesd.rutendingaltos.top
-        path: /assets/build/_app/immutable/chunks/stream-one/
-    - auth: 7wzl2lj2fy956inb
-      name: "\U0001F1FA\U0001F1F8US_1|590KB/s"
-      password: 7wzl2lj2fy956inb
-      port: 40001
-      server: 3x.aweijll.cf
-      skip-cert-verify: true
-      sni: 3x.aweijll.cf
-      type: hysteria2
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_2|554KB/s"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
+      uuid: f04c31f7-cfab-4824-d167-4137d836ea82
+      ws-opts:
+        headers:
+            Host: c12.com
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
-      grpc-opts:
-        grpc-service-name: grpc
-      name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s"
-      network: grpc
-      port: "8444"
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
+      network: tcp
+      port: "443"
       reality-opts:
-        public-key: JjxjQ0bCB8UZDC4Tjs3FhWJciPB6jBd0846Ew31hSQk
-        short-id: a1b2c3d4
-      server: 91.240.87.201
-      servername: ads.x5.ru
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: ""
+      server: 159.195.14.140
+      servername: ai.sellflow.org
       tls: true
       type: vless
       udp: true
-      uuid: 9d246b7d-936c-4472-9e90-a83e69124e8c
+      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
-        grpc-service-name: grpc-tuning-stream
-      name: "\U0001F1F7\U0001F1FARU_2|820KB/s"
+        grpc-service-name: update
+      name: "\U0001F1EF\U0001F1F5JP_1|5.2MB/s"
       network: grpc
-      port: "9441"
+      port: "10035"
       reality-opts:
-        public-key: xTk5dX6E0DGuQj19bWDMafx13XoUK8euqlmtwJIg8wY
-        short-id: 8a7137d4e9c49b9c
-      server: mws-fc-1.ghost-lan.com
-      servername: max.ru
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp5-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
-      uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
       xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4|1.8MB/s"
-      port: 443
-      server: ddc-chr.astralweb.tech
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_5|1.6MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|2.7MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 165.215.250.14
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /assignment
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|2.3MB/s"
+      network: tcp
+      port: "22222"
+      server: 18.197.80.223
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_1|2.9MB/s"
+      network: ws
+      port: "2053"
+      server: 91.193.58.217
+      servername: vlso200.1d.mom
+      tls: true
+      type: vless
+      udp: true
+      uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+      ws-opts:
+        headers:
+            Host: vlso200.1d.mom
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /socks5=888:888@hkip.1d.mom:1080
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FARU_1|2.0MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: ""
+      server: 193.233.255.18
+      servername: sellflow.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|1.4MB/s"
+      network: ws
+      password: humanity
+      port: "2000"
+      server: 2.144.21.150
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_3|2.6MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: render.com
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /assignment
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_4|1.2MB/s"
       port: 443
-      server: ddc-chr.astralweb.tech
-      servername: ddc-chr.astralweb.tech
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 152.228.215.219
+      servername: fr.sellflow.org
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-    - name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
+      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
+      network: ws
+      port: 443
+      server: 16.176.42.97
+      servername: zero.csmaster.ggff.net
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+      ws-opts:
+        headers:
+            Host: zero.csmaster.ggff.net
+        path: /
+    - name: "\U0001F1EB\U0001F1F7FR_5|1.5MB/s"
       password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
       port: 443
       server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
@@ -141,44 +187,32 @@ proxies:
       tls: true
       type: http
       username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|748KB/s"
-      password: BxceQaOe
-      port: "35151"
-      server: 16.162.190.25
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
+        short-id: f85aebea
+      server: 162.35.231.6
+      servername: media2.tcpdoor.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+      xudp: true
+    - name: "\U0001F1E9\U0001F1EADE_3|523KB/s"
+      password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+      port: 20041
+      server: hkdcrtc-e.catcat321.com
       skip-cert-verify: true
-      sni: t.me/ripaojiedian
+      sni: hkdcrtc-e.catcat321.com
+      tls: true
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|615KB/s"
-      port: 443
-      reality-opts:
-        public-key: RWznvelrkz8tOe6iz9qFVyXbak3E08bs37ZO1rRLfxg
-      server: apple-cd2b77.cdx-edge.com
-      servername: deepl.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6f5bfa9c-e469-454d-8109-9b5e0266d6c3
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2|657KB/s"
-      port: 8443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 152.228.215.219
-      servername: sellflow.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
     - client-fingerprint: random
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|563KB/s"
+      name: "\U0001F1FA\U0001F1F8US_2|648KB/s"
       port: 443
       reality-opts:
         public-key: qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs
@@ -189,22 +223,8 @@ proxies:
       type: vless
       udp: true
       uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_6|1.4MB/s"
-      port: 443
-      reality-opts:
-        public-key: UvJqmTGvadeK94_38ncycxTRqU4lmsjhDjJBuL0CQSA
-        short-id: c71af684feb2fef4
-      server: 82.117.87.119
-      servername: nl-one.quiet-rogue.site
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_7|1.3MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s"
       port: 443
       server: 84.32.101.222
       servername: ddc-chr.astralweb.tech
@@ -213,23 +233,32 @@ proxies:
       type: vless
       udp: true
       uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-    - client-fingerprint: edge
+    - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|515KB/s"
-      port: 2096
+      name: "\U0001F1EC\U0001F1E7GB_1|716KB/s"
+      port: 443
       reality-opts:
-        public-key: pWPvxPIVtdzgaL0cdFZ73qn1FihjKDZ7TE55wg57Vl8
-        short-id: 9b43ece6010612b0
-      server: 178.253.55.89
-      servername: it-one.quiet-rogue.site
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 82.40.23.174
+      servername: sellflow.org
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
+      port: 443
+      server: ddc-chr.astralweb.tech
+      servername: ddc-chr.astralweb.tech
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|693KB/s"
+      name: "\U0001F1E9\U0001F1EADE_4|1.7MB/s"
       port: 443
       reality-opts:
         public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -241,7 +270,7 @@ proxies:
       udp: true
       uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EASE_1|2.0MB/s"
+      name: "\U0001F1F8\U0001F1EASE_1|1.5MB/s"
       port: 443
       server: sw1-chr.astralweb.tech
       servername: sw1-chr.astralweb.tech
@@ -251,7 +280,7 @@ proxies:
       udp: true
       uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_4|1.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s"
       port: 443
       reality-opts:
         public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
@@ -263,178 +292,3 @@ proxies:
       type: vless
       udp: true
       uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_3|1.9MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 159.195.14.140
-      servername: ai.sellflow.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-      xudp: true
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_2|1018KB/s"
-      network: tcp
-      port: "2096"
-      reality-opts:
-        public-key: pWPvxPIVtdzgaL0cdFZ73qn1FihjKDZ7TE55wg57Vl8
-        short-id: 9b43ece6010612b0
-      server: 178.253.55.89
-      servername: it-one.quiet-rogue.site
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_3|2.2MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 147.45.47.45
-      servername: sellflow.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_4|2.2MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 147.45.47.52
-      servername: sellflow.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-      xudp: true
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5|1.9MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs
-        short-id: ""
-      server: 152.53.82.202
-      servername: shy-tiger.cdn.cachefleet.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_3|2.1MB/s"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 152.228.215.219
-      servername: sellflow.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_4|2.6MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 152.228.215.219
-      servername: fr.sellflow.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-      xudp: true
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: your-custom-path
-      name: "\U0001F1E9\U0001F1EADE_4|1.0MB/s"
-      network: grpc
-      port: "6443"
-      reality-opts:
-        public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-        short-id: 2da4299da566b7
-      server: 45.151.101.103
-      servername: maps.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_8|1.0MB/s"
-      network: tcp
-      port: "443"
-      server: 84.32.101.222
-      servername: ddc-chr.astralweb.tech
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-      xudp: true
-    - name: "\U0001F1E8\U0001F1F4CO_1|1.6MB/s"
-      network: tcp
-      port: "62145"
-      server: 157.137.215.84
-      type: vless
-      udp: true
-      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_3|965KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 82.40.23.174
-      servername: sellflow.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_4|948KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 7836b28e-8451-4596-ad3e-e3601b2335ba
-      port: "8443"
-      server: 78.159.240.69
-      skip-cert-verify: true
-      sni: quic.tyr-agentstvo.tech
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1E6\U0001F1EAAE_1|1.7MB/s"
-      password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-      port: 2056
-      server: db1.mangshe.xyz
-      skip-cert-verify: true
-      sni: db1.mangshe.xyz
-      type: hysteria2
-      udp: true
