@@ -1,14 +1,119 @@
 proxies:
-  - name: "\U0001F1F7\U0001F1F4RO_1|533KB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_1|519KB/s"
+    password: Og==
+    port: 20000
+    server: 59.38.113.185
+    tls: false
+    type: socks5
+    udp: true
+    username: Og==
+  - name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s"
+    port: 23856
+    server: 51.159.225.196
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_3|1.7MB/s"
+    port: 9002
+    server: 84.17.47.147
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_4|597KB/s"
+    port: 9002
+    server: 84.17.47.150
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|1.2MB/s"
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_1|882KB/s"
+    port: 9002
+    server: 84.239.49.183
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|993KB/s"
+    port: 9002
+    server: 84.239.49.154
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_3|1.9MB/s"
+    port: 9002
+    server: 84.239.49.49
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_4|1.2MB/s"
     port: 9002
     server: 84.239.49.168
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_5|1.8MB/s"
+    password: None
+    port: 9002
+    server: 84.239.49.254
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_6|2.0MB/s"
+    port: 9002
+    server: 84.239.14.153
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_2|645KB/s"
+    port: 20000
+    server: 59.38.113.185
+    type: socks5
+    username: Og==
+  - name: "\U0001F1FA\U0001F1F8US_1|880KB/s"
+    password: gs4BXwT6SW
+    port: 10988
+    server: 154.26.192.123
+    tls: false
+    type: http
+    username: fQ67Dpe5dU
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EASE_1|1.6MB/s"
+    port: 443
+    reality-opts:
+      public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+    server: 143.246.194.26
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+    network: tcp
+    servername: sw.rexten.cc
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1F3IN_1|701KB/s"
+    name: "\U0001F1EE\U0001F1F3IN_1|1010KB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -19,53 +124,44 @@ proxies:
     type: vless
     uuid: 19001d44-63d4-496f-9a58-312a5d65668c
     servername: www.cloudflare.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_1|668KB/s"
-    network: tcp
-    port: 228
-    reality-opts:
-      public-key: aObndFPcV24WCp5k_njPhUovgVgjw3EvSsLZu3eO-Es
-      short-id: "cfe56c9d"
-    server: fenochka.xanka.best
+  - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
+    password: None
+    port: 9002
+    server: 138.199.35.200
     skip-cert-verify: true
-    tfo: false
     tls: true
-    type: vless
-    uuid: e1ae4929-d17b-4cea-bd48-c89ef103d2cc
-    servername: fenochka.xanka.best
+    type: http
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
-    network: tcp
-    port: 1337
+    name: ❓Other_1|1.3MB/s
+    port: 443
     reality-opts:
-      public-key: 0OajRGdqF2S2JJgKYcsq6nIF3K_ypFYCTUzCjR8Wh1o
-      short-id: "c692a719"
-    server: 45.89.60.76
+      public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+    server: 143.246.197.86
+    skip-cert-verify: true
     tls: true
     type: vless
-    uuid: f62a37f3-f7df-4673-a7c8-06a9fc72c6ea
-    servername: yt.alba.xanka.best
-  - client-fingerprint: chrome
+    udp: true
+    uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+    network: tcp
+    servername: sw.rexten.cc
+  - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_1|632KB/s"
+    name: "\U0001F1F8\U0001F1EASE_2|1.8MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: EiIdnnsMW7waNJlc0R6BLwMArlo5yfuy_MJmyYDHT2M
-      short-id: "3147cef25996255f"
-    server: 140.245.42.185
+      public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
+      short-id: "d3ee47fc2f553c44"
+    server: 45.196.161.51
     tls: true
     type: vless
-    uuid: 55f6633c-51d4-46d0-ad36-532a42fcdcb6
-    servername: www.cloudflare.com
+    uuid: d2042070-c247-4226-a3ac-15337923e00d
+    servername: storage.yandex.net
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_6|2.4MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -80,43 +176,8 @@ proxies:
     servername: ne4.rexten.cc
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E6\U0001F1F9AT_1|1.4MB/s"
-    network: xhttp
-    port: 57566
-    reality-opts:
-      public-key: gyIof2zBtXKnYnEbmTUte-qQTnXtBZ1mEIQ1spddiTw
-      short-id: "0de07cf9fc1678de"
-    server: 138.124.90.40
-    tls: true
-    type: vless
-    udp: true
-    uuid: 771049ad-ad67-4b4a-a5df-f47c55a5e8e8
-    xhttp-opts:
-      mode: auto
-      path: /
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: www.icloud.com
-  - client-fingerprint: chrome
-    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_2|1.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-      short-id: "500aec9e9e5e2212"
-    server: 154.83.246.225
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2042070-c247-4226-a3ac-15337923e00d
-    xudp: true
-    servername: storage.yandex.net
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|972KB/s"
+    name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -131,23 +192,135 @@ proxies:
     servername: sw.rexten.cc
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_1|774KB/s"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
     network: tcp
-    port: 8443
+    port: 2023
     reality-opts:
-      public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
-      short-id: "505c94b8c65afb0a"
-    server: kl5z-k11-6kq4f2.jp.y-tun.com
+      public-key: 8BDn49FU0vl7AhR3TtSUPEAlyEmPb3U1qgbPPlSOlUA
+      short-id: "6c690c224072e89a"
+    server: uk.roomode.ir
     tls: true
     type: vless
     udp: true
-    uuid: cde73ad2-1a4f-4521-8c31-bd498cdacd73
+    uuid: 75cb7482-9d0a-4115-b491-63d748694888
     xudp: true
-    servername: auth.deepl.com
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EASE_3|1.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+      short-id: ''
+    server: sw.rexten.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+    xudp: true
+    servername: sw.rexten.cc
+  - name: "\U0001F1EE\U0001F1F9IT_1|699KB/s"
+    password: ''
+    port: 1080
+    server: 149.62.186.244
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1FB\U0001F1F3VN_1|2.0MB/s"
+    password: 18bfd4e4-c32f-41f2-8b05-c0dad670e19e
+    port: 11682
+    server: vn2.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn2.nbjc.top
+  - name: "\U0001F1F0\U0001F1F7KR_1|3.5MB/s"
+    password: 18bfd4e4-c32f-41f2-8b05-c0dad670e19e
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1ED\U0001F1F0HK_3|5.1MB/s"
+    password: 864ac280-416c-42c5-8c84-a067958c0d34
+    port: 49876
+    reduce-rtt: false
+    request-timeout: 0
+    server: i1s5x2k2a.turbowlan.net
+    skip-cert-verify: true
+    type: tuic
+    udp-relay-mode: quic
+    uuid: 864ac280-416c-42c5-8c84-a067958c0d34
+    sni: i1s5x2k2a.turbowlan.net
+    version: 5
+  - name: "\U0001F1EF\U0001F1F5JP_1|4.8MB/s"
+    password: 18bfd4e4-c32f-41f2-8b05-c0dad670e19e
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1ED\U0001F1F0HK_4|3.7MB/s"
+    password: 864ac280-416c-42c5-8c84-a067958c0d34
+    port: 35689
+    reduce-rtt: false
+    request-timeout: 0
+    server: x6v0o7a4.turbowlan.net
+    skip-cert-verify: true
+    type: tuic
+    udp-relay-mode: quic
+    uuid: 864ac280-416c-42c5-8c84-a067958c0d34
+    sni: x6v0o7a4.turbowlan.net
+    version: 5
+  - name: "\U0001F1FB\U0001F1F3VN_2|920KB/s"
+    password: 18bfd4e4-c32f-41f2-8b05-c0dad670e19e
+    port: 11683
+    server: vn3.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn3.nbjc.top
+  - name: "\U0001F1FB\U0001F1F3VN_3|1.7MB/s"
+    password: 18bfd4e4-c32f-41f2-8b05-c0dad670e19e
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn1.nbjc.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|3.6MB/s"
+    password: 18bfd4e4-c32f-41f2-8b05-c0dad670e19e
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s"
+    password: 864ac280-416c-42c5-8c84-a067958c0d34
+    port: 43869
+    reduce-rtt: false
+    request-timeout: 0
+    server: u7v6q8z9.turbowlan.net
+    skip-cert-verify: true
+    type: tuic
+    udp-relay-mode: quic
+    uuid: 864ac280-416c-42c5-8c84-a067958c0d34
+    sni: u7v6q8z9.turbowlan.net
+    version: 5
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_2|753KB/s"
+    name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s"
     port: 443
     reality-opts:
       public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
@@ -159,14 +332,171 @@ proxies:
     uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
     network: tcp
     servername: sw.rexten.cc
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.7MB/s"
-    network: tcp
-    port: 62145
-    server: 158.101.201.108
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_7|572KB/s"
+    port: 443
+    reality-opts:
+      public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+    server: 144.31.13.141
+    skip-cert-verify: true
+    tls: true
     type: vless
     udp: true
-    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+    uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+    network: tcp
+    servername: ne4.rexten.cc
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_5|6.0MB/s"
+    network: ws
+    port: 16622
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    ws-opts:
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_6|4.4MB/s"
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    ws-opts:
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP_2|7.0MB/s"
+    network: ws
+    port: 16617
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    ws-opts:
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_1|4.6MB/s"
+    network: ws
+    port: 16616
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    ws-opts:
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+      path: /
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_1|1.9MB/s"
+    network: ws
+    port: 443
+    server: 172.67.69.106
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+    ws-opts:
+      headers:
+        Host: zero.csmaster.ggff.net
+      path: /
+    servername: zero.csmaster.ggff.net
+  - alpn:
+      - h3
+    client-fingerprint: chrome
+    name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s"
+    network: xhttp
+    port: 443
+    server: 104.18.32.47
+    tls: true
+    type: vless
+    udp: true
+    uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+    xhttp-opts: {}
     xudp: true
+    servername: rus.aba-hum.store
+  - client-fingerprint: firefox
+    name: "\U0001F1F7\U0001F1FARU_2|1.2MB/s"
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: tm9ddb_N0Wto30PZafl231j8zL-o4FmGVRxsbX_GbGQ
+      short-id: '2665'
+    server: 83.217.223.122
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+    xhttp-opts: {}
+    xudp: true
+    servername: 5post-gate.x5.ru
+  - client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: ''
+    name: "\U0001F1FA\U0001F1F8US_6|2.4MB/s"
+    network: grpc
+    port: 10443
+    reality-opts:
+      public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+      short-id: ''
+    server: lv.rexten.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+    xudp: true
+    servername: lv.rexten.cc
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1EEFI_1|1.8MB/s"
+    network: tcp
+    port: 2053
+    reality-opts:
+      public-key: DUJWZCU-CjH9TglyqNQjydr7sp1ujsn2gHcXGWmgRj8
+      short-id: "e0331b94eb540116"
+    server: five.neobo-tooth.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+    xudp: true
+    servername: vk.ru
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_7|1.4MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+      short-id: ''
+    server: 143.246.194.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+    xudp: true
+    servername: sw.rexten.cc
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
