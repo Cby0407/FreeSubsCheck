@@ -1,37 +1,96 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US_1|553KB/s"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      tls: false
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+      port: 9002
+      server: 84.17.47.147
+      skip-cert-verify: true
+      tls: true
       type: http
-      username: fQ67Dpe5dU
-    - name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s"
-      password: null
-      port: 1081
-      server: 46.37.123.166
-      type: socks5
       udp: true
-      username: null
-    - name: "\U0001F1F8\U0001F1E8SC_1|3.6MB/s"
-      password: None
-      port: 1080
-      server: 27.155.93.29
+    - name: "\U0001F1F3\U0001F1F1NL_2|880KB/s"
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
       type: http
-      username: null
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_3|1.7MB/s"
+      port: 9002
+      server: 84.17.47.149
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
+      port: 9002
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_5|1.6MB/s"
+      port: 9002
+      server: 84.17.47.150
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
+      port: 9002
+      server: 193.176.84.19
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_1|2.1MB/s"
-      network: tcp
-      port: "993"
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1EF\U0001F1F5JP_1|8.0MB/s"
+      network: grpc
+      port: "10035"
       reality-opts:
-        public-key: skXBkyphBIt0TWVM0R5U3U-8UG0cuW00ONkaQpJ-OxU
-        short-id: ""
-      server: 170.168.99.4
-      servername: download.nvidia.com
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp5-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
-      uuid: fc03a9a8-ef0f-5794-e119-0c3b68b178e8
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: qq
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1|820KB/s"
+      network: tcp
+      port: 49001
+      reality-opts:
+        public-key: _LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo
+        short-id: 1a6b1f9d0e
+      server: pl-4.techprovide.icu
+      servername: de-7.techprovide.icu
+      tls: true
+      type: vless
+      udp: true
+      uuid: 41784775-8846-4579-9d9d-9ad6ea802e2e
+      xudp: true
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_1|565KB/s
+      network: ws
+      port: "443"
+      server: line-production.up.railway.app
+      servername: line-production.up.railway.app
+      tls: true
+      type: vless
+      udp: true
+      uuid: d3d674d9-eec6-8469-0fdf-96f7967b5a93
+      ws-opts:
+        headers:
+            Host: line-production.up.railway.app
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /ws/d3d674d9-eec6-8469-0fdf-96f7967b5a93
       xudp: true
