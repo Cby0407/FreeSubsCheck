@@ -1,219 +1,137 @@
 proxies:
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F2\U0001F1FDMX_1|2.6MB/s"
-    network: tcp
-    port: 29053
-    server: 366-1095.rabbitpro-in-3.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+  - name: "\U0001F1EF\U0001F1F5JP_1|2.2MB/s"
+    password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+    port: 443
+    server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+    tls: true
+    type: http
+    username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+    sni: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1E9\U0001F1EADE_1|2.7MB/s"
+    password: amazonskr05
+    port: 443
+    server: 3.66.86.250
+    type: ss
     udp: true
-    uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-    xudp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US_1|1004KB/s"
-    network: xhttp
-    port: 42547
-    reality-opts:
-      public-key: PuCQftZl96oRZItmi4KNoLrWjvFg4q2xFgqx-72BpX8
-      short-id: "8544a1"
-    server: acela.proxy.rlwy.net
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
+    network: tcp
+    port: 443
+    server: fr213.mechvpn.online
     tls: true
     type: vless
     udp: true
-    uuid: '@MAconnectt'
-    xhttp-opts:
-      mode: auto
-      path: /
-      x-padding-bytes: 100-1000
+    uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     xudp: true
-    servername: is1-ssl.mzstatic.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_1|988KB/s"
-    network: ws
-    password: humanity
+    servername: fr213.mechvpn.online
+  - name: "\U0001F1EB\U0001F1F7FR_2|678KB/s"
     port: 443
-    server: 130.250.137.171
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.110 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_2|1.3MB/s"
-    network: ws
-    password: humanity
+    server: 103.82.101.43
+    skip-cert-verify: true
+    sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+    tls: true
+    type: http
+  - name: "\U0001F1EB\U0001F1F7FR_3|637KB/s"
     port: 443
-    server: 216.24.57.1
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_3|833KB/s"
-    network: ws
-    password: humanity
+    server: 103.82.101.44
+    skip-cert-verify: true
+    sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
+    password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
     port: 443
-    server: 216.24.57.7
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.162 Safari/537.36
-      path: /assignment
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_4|1.5MB/s"
-    network: ws
-    password: humanity
+    server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
+    sni: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
+    tls: true
+    type: http
+    username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
     port: 443
-    server: 162.159.136.234
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+    server: 185.140.209.235
+    skip-cert-verify: true
+    sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
+    password: None
+    port: 9443
+    server: 37.120.233.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
+    password: ''
+    port: 9002
+    server: 138.199.35.203
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1E6\U0001F1EAAE_1|1.9MB/s"
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    port: 2056
+    server: db1.mangshe.xyz
+    skip-cert-verify: true
+    sni: db1.mangshe.xyz
+    type: hysteria2
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    name: "\U0001F1FA\U0001F1F8US_3|992KB/s"
+    password: e511bd2b-d8ef-4439-bd3b-c78f739dcbbb
+    port: 10443
+    server: 51.81.223.166
+    skip-cert-verify: true
+    type: tuic
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /assignment
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-    password: 2beb9994-9690-4631-b7b4-dc4e44d7b563
-    port: 43869
-    reduce-rtt: false
-    request-timeout: 0
-    server: u7v6q8z9.turbowlan.net
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: quic
-    uuid: 2beb9994-9690-4631-b7b4-dc4e44d7b563
-    sni: u7v6q8z9.turbowlan.net
+    udp-relay-mode: native
+    uuid: e511bd2b-d8ef-4439-bd3b-c78f739dcbbb
     version: 5
-  - name: "\U0001F1EF\U0001F1F5JP_1|3.5MB/s"
-    password: edb54850-5e5b-4704-b39e-4fd7925bff5b
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
+  - name: "\U0001F1FA\U0001F1F8US_4|1.4MB/s"
+    port: 9002
+    server: 138.199.35.220
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
+    port: 443
+    server: 185.246.153.42
+    skip-cert-verify: true
+    sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_5|805KB/s"
+    password: ''
+    port: 9002
+    server: 138.199.35.201
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1FB\U0001F1F3VN_1|700KB/s"
-    password: edb54850-5e5b-4704-b39e-4fd7925bff5b
-    port: 11681
-    server: vn1.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn1.nbjc.top
-  - name: "\U0001F1FB\U0001F1F3VN_2|705KB/s"
-    password: edb54850-5e5b-4704-b39e-4fd7925bff5b
-    port: 11683
-    server: vn3.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn3.nbjc.top
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1ED\U0001F1F0HK_1|4.2MB/s"
-    password: ceaa8a8e-4339-471b-b9fe-f81c7255daaa
-    port: 35689
-    reduce-rtt: false
-    request-timeout: 0
-    server: x6v0o7a4.turbowlan.net
+    username: ''
+  - name: "\U0001F1EA\U0001F1F8ES_1|3.1MB/s"
+    password: 1427eb10-7529-4d38-a6a2-01b337868b37
+    port: 4433
+    server: es2.xiaoliyu.cyou
     skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: quic
-    uuid: ceaa8a8e-4339-471b-b9fe-f81c7255daaa
-    sni: x6v0o7a4.turbowlan.net
-    version: 5
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
-    password: ceaa8a8e-4339-471b-b9fe-f81c7255daaa
-    port: 43869
-    reduce-rtt: false
-    request-timeout: 0
-    server: u7v6q8z9.turbowlan.net
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: quic
-    uuid: ceaa8a8e-4339-471b-b9fe-f81c7255daaa
-    sni: u7v6q8z9.turbowlan.net
-    version: 5
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1ED\U0001F1F0HK_2|2.8MB/s"
-    password: 2beb9994-9690-4631-b7b4-dc4e44d7b563
-    port: 35689
-    reduce-rtt: false
-    request-timeout: 0
-    server: x6v0o7a4.turbowlan.net
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: quic
-    uuid: 2beb9994-9690-4631-b7b4-dc4e44d7b563
-    sni: x6v0o7a4.turbowlan.net
-    version: 5
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1ED\U0001F1F0HK_3|4.7MB/s"
-    password: ceaa8a8e-4339-471b-b9fe-f81c7255daaa
-    port: 49876
-    reduce-rtt: false
-    request-timeout: 0
-    server: i1s5x2k2a.turbowlan.net
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: quic
-    uuid: ceaa8a8e-4339-471b-b9fe-f81c7255daaa
-    sni: i1s5x2k2a.turbowlan.net
-    version: 5
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1ED\U0001F1F0HK_4|3.4MB/s"
-    password: 2beb9994-9690-4631-b7b4-dc4e44d7b563
-    port: 49876
-    reduce-rtt: false
-    request-timeout: 0
-    server: i1s5x2k2a.turbowlan.net
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: quic
-    uuid: 2beb9994-9690-4631-b7b4-dc4e44d7b563
-    sni: i1s5x2k2a.turbowlan.net
-    version: 5
+    sni: es2.xiaoliyu.cyou
+    type: hysteria2
+  - name: "\U0001F1E9\U0001F1EADE_2|1.5MB/s"
+    password: ESfDSCxpD
+    port: 64462
+    server: 154.219.254.66
+    type: http
+    username: n17sMRE7S
+  - name: "\U0001F1E9\U0001F1EADE_3|631KB/s"
+    password: qGwNSnw1
+    port: 63124
+    server: 45.195.184.106
+    type: http
+    username: ZJWRqQLE
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
