@@ -1,22 +1,77 @@
 proxies:
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1F8\U0001F1E8SC_1|521KB/s"
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: gf1:gfhysteria2024
+      port: "443"
+      server: 5.129.235.85
+      skip-cert-verify: true
+      sni: www.linux.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
       network: ws
-      port: "10000"
-      server: 117.27.228.29
+      password: humanity
+      port: "443"
+      server: render.com
       skip-cert-verify: false
-      tls: false
-      type: vmess
+      sni: www.ignitelimit.com
+      type: trojan
       udp: true
-      uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
       ws-opts:
-        headers: {}
-        path: /
-      xudp: true
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: movie
+      name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
+      network: grpc
+      port: 10128
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: hk3-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_1|651KB/s"
+      name: "\U0001F1F1\U0001F1F9LT_1|1.0MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+        short-id: 4fa44664f6a566d3
+      server: lt.nosok-top.com
+      servername: lt.nosok-top.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F3IN_1|1.8MB/s"
+      port: 443
+      reality-opts:
+        public-key: sbl95eJz_SP1vYb8doCjAJOo0o5NveutEb9J-XKGl1w
+        short-id: 9c2378562188c3cb
+      server: apxc.falsemirrov.com
+      servername: apxc.falsemirrov.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EASE_1|1008KB/s"
       port: 443
       reality-opts:
         public-key: g0mDPNlv3uOrnxXvBYP3cEjd0ewJuIFlBh93KE5bU3A
@@ -30,7 +85,7 @@ proxies:
       uuid: 463a26c2-eba8-40ea-89c4-ee5c1373ccbe
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F1\U0001F1F9LT_1|1.4MB/s"
+      name: "\U0001F1F1\U0001F1F9LT_2|1.1MB/s"
       port: 443
       reality-opts:
         public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
@@ -44,16 +99,146 @@ proxies:
       uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_2|1.3MB/s"
+      name: "\U0001F1EE\U0001F1F3IN_2|2.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: sbl95eJz_SP1vYb8doCjAJOo0o5NveutEb9J-XKGl1w
+        short-id: 9c2378562188c3cb
+      server: apxc.falsemirrov.com
+      servername: apxc.falsemirrov.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FCTW_1|578KB/s"
+      network: tcp
+      port: "50159"
+      reality-opts:
+        public-key: odXlgxKTcj9KjOBT0FhPJ13uhgA2D0Fu32XqyUT-NR4
+        short-id: b843cb6d2e089840
+      server: 203.69.151.155
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 93025051-0abd-4889-b702-987cb247a596
+      xudp: true
+    - name: "\U0001F1E8\U0001F1F4CO_1|898KB/s"
+      network: tcp
+      port: "62145"
+      server: 149.130.189.173
+      type: vless
+      udp: true
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      xudp: true
+    - name: "\U0001F1E8\U0001F1F4CO_2|806KB/s"
+      network: tcp
+      port: "62145"
+      server: 149.130.172.133
+      type: vless
+      udp: true
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      xudp: true
+    - name: "\U0001F1E8\U0001F1F4CO_3|714KB/s"
+      network: tcp
+      port: "62145"
+      server: 149.130.180.210
+      type: vless
+      udp: true
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      xudp: true
+    - name: "\U0001F1E8\U0001F1F4CO_4|549KB/s"
+      network: tcp
+      port: "62145"
+      server: 149.130.191.130
+      type: vless
+      udp: true
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1|1.6MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: FiGwAuKMy_5VK62hqCxDZn1jUjrplWTM1RmAwoA5o1w
+        short-id: 0d6c02fda165f38c
+      server: lbvzo.falsemirrov.com
+      servername: lbvzo.falsemirrov.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EASE_2|1.2MB/s"
       network: tcp
       port: "443"
       reality-opts:
         public-key: g0mDPNlv3uOrnxXvBYP3cEjd0ewJuIFlBh93KE5bU3A
         short-id: d0ca141e839394a3
-      server: 84.32.49.223
+      server: dsech.mostserv.xyz
       servername: dsech.mostserv.xyz
       tls: true
       type: vless
       udp: true
       uuid: 463a26c2-eba8-40ea-89c4-ee5c1373ccbe
       xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.8MB/s"
+      network: tcp
+      port: "62145"
+      server: 134.98.157.168
+      type: vless
+      udp: true
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: ❓Other_1|725KB/s
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: lSuq5s560VLvzELn2cTjWpT1IcL9rlgFOOCkxu_HN1M
+        short-id: "15"
+      server: 2.27.54.187
+      servername: cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7007f4fb-b059-41e1-a8f0-d6df6bc803ac
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_3|1.2MB/s"
+      network: tcp
+      port: "62145"
+      server: 141.148.245.162
+      type: vless
+      udp: true
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_1|666KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 4e82f6c9-e180-4672-9d63-9060679ebdb9
+      port: "443"
+      server: node.embrofree.org
+      skip-cert-verify: true
+      sni: node.embrofree.org
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7KR_1|2.2MB/s"
+      network: tcp
+      password: 0010996f-3eab-4804-9b3a-3a889d6767fc
+      port: 20088
+      server: a8zbx9xj.catcat321.com
+      skip-cert-verify: true
+      sni: iepl.krz3.cat.bilibili.com
+      type: trojan
+      udp: true
