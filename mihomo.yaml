@@ -1,35 +1,96 @@
 proxies:
-  - name: "\U0001F1F3\U0001F1F1NL_1|2.2MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
     port: 23856
     server: 51.159.225.196
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s"
-    password: passwd
-    plugin: obfs
-    plugin-opts:
-      host: 43309-nIao34iu.download.microsoft.com
-      mode: http
-    port: 8105
-    server: cn02.somethingstranges.com
-    type: ss
-  - name: "\U0001F1F8\U0001F1E8SC_1|5.3MB/s"
-    password: None
-    port: 1080
-    server: 27.155.93.29
-    type: http
-  - name: ❓Other_1|1.4MB/s
-    password: aa
-    port: 89
-    server: 160.124.240.188
-    type: http
-    username: aa
+  - alpn:
+      - h3
+    name: "\U0001F1E6\U0001F1F9AT_1|1.6MB/s"
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    port: 443
+    server: at188.mechvpn.online
+    skip-cert-verify: true
+    sni: at188.mechvpn.online
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_1|975KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 18.226.172.222
+    skip-cert-verify: true
+    sni: vpn-us-003.fastervpn.world
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1F3\U0001F1F1NL_2|2.7MB/s"
+    password: e8c93f75-4ed5-41b1-a32e-a846e54582e8
+    port: 8444
+    server: 191.44.90.4
+    skip-cert-verify: true
+    sni: "premium-nl.geodema.network#\U0001F1F5\U0001F1F1|PL|@wxgqlfx|11"
+    type: hysteria2
+  - name: "\U0001F1F3\U0001F1F1NL_3|2.7MB/s"
+    password: e8c93f75-4ed5-41b1-a32e-a846e54582e8
+    port: 8444
+    server: 191.44.90.4
+    skip-cert-verify: true
+    sni: premium-nl.geodema.network
+    type: hysteria2
+  - alpn:
+      - h3
+    name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+    password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+    port: 443
+    server: de.1.22.washing.help
+    skip-cert-verify: true
+    sni: germany1.h2corp.local
+    type: hysteria2
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_1|2.7MB/s"
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+    ws-opts:
+      headers:
+        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      path: /
+  - name: "\U0001F1ED\U0001F1F0HK_2|3.6MB/s"
+    password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
+    port: 448
+    server: 119.147.134.47
+    skip-cert-verify: true
+    sni: ssp.vivo.com.cn
+    type: anytls
+  - alpn:
+      - ''
+    alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_3|2.6MB/s"
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 0c657913-e593-4893-9555-f88478c33a4b
+    ws-opts:
+      headers:
+        Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+      path: /
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_2|1.6MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_4|832KB/s"
     network: ws
     port: 16632
     server: planb.mojcn.com.linuxlh.xin
@@ -43,21 +104,45 @@ proxies:
         Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
       path: /
     xudp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_2|717KB/s"
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
-    reality-opts:
-      public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-      short-id: "dd3ff38418d29d22"
-    server: 2.26.231.40
+    server: vpn-us-003.fastervpn.world
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    network: tcp
-    servername: eu-west.cendora.ru
+    sni: vpn-us-003.fastervpn.world
+    type: hysteria2
+    up: ''
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_5|516KB/s"
+    password: passwd
+    plugin: obfs
+    plugin-opts:
+      host: 43309-nIao34iu.download.microsoft.com
+      mode: http
+    port: 8110
+    server: cn02.somethingstranges.com
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK_6|2.5MB/s"
+    password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a4
+    port: 448
+    server: 119.147.134.47
+    skip-cert-verify: true
+    sni: ssp.vivo.com.cn
+    type: anytls
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_7|552KB/s"
+    password: passwd
+    plugin: obfs
+    plugin-opts:
+      host: 43309-nIao34iu.download.microsoft.com
+      mode: http
+    port: 8108
+    server: cn02.somethingstranges.com
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
