@@ -1,12 +1,26 @@
 proxies:
-  - name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_1|3.3MB/s"
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+    ws-opts:
+      headers:
+        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      path: /
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
     port: 23856
     server: 51.159.225.196
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_2|532KB/s"
     password: None
     port: 9002
     server: 84.17.47.146
@@ -14,14 +28,14 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_3|1.6MB/s"
     port: 9002
     server: 84.17.47.147
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_4|1.0MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_4|701KB/s"
     password: None
     port: 9002
     server: 84.17.47.148
@@ -29,21 +43,14 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_5|1.1MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_5|1.3MB/s"
     port: 9002
     server: 84.17.47.148
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_6|1.3MB/s"
-    port: 9002
-    server: 84.17.47.149
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_7|1.3MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_6|821KB/s"
     password: None
     port: 9002
     server: 84.17.47.125
@@ -51,28 +58,21 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_8|912KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_7|1.4MB/s"
     port: 9002
     server: 84.17.47.150
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_9|662KB/s"
-    port: 9002
-    server: 84.17.47.146
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_10|662KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_8|1.1MB/s"
     port: 9002
     server: 84.17.47.125
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_1|643KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_1|1002KB/s"
     password: None
     port: 9002
     server: 84.239.49.154
@@ -80,121 +80,126 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|822KB/s"
-    port: 9002
-    server: 84.239.49.49
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_3|1.7MB/s"
-    password: None
-    port: 9002
-    server: 84.239.49.155
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_4|1.8MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_2|836KB/s"
     port: 9002
     server: 84.239.49.202
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_5|550KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_3|1.0MB/s"
+    port: 9002
+    server: 84.239.49.168
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_4|1.0MB/s"
+    port: 9002
+    server: 84.239.49.59
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_5|1.2MB/s"
+    port: 9002
+    server: 84.239.14.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_6|1.3MB/s"
     port: 9002
     server: 84.239.49.178
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_6|1.9MB/s"
-    password: None
-    port: 9002
-    server: 84.239.49.201
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_7|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_7|1.4MB/s"
     port: 9002
     server: 84.239.49.162
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_8|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_8|1.0MB/s"
     port: 9002
     server: 84.239.49.244
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_9|717KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_9|1.5MB/s"
+    port: 9002
+    server: 84.239.49.189
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_10|2.0MB/s"
     port: 9002
     server: 84.239.49.253
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_10|707KB/s"
-    port: 9002
-    server: 193.176.84.17
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_11|1.6MB/s"
-    port: 9002
-    server: 84.239.49.229
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_12|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_11|815KB/s"
     port: 9002
     server: 84.239.49.241
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_13|1.5MB/s"
-    port: 9002
-    server: 193.176.84.38
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_14|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_12|837KB/s"
     port: 9002
     server: 193.176.84.35
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_15|1.9MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_13|726KB/s"
     port: 9002
-    server: 84.239.49.185
+    server: 84.239.49.181
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_14|1.4MB/s"
+    port: 9002
+    server: 193.176.84.16
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_15|834KB/s"
+    port: 9002
+    server: 193.176.84.33
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
   - name: "\U0001F1F7\U0001F1F4RO_16|2.0MB/s"
     port: 9002
-    server: 84.239.14.159
+    server: 193.176.84.30
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_17|1.4MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_17|1000KB/s"
+    port: 9002
+    server: 84.239.49.201
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_18|962KB/s"
     port: 9002
     server: 84.239.49.57
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_18|526KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_19|1.1MB/s"
     password: None
     port: 9002
     server: 84.239.49.235
@@ -202,84 +207,84 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_19|574KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_20|602KB/s"
     port: 9002
     server: 84.239.49.43
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_20|584KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_21|1.2MB/s"
     port: 9002
     server: 84.239.14.147
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_21|1.4MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_22|1.0MB/s"
     port: 9002
     server: 84.239.49.50
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_22|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_23|1.5MB/s"
+    port: 9002
+    server: 84.239.49.199
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_24|879KB/s"
     port: 9002
     server: 84.239.49.196
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_23|1.8MB/s"
-    port: 9002
-    server: 84.239.49.191
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_24|862KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_25|1.6MB/s"
     port: 9002
     server: 84.239.14.149
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_25|795KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_26|1.1MB/s"
     port: 9002
     server: 84.239.49.223
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_26|1.3MB/s"
-    port: 9002
-    server: 84.239.49.155
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_27|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_27|1.0MB/s"
     port: 9002
     server: 84.239.49.240
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_28|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_28|1.2MB/s"
     port: 9002
-    server: 84.239.49.231
+    server: 84.239.49.233
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_29|1.3MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_29|2.0MB/s"
+    port: 9002
+    server: 84.239.49.192
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_30|2.2MB/s"
     port: 9002
     server: 84.239.49.217
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_30|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_31|1.1MB/s"
     password: None
     port: 9002
     server: 84.239.49.62
@@ -287,166 +292,126 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_31|1.5MB/s"
-    port: 9002
-    server: 84.239.49.254
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_32|1.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_32|1.2MB/s"
     port: 9002
     server: 84.239.49.163
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_33|2.1MB/s"
-    password: 'null'
+  - name: "\U0001F1F7\U0001F1F4RO_33|849KB/s"
     port: 9002
-    server: 84.239.49.58
+    server: 84.239.14.152
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-    username: 'null'
-  - name: "\U0001F1F7\U0001F1F4RO_34|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_34|1.2MB/s"
     port: 9002
     server: 84.239.49.200
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_35|758KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_35|923KB/s"
     port: 9002
     server: 84.239.49.170
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_36|1.6MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_36|1.2MB/s"
     port: 9002
     server: 84.239.49.182
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_37|911KB/s"
-    password: None
-    port: 9002
-    server: 84.239.49.197
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_38|1.2MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_37|673KB/s"
     port: 9002
     server: 84.239.49.171
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_39|708KB/s"
-    password: None
+  - name: "\U0001F1F7\U0001F1F4RO_38|1.0MB/s"
     port: 9002
-    server: 84.239.49.194
+    server: 193.176.84.25
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_40|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_39|1.7MB/s"
     port: 9002
-    server: 84.239.49.175
+    server: 193.176.84.20
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_41|705KB/s"
-    port: 9002
-    server: 193.176.84.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_42|2.2MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_40|894KB/s"
     port: 9002
     server: 193.176.84.24
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_43|694KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_41|1.8MB/s"
+    port: 9002
+    server: 84.239.14.154
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_42|1.3MB/s"
+    port: 9002
+    server: 84.239.49.204
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_43|1.4MB/s"
     port: 9002
     server: 84.239.49.159
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_44|1.3MB/s"
-    port: 9002
-    server: 84.239.49.39
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_45|905KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_44|683KB/s"
     port: 9002
     server: 84.239.49.154
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_46|790KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_45|2.1MB/s"
     port: 9002
     server: 84.239.49.234
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_47|2.0MB/s"
-    port: 9002
-    server: 84.239.49.37
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_48|955KB/s"
-    port: 9002
-    server: 84.239.49.211
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_49|706KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_46|1.8MB/s"
     port: 9002
     server: 84.239.49.160
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_50|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_47|2.0MB/s"
     port: 9002
-    server: 84.239.49.239
+    server: 84.239.49.207
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_51|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_48|2.0MB/s"
     port: 9002
-    server: 84.239.49.165
+    server: 84.239.49.42
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_52|1.3MB/s"
-    password: None
-    port: 9002
-    server: 84.239.49.173
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_53|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_49|1022KB/s"
     password: None
     port: 9002
     server: 84.239.14.153
@@ -454,7 +419,7 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_54|776KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_50|676KB/s"
     password: None
     port: 9002
     server: 193.176.84.31
@@ -462,14 +427,14 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_55|1.9MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_51|1.3MB/s"
     port: 9002
     server: 84.239.49.183
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_56|732KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_52|758KB/s"
     password: None
     port: 9002
     server: 84.239.14.148
@@ -477,52 +442,50 @@ proxies:
     tls: true
     type: http
     udp: true
-  - cipher: 2022-blake3-chacha20-poly1305
-    name: "\U0001F1EC\U0001F1E7GB_1|1.3MB/s"
-    password: 7CCOp1icO5ZfmmzSweQowSvA5+efeJ3HrKxHDAAJmUc=
-    port: 61312
-    server: 129.151.88.180
-    type: ss
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_1|721KB/s"
-    password: HC04361579
-    port: 443
-    server: accepted-starling.rooster465.autos
-    skip-cert-verify: true
-    sni: accepted-starling.rooster465.autos
-    type: trojan
-    network: tcp
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|936KB/s"
-    password: dongtaiwang.com
-    port: 34567
-    server: 157.254.223.44
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - name: "\U0001F1EB\U0001F1F7FR_1|894KB/s"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 60111
-    server: 62.210.7.139
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-  - name: "\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_53|1.2MB/s"
     password: None
-    port: 9443
-    server: 37.120.213.210
+    port: 9002
+    server: 193.176.84.23
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "\U0001F1FA\U0001F1F8US_2|591KB/s"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    udp: true
+  - name: "\U0001F1E9\U0001F1EADE_1|2.8MB/s"
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     port: 443
-    server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-    sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-    tls: true
-    type: http
-    username: 16955d72-1794-11f0-a035-f23c95b6f51d
-  - name: "\U0001F1FA\U0001F1F8US_3|805KB/s"
+    server: fr194.mechvpn.online
+    sni: fr194.mechvpn.online
+    type: hysteria2
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_2|3.9MB/s"
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+    ws-opts:
+      headers:
+        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      path: /
+    xudp: true
+    servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E8\U0001F1FECY_1|2.9MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    port: 2056
+    server: xby.mangshe.xyz
+    skip-cert-verify: true
+    sni: mg2.mangshe.xyz
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8US_1|948KB/s"
     password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
     port: 443
     server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
@@ -531,17 +494,87 @@ proxies:
     type: http
     username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s"
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP_1|3.7MB/s"
     network: tcp
-    password: HC04361579
     port: 443
-    server: driven-doberman.rooster465.autos
+    reality-opts:
+      public-key: 1xIu8ESLs4JviWXp8XaOceWAEVHqWLzNIiojA_uf8Ug
+      short-id: "83feb7aa267e9ddf"
+    server: 103.100.158.10
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
+    xudp: true
+    servername: www.apple.com
+  - alterId: '0'
+    cipher: auto
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_2|590KB/s"
+    network: http
+    port: 52080
+    server: 38.246.226.240
     skip-cert-verify: false
-    sni: driven-doberman.rooster465.autos
-    type: trojan
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_2|4.5MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21109
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F0\U0001F1F7KR_1|3.3MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21114
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F0\U0001F1F7KR_2|4.8MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21107
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_3|3.3MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21119
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_4|3.3MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21109
+    server: 211.91.158.27
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F0\U0001F1F7KR_3|3.5MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21107
+    server: 211.91.158.27
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_5|2.8MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21119
+    server: 211.91.158.27
+    type: ss
     udp: true
   - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_1|2.6MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_3|3.6MB/s"
     obfs: plain
     obfs-param: 87c276924.douyin.com
     password: di15PV
@@ -550,38 +583,8 @@ proxies:
     protocol-param: '276924:CPFGip'
     server: api.meituan88.com
     type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
-    obfs: plain
-    obfs-param: 99e144391.douyin.com
-    password: di15PV
-    port: 42021
-    protocol: auth_aes128_md5
-    protocol-param: '144391:uBtVcY'
-    server: api.meituan88.com
-    type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1F9\U0001F1FCTW_2|3.5MB/s"
-    obfs: plain
-    obfs-param: 99e144391.douyin.com
-    password: di15PV
-    port: 7016
-    protocol: auth_aes128_md5
-    protocol-param: '144391:uBtVcY'
-    server: api.meituan88.com
-    type: ssr
   - cipher: rc4-md5
-    name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
-    obfs: plain
-    obfs-param: 665203463.douyin.com
-    password: di15PV
-    port: 63699
-    protocol: auth_aes128_md5
-    protocol-param: '203463:YMo3sn'
-    server: api.meituan88.com
-    type: ssr
-  - cipher: rc4-md5
-    name: "\U0001F1F8\U0001F1ECSG_2|3.3MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
     obfs: plain
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -591,17 +594,17 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_2|1.8MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_4|1.3MB/s"
     obfs: plain
-    obfs-param: 99e144391.douyin.com
+    obfs-param: 87c276924.douyin.com
     password: di15PV
-    port: 27084
+    port: 2102
     protocol: auth_aes128_md5
-    protocol-param: '144391:uBtVcY'
+    protocol-param: '276924:CPFGip'
     server: api.meituan88.com
     type: ssr
   - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_3|1.4MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_5|623KB/s"
     obfs: plain
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -611,7 +614,7 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_4|1.3MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_6|716KB/s"
     obfs: plain
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -621,37 +624,7 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: chacha20-ietf
-    name: "\U0001F1F8\U0001F1ECSG_3|2.0MB/s"
-    obfs: plain
-    obfs-param: 665203463.douyin.com
-    password: di15PV
-    port: 3202
-    protocol: auth_aes128_md5
-    protocol-param: '203463:YMo3sn'
-    server: api.meituan88.com
-    type: ssr
-  - cipher: rc4-md5
-    name: "\U0001F1F9\U0001F1FCTW_3|3.3MB/s"
-    obfs: plain
-    obfs-param: 87c276924.douyin.com
-    password: di15PV
-    port: 53465
-    protocol: auth_aes128_md5
-    protocol-param: '276924:CPFGip'
-    server: api.meituan88.com
-    type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_5|1.5MB/s"
-    obfs: plain
-    obfs-param: 665203463.douyin.com
-    password: di15PV
-    port: 7002
-    protocol: auth_aes128_md5
-    protocol-param: '203463:YMo3sn'
-    server: api.meituan88.com
-    type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_6|2.1MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_7|756KB/s"
     obfs: plain
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -661,17 +634,7 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: chacha20-ietf
-    name: "\U0001F1F8\U0001F1ECSG_4|1.8MB/s"
-    obfs: plain
-    obfs-param: 665203463.douyin.com
-    password: di15PV
-    port: 18566
-    protocol: auth_aes128_md5
-    protocol-param: '203463:YMo3sn'
-    server: api.meituan88.com
-    type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_7|735KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_8|614KB/s"
     obfs: tls1.2_ticket_auth
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -680,18 +643,8 @@ proxies:
     protocol-param: '203463:YMo3sn'
     server: api.meituan88.com
     type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1F8\U0001F1ECSG_5|799KB/s"
-    obfs: plain
-    obfs-param: 665203463.douyin.com
-    password: di15PV
-    port: 3209
-    protocol: auth_aes128_md5
-    protocol-param: '203463:YMo3sn'
-    server: api.meituan88.com
-    type: ssr
   - cipher: aes-256-cfb
-    name: "\U0001F1ED\U0001F1F0HK_8|1.5MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_9|1.2MB/s"
     obfs: tls1.2_ticket_auth
     obfs-param: 87c276924.douyin.com
     password: di15PV
@@ -701,17 +654,7 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: chacha20-ietf
-    name: "\U0001F1F9\U0001F1FCTW_4|1.4MB/s"
-    obfs: plain
-    obfs-param: 87c276924.douyin.com
-    password: di15PV
-    port: 32289
-    protocol: auth_aes128_md5
-    protocol-param: '276924:CPFGip'
-    server: api.meituan88.com
-    type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_9|1.3MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_10|1.4MB/s"
     obfs: tls1.2_ticket_auth
     obfs-param: 99e144391.douyin.com
     password: di15PV
@@ -720,16 +663,134 @@ proxies:
     protocol-param: '144391:uBtVcY'
     server: api.meituan88.com
     type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1F8\U0001F1ECSG_6|622KB/s"
-    obfs: plain
+  - cipher: aes-256-cfb
+    name: "\U0001F1ED\U0001F1F0HK_11|1.2MB/s"
+    obfs: tls1.2_ticket_auth
     obfs-param: 99e144391.douyin.com
     password: di15PV
-    port: 2205
+    port: 2106
     protocol: auth_aes128_md5
     protocol-param: '144391:uBtVcY'
     server: api.meituan88.com
     type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_12|1.6MB/s"
+    obfs: tls1.2_ticket_auth
+    obfs-param: 99e144391.douyin.com
+    password: di15PV
+    port: 39514
+    protocol: auth_aes128_md5
+    protocol-param: '144391:uBtVcY'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F9\U0001F1FCTW_1|1.2MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 7018
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F9\U0001F1FCTW_2|608KB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 7015
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1EF\U0001F1F5JP_6|837KB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 43528
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: rc4-md5
+    name: "\U0001F1EE\U0001F1E9ID_1|1.0MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 56274
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: rc4-md5
+    name: "\U0001F1EF\U0001F1F5JP_7|1007KB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 9051
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: rc4-md5
+    name: "\U0001F1F0\U0001F1F7KR_4|1.5MB/s"
+    obfs: plain
+    obfs-param: 99e144391.douyin.com
+    password: di15PV
+    port: 32414
+    protocol: auth_aes128_md5
+    protocol-param: '144391:uBtVcY'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
+    network: none
+    port: 47212
+    server: 216.167.54.75
+    tls: false
+    type: vless
+    uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
+  - cipher: chacha20-ietf
+    name: "\U0001F1F8\U0001F1ECSG_2|1.6MB/s"
+    obfs: plain
+    obfs-param: 99e144391.douyin.com
+    password: di15PV
+    port: 2204
+    protocol: auth_aes128_md5
+    protocol-param: '144391:uBtVcY'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_13|2.0MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 3206
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - name: "\U0001F1FA\U0001F1F8US_4|988KB/s"
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    port: 443
+    server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+    sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+    tls: true
+    type: http
+    username: 16955d72-1794-11f0-a035-f23c95b6f51d
+  - alpn:
+      - h2
+    grpc-opts:
+      grpc-service-name: ajv
+    name: "\U0001F1E9\U0001F1EADE_2|2.3MB/s"
+    network: grpc
+    password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+    port: 443
+    server: ru-5b7331.atlanta-games.com
+    skip-cert-verify: true
+    sni: ru-5b7331.atlanta-games.com
+    type: trojan
   - alpn:
       - h2
     client-fingerprint: firefox
@@ -750,50 +811,22 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI_1|1.4MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_9|728KB/s"
     network: tcp
-    port: 13443
+    port: 443
     reality-opts:
-      public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-      short-id: "a7f3c91b2e6d84c0"
-    server: 87.121.89.80
+      public-key: TC8D2edifNXaro0S31ZiC9izi8tAmXJyxdOHptwNUTw
+      short-id: "660c1badc77a422b"
+    server: 144.31.237.65
     tls: true
     type: vless
     udp: true
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+    uuid: 74099b9e-52fd-4540-b642-b8d60f3b5a2a
     xudp: true
-    servername: auto.cendora.ru
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_10|9.6MB/s"
-    network: tcp
-    port: 29008
-    server: 366-1095.rabbitpro-in-3.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_4|526KB/s"
-    network: ws
-    port: 8880
-    server: skk.moe
-    type: vless
-    udp: true
-    uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
-    ws-opts:
-      headers:
-        Host: late-mountain-6801.355.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /pyip=ProxyIP.JP.CMLiussss.net
-    xudp: true
+    servername: edge-nl.mystatic-cdn.ru
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_7|3.3MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_3|2.2MB/s"
     obfs: ''
     obfs-password: ''
     password: 1427eb10-7529-4d38-a6a2-01b337868b37
@@ -803,141 +836,123 @@ proxies:
     sni: sg1.xiaoliyu.cyou
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_1|4.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-    port: 443
-    server: fr194.mechvpn.online
-    skip-cert-verify: false
-    sni: fr194.mechvpn.online
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_3|3.4MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 1xIu8ESLs4JviWXp8XaOceWAEVHqWLzNIiojA_uf8Ug
-      short-id: "83feb7aa267e9ddf"
-    server: 103.100.158.10
-    tls: true
-    type: vless
+  - name: "\U0001F1F9\U0001F1FCTW_3|5.6MB/s"
+    password: ee6586d9-01fd-4562-91f2-4117ca4f563f
+    port: 40073
+    server: tw3.catzl.top
+    type: anytls
     udp: true
-    uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
-    xudp: true
-    servername: www.apple.com
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_11|2.5MB/s"
-    network: ws
-    port: 16632
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: tw3.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_5|2.3MB/s"
+    password: ee6586d9-01fd-4562-91f2-4117ca4f563f
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
     udp: true
-    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-    ws-opts:
-      headers:
-        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-      path: /
-    xudp: true
-    servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EF\U0001F1F5JP_4|3.5MB/s"
-    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-    port: 21109
-    server: 211.91.158.24
-    type: ss
+    sni: us2.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_1|966KB/s"
+    password: ee6586d9-01fd-4562-91f2-4117ca4f563f
+    port: 11683
+    server: vn3.nbjc.top
+    type: anytls
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F0\U0001F1F7KR_1|3.2MB/s"
-    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-    port: 21114
-    server: 211.91.158.24
-    type: ss
+    sni: vn3.nbjc.top
+  - name: "\U0001F1F9\U0001F1FCTW_4|684KB/s"
+    password: ee6586d9-01fd-4562-91f2-4117ca4f563f
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F0\U0001F1F7KR_2|3.4MB/s"
-    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-    port: 21107
-    server: 211.91.158.24
-    type: ss
+    sni: tw1.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_2|1.6MB/s"
+    password: ee6586d9-01fd-4562-91f2-4117ca4f563f
+    port: 11682
+    server: vn2.nbjc.top
+    type: anytls
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EF\U0001F1F5JP_5|3.1MB/s"
-    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-    port: 21119
-    server: 211.91.158.24
-    type: ss
+    sni: vn2.nbjc.top
+  - name: "\U0001F1FB\U0001F1F3VN_3|2.2MB/s"
+    password: ee6586d9-01fd-4562-91f2-4117ca4f563f
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EF\U0001F1F5JP_6|3.6MB/s"
-    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-    port: 21109
-    server: 211.91.158.27
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F0\U0001F1F7KR_3|3.2MB/s"
-    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-    port: 21107
-    server: 211.91.158.27
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EF\U0001F1F5JP_7|3.1MB/s"
-    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-    port: 21119
-    server: 211.91.158.27
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_8|777KB/s"
-    network: tcp
-    port: 39411
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 188.253.123.164
-    tls: true
-    type: vless
-    udp: true
-    uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
-    network: tcp
-    port: 10877
-    reality-opts:
-      public-key: zX35soHloTc-mNt8U2GiZQaRZuKr4v_GjMEV7SMyiUw
-      short-id: ''
-    server: 104.225.232.25
-    tls: true
-    type: vless
-    udp: true
-    uuid: 42613786-2036-4a79-ad64-cc65d4e60a8d
-    xudp: true
-    servername: www.paypal.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_9|3.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: Pwd_23g4oqdgv8uQJlgcmv_2026
-    port: 19659
-    server: 38.143.180.241
+    sni: vn1.nbjc.top
+  - auth: cd9a5938-10f7-4799-84d4-a86a94dc402e
+    name: "\U0001F1E8\U0001F1E6CA_1|2.1MB/s"
+    obfs: salamander
+    obfs-password: EWXiQvxRKEsITLW2
+    password: cd9a5938-10f7-4799-84d4-a86a94dc402e
+    port: 22724
+    server: ca.apifrrgrtdd.lol
     skip-cert-verify: true
-    sni: www.bing.com
     type: hysteria2
-    up: ''
+    udp: true
+    sni: ca.apifrrgrtdd.lol
+  - auth: 57a45af8-114a-4b37-abe1-67af4ba372ea
+    name: "\U0001F1E9\U0001F1EADE_3|2.0MB/s"
+    obfs: salamander
+    obfs-password: Xydh1mcz51VQHbbJ
+    password: 57a45af8-114a-4b37-abe1-67af4ba372ea
+    port: 443
+    server: 157.228.137.81
+    skip-cert-verify: false
+    sni: msk2.nebuchadnezzar.ink
+    type: hysteria2
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|1.1MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: cFmHbKSQO1BQnCBGd26-EA0CU-zYmduwk0Wqu0fhuT0
+      short-id: "7e8d2954eb836947"
+    server: jhmq-16fdqod.henghesoft.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: f04037b7-125e-4666-841f-4b6bdbc9823d
+    xudp: true
+    servername: www.cloudflare.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_4|903KB/s"
+    network: tcp
+    port: 49527
+    reality-opts:
+      public-key: IbI4GjOoEE7mFvOyegC2bdADUgDjzpz24OIIhQhzdnc
+      short-id: "9c4b91b9"
+    server: 23.165.200.168
+    tls: true
+    type: vless
+    udp: true
+    uuid: 853a3bff-2583-4908-9f16-934bb3077d24
+    xudp: true
+    servername: apple.com
+  - name: "\U0001F1F3\U0001F1F1NL_10|905KB/s"
+    network: tcp
+    port: 62145
+    server: 84.235.171.188
+    type: vless
+    udp: true
+    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+    xudp: true
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1E9\U0001F1EADE_5|3.3MB/s"
+    password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+    port: 17306
+    server: 89.144.35.232
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: tuic
+    udp: true
+    udp-relay-mode: native
+    uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+    version: 5
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
