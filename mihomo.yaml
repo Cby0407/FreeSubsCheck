@@ -1,119 +1,115 @@
 proxies:
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|4.7MB/s"
-    network: ws
-    port: 16632
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-    ws-opts:
-      headers:
-        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-      path: /
-  - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
     port: 23856
     server: 51.159.225.196
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
-    port: 9002
-    server: 84.17.47.147
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.3MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
     password: None
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_4|1.2MB/s"
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_5|1.2MB/s"
-    port: 9002
-    server: 84.17.47.149
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_6|565KB/s"
     port: 9002
     server: 84.17.47.146
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_7|1.5MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s"
+    port: 9002
+    server: 84.17.47.147
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_4|1.0MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|1.1MB/s"
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_6|1.3MB/s"
+    port: 9002
+    server: 84.17.47.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_7|1.3MB/s"
+    password: None
     port: 9002
     server: 84.17.47.125
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_1|964KB/s"
-    password: None
+  - name: "\U0001F1F3\U0001F1F1NL_8|912KB/s"
     port: 9002
-    server: 193.176.84.39
+    server: 84.17.47.150
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|1.1MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_9|662KB/s"
+    port: 9002
+    server: 84.17.47.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_10|662KB/s"
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_1|643KB/s"
+    password: None
+    port: 9002
+    server: 84.239.49.154
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|822KB/s"
     port: 9002
     server: 84.239.49.49
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_3|1.8MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_3|1.7MB/s"
+    password: None
+    port: 9002
+    server: 84.239.49.155
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_4|1.8MB/s"
     port: 9002
     server: 84.239.49.202
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_4|773KB/s"
-    port: 9002
-    server: 84.239.49.168
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_5|1.8MB/s"
-    port: 9002
-    server: 84.239.49.59
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_6|1.2MB/s"
-    port: 9002
-    server: 84.239.14.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_7|1.2MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_5|550KB/s"
     port: 9002
     server: 84.239.49.178
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_8|560KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_6|1.9MB/s"
     password: None
     port: 9002
     server: 84.239.49.201
@@ -121,84 +117,84 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_9|1.3MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_7|1.5MB/s"
+    port: 9002
+    server: 84.239.49.162
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_8|2.0MB/s"
     port: 9002
     server: 84.239.49.244
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_10|1.7MB/s"
-    port: 9002
-    server: 84.239.49.189
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_11|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_9|717KB/s"
     port: 9002
     server: 84.239.49.253
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_12|665KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_10|707KB/s"
+    port: 9002
+    server: 193.176.84.17
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_11|1.6MB/s"
     port: 9002
     server: 84.239.49.229
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_13|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_12|2.0MB/s"
     port: 9002
     server: 84.239.49.241
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_14|959KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_13|1.5MB/s"
     port: 9002
     server: 193.176.84.38
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_15|1.4MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_14|2.1MB/s"
     port: 9002
-    server: 84.239.49.181
+    server: 193.176.84.35
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_16|1.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_15|1.9MB/s"
     port: 9002
-    server: 193.176.84.33
+    server: 84.239.49.185
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_17|581KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_16|2.0MB/s"
     port: 9002
-    server: 84.239.49.201
+    server: 84.239.14.159
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_18|2.0MB/s"
-    port: 9002
-    server: 84.239.49.40
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_19|1.9MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_17|1.4MB/s"
     port: 9002
     server: 84.239.49.57
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_20|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_18|526KB/s"
     password: None
     port: 9002
     server: 84.239.49.235
@@ -206,92 +202,106 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_21|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_19|574KB/s"
     port: 9002
     server: 84.239.49.43
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_22|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_20|584KB/s"
     port: 9002
     server: 84.239.14.147
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_23|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_21|1.4MB/s"
     port: 9002
-    server: 84.239.49.199
+    server: 84.239.49.50
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_24|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_22|2.0MB/s"
+    port: 9002
+    server: 84.239.49.196
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_23|1.8MB/s"
     port: 9002
     server: 84.239.49.191
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_25|533KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_24|862KB/s"
+    port: 9002
+    server: 84.239.14.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_25|795KB/s"
     port: 9002
     server: 84.239.49.223
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_26|608KB/s"
-    port: 9002
-    server: 84.239.49.225
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_27|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_26|1.3MB/s"
     port: 9002
     server: 84.239.49.155
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_28|543KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_27|2.0MB/s"
     port: 9002
     server: 84.239.49.240
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_29|1.6MB/s"
-    port: 9002
-    server: 84.239.49.56
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_30|885KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_28|1.5MB/s"
     port: 9002
     server: 84.239.49.231
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_31|773KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_29|1.3MB/s"
     port: 9002
-    server: 84.239.49.192
+    server: 84.239.49.217
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_32|1.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_30|2.1MB/s"
     password: None
     port: 9002
-    server: 84.239.49.230
+    server: 84.239.49.62
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_33|928KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_31|1.5MB/s"
+    port: 9002
+    server: 84.239.49.254
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_32|1.1MB/s"
+    port: 9002
+    server: 84.239.49.163
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_33|2.1MB/s"
     password: 'null'
     port: 9002
     server: 84.239.49.58
@@ -300,35 +310,28 @@ proxies:
     type: http
     udp: true
     username: 'null'
-  - name: "\U0001F1F7\U0001F1F4RO_34|1.3MB/s"
-    port: 9002
-    server: 84.239.14.152
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_35|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_34|1.7MB/s"
     port: 9002
     server: 84.239.49.200
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_36|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_35|758KB/s"
     port: 9002
     server: 84.239.49.170
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_37|1.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_36|1.6MB/s"
     port: 9002
     server: 84.239.49.182
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_38|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_37|911KB/s"
     password: None
     port: 9002
     server: 84.239.49.197
@@ -336,15 +339,14 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_39|695KB/s"
-    password: None
+  - name: "\U0001F1F7\U0001F1F4RO_38|1.2MB/s"
     port: 9002
-    server: 84.239.49.157
+    server: 84.239.49.171
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_40|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_39|708KB/s"
     password: None
     port: 9002
     server: 84.239.49.194
@@ -352,119 +354,91 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_41|639KB/s"
-    port: 9002
-    server: 193.176.84.25
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_42|682KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_40|1.5MB/s"
     port: 9002
     server: 84.239.49.175
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_43|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_41|705KB/s"
     port: 9002
     server: 193.176.84.34
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_44|682KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_42|2.2MB/s"
     port: 9002
     server: 193.176.84.24
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_45|1.7MB/s"
-    port: 9002
-    server: 84.239.14.154
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_46|550KB/s"
-    port: 9002
-    server: 84.239.49.204
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_47|2.1MB/s"
-    port: 9002
-    server: 193.176.84.19
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_48|2.2MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_43|694KB/s"
     port: 9002
     server: 84.239.49.159
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_49|624KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_44|1.3MB/s"
     port: 9002
     server: 84.239.49.39
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_50|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_45|905KB/s"
     port: 9002
     server: 84.239.49.154
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_51|968KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_46|790KB/s"
+    port: 9002
+    server: 84.239.49.234
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_47|2.0MB/s"
     port: 9002
     server: 84.239.49.37
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_52|1.4MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_48|955KB/s"
     port: 9002
     server: 84.239.49.211
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_53|1.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_49|706KB/s"
+    port: 9002
+    server: 84.239.49.160
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_50|1.7MB/s"
     port: 9002
     server: 84.239.49.239
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_54|1.4MB/s"
-    port: 9002
-    server: 84.239.49.207
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_55|1.4MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_51|2.0MB/s"
     port: 9002
     server: 84.239.49.165
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_56|756KB/s"
-    port: 9002
-    server: 84.239.49.42
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_57|1.2MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_52|1.3MB/s"
     password: None
     port: 9002
     server: 84.239.49.173
@@ -472,7 +446,7 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_58|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_53|1.7MB/s"
     password: None
     port: 9002
     server: 84.239.14.153
@@ -480,7 +454,7 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_59|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_54|776KB/s"
     password: None
     port: 9002
     server: 193.176.84.31
@@ -488,29 +462,106 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_60|1.1MB/s"
-    port: 9002
-    server: 84.239.49.164
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_61|547KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_55|1.9MB/s"
     port: 9002
     server: 84.239.49.183
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1EB\U0001F1F7FR_1|700KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_56|732KB/s"
+    password: None
+    port: 9002
+    server: 84.239.14.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: "\U0001F1EC\U0001F1E7GB_1|1.3MB/s"
+    password: 7CCOp1icO5ZfmmzSweQowSvA5+efeJ3HrKxHDAAJmUc=
+    port: 61312
+    server: 129.151.88.180
+    type: ss
+    udp: true
+  - name: "\U0001F1EF\U0001F1F5JP_1|721KB/s"
+    password: HC04361579
+    port: 443
+    server: accepted-starling.rooster465.autos
+    skip-cert-verify: true
+    sni: accepted-starling.rooster465.autos
+    type: trojan
+    network: tcp
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_1|936KB/s"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: "\U0001F1EB\U0001F1F7FR_1|894KB/s"
     password: github.com/Alvin9999-newpac/fanqiang
     port: 60111
     server: 62.210.7.139
     skip-cert-verify: true
     sni: bing.com
     type: hysteria2
+  - name: "\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
+    password: None
+    port: 9443
+    server: 37.120.213.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_2|591KB/s"
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    port: 443
+    server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+    sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+    tls: true
+    type: http
+    username: 16955d72-1794-11f0-a035-f23c95b6f51d
+  - name: "\U0001F1FA\U0001F1F8US_3|805KB/s"
+    password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+    port: 443
+    server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+    sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+    tls: true
+    type: http
+    username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s"
+    network: tcp
+    password: HC04361579
+    port: 443
+    server: driven-doberman.rooster465.autos
+    skip-cert-verify: false
+    sni: driven-doberman.rooster465.autos
+    type: trojan
+    udp: true
   - cipher: chacha20-ietf
-    name: "\U0001F1F9\U0001F1FCTW_1|1.5MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|2.6MB/s"
+    obfs: plain
+    obfs-param: 87c276924.douyin.com
+    password: di15PV
+    port: 2104
+    protocol: auth_aes128_md5
+    protocol-param: '276924:CPFGip'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
+    obfs: plain
+    obfs-param: 99e144391.douyin.com
+    password: di15PV
+    port: 42021
+    protocol: auth_aes128_md5
+    protocol-param: '144391:uBtVcY'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F9\U0001F1FCTW_2|3.5MB/s"
     obfs: plain
     obfs-param: 99e144391.douyin.com
     password: di15PV
@@ -520,7 +571,7 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: rc4-md5
-    name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
     obfs: plain
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -530,7 +581,7 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: rc4-md5
-    name: "\U0001F1F8\U0001F1ECSG_2|3.5MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_2|3.3MB/s"
     obfs: plain
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -540,7 +591,67 @@ proxies:
     server: api.meituan88.com
     type: ssr
   - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_2|1.3MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_2|1.8MB/s"
+    obfs: plain
+    obfs-param: 99e144391.douyin.com
+    password: di15PV
+    port: 27084
+    protocol: auth_aes128_md5
+    protocol-param: '144391:uBtVcY'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_3|1.4MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 18888
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_4|1.3MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 7003
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F8\U0001F1ECSG_3|2.0MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 3202
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: rc4-md5
+    name: "\U0001F1F9\U0001F1FCTW_3|3.3MB/s"
+    obfs: plain
+    obfs-param: 87c276924.douyin.com
+    password: di15PV
+    port: 53465
+    protocol: auth_aes128_md5
+    protocol-param: '276924:CPFGip'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_5|1.5MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 7002
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_6|2.1MB/s"
     obfs: plain
     obfs-param: 665203463.douyin.com
     password: di15PV
@@ -549,29 +660,76 @@ proxies:
     protocol-param: '203463:YMo3sn'
     server: api.meituan88.com
     type: ssr
-  - name: "\U0001F1FA\U0001F1F8US_1|828KB/s"
-    password: gs4BXwT6SW
-    port: 10988
-    server: 154.26.192.123
-    tls: false
-    type: http
-    username: fQ67Dpe5dU
-  - alpn:
-      - h2
-    grpc-opts:
-      grpc-service-name: ajv
-    name: ❓Other_1|2.0MB/s
-    network: grpc
-    password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
-    port: 443
-    server: ru-5b7331.atlanta-games.com
-    skip-cert-verify: true
-    sni: ru-5b7331.atlanta-games.com
-    type: trojan
-  - name: ❓Other_2|4.1MB/s
-    port: 1080
-    server: 27.155.93.29
-    type: http
+  - cipher: chacha20-ietf
+    name: "\U0001F1F8\U0001F1ECSG_4|1.8MB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 18566
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_7|735KB/s"
+    obfs: tls1.2_ticket_auth
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 7004
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F8\U0001F1ECSG_5|799KB/s"
+    obfs: plain
+    obfs-param: 665203463.douyin.com
+    password: di15PV
+    port: 3209
+    protocol: auth_aes128_md5
+    protocol-param: '203463:YMo3sn'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: aes-256-cfb
+    name: "\U0001F1ED\U0001F1F0HK_8|1.5MB/s"
+    obfs: tls1.2_ticket_auth
+    obfs-param: 87c276924.douyin.com
+    password: di15PV
+    port: 2105
+    protocol: auth_aes128_md5
+    protocol-param: '276924:CPFGip'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F9\U0001F1FCTW_4|1.4MB/s"
+    obfs: plain
+    obfs-param: 87c276924.douyin.com
+    password: di15PV
+    port: 32289
+    protocol: auth_aes128_md5
+    protocol-param: '276924:CPFGip'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_9|1.3MB/s"
+    obfs: tls1.2_ticket_auth
+    obfs-param: 99e144391.douyin.com
+    password: di15PV
+    port: 37398
+    protocol: auth_aes128_md5
+    protocol-param: '144391:uBtVcY'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F8\U0001F1ECSG_6|622KB/s"
+    obfs: plain
+    obfs-param: 99e144391.douyin.com
+    password: di15PV
+    port: 2205
+    protocol: auth_aes128_md5
+    protocol-param: '144391:uBtVcY'
+    server: api.meituan88.com
+    type: ssr
   - alpn:
       - h2
     client-fingerprint: firefox
@@ -580,7 +738,7 @@ proxies:
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: vlgrpc
-    name: "\U0001F1E6\U0001F1EAAE_1|3.4MB/s"
+    name: "\U0001F1E6\U0001F1EAAE_1|2.6MB/s"
     network: grpc
     packet-encoding: xudp
     port: 443
@@ -592,59 +750,62 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s"
+    name: "\U0001F1EB\U0001F1EEFI_1|1.4MB/s"
     network: tcp
-    port: 443
+    port: 13443
     reality-opts:
-      public-key: tcBg_sBbiRt9z-JHFYbf_jITjuuiBULB3chmNBuFRh8
-      short-id: ''
-    server: 82.38.65.76
+      public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+      short-id: "a7f3c91b2e6d84c0"
+    server: 87.121.89.80
     tls: true
     type: vless
     udp: true
-    uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
     xudp: true
-    servername: pypi.org
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1FFKZ_1|757KB/s"
+    servername: auto.cendora.ru
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_10|9.6MB/s"
     network: tcp
-    port: 443
-    reality-opts:
-      public-key: _-iZt_zsuSnYKNldfwXQlnH6SqbLJILP4qApHbaKax0
-      short-id: "3e70d5cbb01bddfd"
-    server: 194.32.141.119
-    tls: true
+    port: 29008
+    server: 366-1095.rabbitpro-in-3.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_4|526KB/s"
+    network: ws
+    port: 8880
+    server: skk.moe
     type: vless
     udp: true
-    uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+    uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
+    ws-opts:
+      headers:
+        Host: late-mountain-6801.355.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
     xudp: true
-    servername: savesafe.kz
-  - name: "\U0001F1ED\U0001F1F0HK_3|822KB/s"
-    password: ''
-    port: 20000
-    server: 112.90.88.102
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1EE\U0001F1F2IM_1|2.1MB/s"
-    password: 1Telegram_MojiVPN
-    port: 1080
-    server: im-bal.pvdata.host
-    skip-cert-verify: true
-    type: socks5
-    username: N9cyF6jvgy3ZEmCNKe04zBIR
-  - name: "\U0001F1EA\U0001F1EAEE_1|1.7MB/s"
-    password: 1Telegram_MojiVPN
-    port: 1080
-    server: ee-tal.pvdata.host
-    skip-cert-verify: true
-    type: socks5
-    username: N9cyF6jvgy3ZEmCNKe04zBIR
   - down: ''
     fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_1|3.1MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_7|3.3MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 1427eb10-7529-4d38-a6a2-01b337868b37
+    port: 1935
+    server: sg1.xiaoliyu.cyou
+    skip-cert-verify: true
+    sni: sg1.xiaoliyu.cyou
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_1|4.1MB/s"
     obfs: ''
     obfs-password: ''
     password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
@@ -654,3190 +815,90 @@ proxies:
     sni: fr194.mechvpn.online
     type: hysteria2
     up: ''
-  - name: "\U0001F1FB\U0001F1F3VN_1|1.0MB/s"
-    password: 5bf879b0-4566-4aaa-ada1-8aa5fcb2f3b5
-    port: 11683
-    server: vn3.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn3.nbjc.top
-  - name: "\U0001F1FB\U0001F1F3VN_2|1.0MB/s"
-    password: 5bf879b0-4566-4aaa-ada1-8aa5fcb2f3b5
-    port: 11681
-    server: vn1.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn1.nbjc.top
-  - name: "\U0001F1FB\U0001F1F3VN_3|635KB/s"
-    password: 5bf879b0-4566-4aaa-ada1-8aa5fcb2f3b5
-    port: 11682
-    server: vn2.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn2.nbjc.top
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_3|5.1MB/s"
-    network: ws
-    port: 2096
-    server: 166.62.104.98
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1FFCZ_1|1.5MB/s"
-    network: ws
-    port: 443
-    server: 92.61.71.49
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1FAAU_1|1.4MB/s"
-    network: ws
-    port: 2053
-    server: 161.33.76.218
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_1|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 91.186.211.248
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|560KB/s"
-    network: ws
-    port: 2096
-    server: 57.129.41.117
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_1|1.5MB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.183
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_8|555KB/s"
-    network: ws
-    port: 443
-    server: 185.246.155.198
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_2|1.7MB/s"
-    network: ws
-    port: 2053
-    server: 31.59.121.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1FFCZ_2|1.9MB/s"
-    network: ws
-    port: 443
-    server: 91.199.154.97
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_3|1.7MB/s"
-    network: ws
-    port: 443
-    server: 87.236.146.43
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_2|1.7MB/s"
-    network: ws
-    port: 443
-    server: 57.128.177.22
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_4|1.8MB/s"
-    network: ws
-    port: 443
-    server: 103.228.168.182
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_3|2.0MB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.247
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_4|2.5MB/s"
-    network: ws
-    port: 443
-    server: 129.150.48.17
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_3|1.7MB/s"
-    network: ws
-    port: 8443
-    server: 31.57.108.195
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_2|1.6MB/s"
-    network: ws
-    port: 443
-    server: 5.175.178.254
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_1|760KB/s"
-    network: ws
-    port: 8443
-    server: 185.80.128.115
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_2|1.2MB/s"
-    network: ws
-    port: 2087
-    server: 57.128.246.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_2|1.7MB/s"
-    network: ws
-    port: 443
-    server: 194.68.32.99
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_1|1.2MB/s"
-    network: ws
-    port: 443
-    server: 195.96.156.240
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-    network: ws
-    port: 2053
-    server: 91.224.75.49
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_4|1.7MB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.235
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_4|1.5MB/s"
-    network: ws
-    port: 2053
-    server: 31.56.48.63
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_5|3.2MB/s"
-    network: ws
-    port: 8443
-    server: 172.104.59.228
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_2|867KB/s"
-    network: ws
-    port: 8443
-    server: 188.253.18.103
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
-    network: ws
-    port: 8443
-    server: 13.140.29.144
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_4|816KB/s"
-    network: ws
-    port: 8443
-    server: 45.32.86.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_3|1.3MB/s"
-    network: ws
-    port: 443
-    server: 185.179.82.246
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_5|762KB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.248
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_9|1.1MB/s"
-    network: ws
-    port: 443
-    server: 188.42.218.140
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_2|821KB/s"
-    network: ws
-    port: 443
-    server: 204.168.199.180
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_10|1.8MB/s"
-    network: ws
-    port: 443
-    server: 82.115.4.65
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_5|1.5MB/s"
-    network: ws
-    port: 443
-    server: 85.137.167.21
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1F0DK_1|828KB/s"
-    network: ws
-    port: 443
-    server: 45.148.31.227
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_3|1.9MB/s"
-    network: ws
-    port: 8443
-    server: 84.32.99.175
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_6|2.0MB/s"
-    network: ws
-    port: 8443
-    server: 64.226.88.144
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_6|701KB/s"
-    network: ws
-    port: 443
-    server: 178.128.209.190
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_11|991KB/s"
-    network: ws
-    port: 443
-    server: 188.190.26.243
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_4|1.0MB/s"
-    network: ws
-    port: 8443
-    server: 185.36.142.21
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_1|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 45.144.48.193
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - auth: 57a45af8-114a-4b37-abe1-67af4ba372ea
-    name: "\U0001F1E9\U0001F1EADE_7|2.5MB/s"
-    obfs: salamander
-    obfs-password: Xydh1mcz51VQHbbJ
-    password: 57a45af8-114a-4b37-abe1-67af4ba372ea
-    port: 443
-    server: 157.228.137.81
-    skip-cert-verify: false
-    sni: msk2.nebuchadnezzar.ink
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_4|1.5MB/s"
-    network: ws
-    port: 443
-    server: 185.179.82.201
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_8|1.5MB/s"
-    network: ws
-    port: 443
-    server: 146.70.71.157
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_6|673KB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.64
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_2|1.0MB/s"
-    network: ws
-    port: 443
-    server: 31.58.77.150
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_5|1.7MB/s"
-    network: ws
-    port: 443
-    server: 94.242.59.38
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|4.8MB/s"
-    network: ws
-    port: 443
-    server: 174.138.20.108
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_5|2.0MB/s"
-    network: ws
-    port: 8443
-    server: 167.104.216.173
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_3|1.4MB/s"
-    network: ws
-    port: 443
-    server: 5.45.118.220
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_3|2.0MB/s"
-    network: ws
-    port: 443
-    server: 195.135.253.121
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_6|684KB/s"
-    network: ws
-    port: 2053
-    server: 46.8.224.102
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F9\U0001F1EDTH_1|750KB/s"
-    network: ws
-    port: 443
-    server: 45.150.128.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_4|1.1MB/s"
-    network: ws
-    port: 2053
-    server: 5.45.123.173
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_7|1.6MB/s"
-    network: ws
-    port: 443
-    server: 104.155.124.198
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_4|2.0MB/s"
-    network: ws
-    port: 443
-    server: 169.40.1.41
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_5|709KB/s"
-    network: ws
-    port: 443
-    server: 57.128.246.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1EDCH_1|1.7MB/s"
-    network: ws
-    port: 443
-    server: 140.238.208.240
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_12|1.6MB/s"
-    network: ws
-    port: 443
-    server: 89.127.214.183
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_7|3.4MB/s"
-    network: ws
-    port: 443
-    server: 178.128.211.191
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_3|1.7MB/s"
-    network: ws
-    port: 443
-    server: 212.147.249.131
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_8|3.7MB/s"
-    network: ws
-    port: 443
-    server: 168.144.36.249
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|3.4MB/s"
-    network: ws
-    port: 443
-    server: 172.104.86.229
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_9|2.2MB/s"
-    network: ws
-    port: 2096
-    server: 64.226.88.144
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_9|3.5MB/s"
-    network: ws
-    port: 443
-    server: 167.71.203.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_10|3.3MB/s"
-    network: ws
-    port: 443
-    server: 146.190.87.188
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1FAHU_1|1.1MB/s"
-    network: ws
-    port: 443
-    server: 38.180.109.174
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_4|1.2MB/s"
-    network: ws
-    port: 2053
-    server: 65.109.95.205
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_6|1002KB/s"
-    network: ws
-    port: 443
-    server: 62.182.193.24
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_6|972KB/s"
-    network: ws
-    port: 443
-    server: 108.61.218.27
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1F9AT_1|1.3MB/s"
-    network: ws
-    port: 443
-    server: 152.53.67.190
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_3|1.5MB/s"
-    network: ws
-    port: 2053
-    server: 45.144.51.254
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_7|1.9MB/s"
-    network: ws
-    port: 443
-    server: 154.9.227.100
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_7|1.1MB/s"
-    network: ws
-    port: 8443
-    server: 213.21.240.183
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_8|2.1MB/s"
-    network: ws
-    port: 8443
-    server: 62.182.196.230
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s"
-    network: ws
-    port: 10202
-    server: 59.6.239.208
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_13|770KB/s"
-    network: ws
-    port: 8443
-    server: 141.144.200.19
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_10|2.1MB/s"
-    network: ws
-    port: 2053
-    server: 91.199.160.188
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_5|945KB/s"
-    network: ws
-    port: 443
-    server: 5.101.117.184
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_8|540KB/s"
-    network: ws
-    port: 443
-    server: 144.202.126.54
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_11|1.8MB/s"
-    network: ws
-    port: 2053
-    server: 80.211.249.240
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_12|692KB/s"
-    network: ws
-    port: 2087
-    server: 64.226.88.144
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_6|1.5MB/s"
-    network: ws
-    port: 2053
-    server: 195.123.212.222
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_9|796KB/s"
-    network: ws
-    port: 8443
-    server: 193.68.89.220
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_8|953KB/s"
-    network: ws
-    port: 8443
-    server: 31.56.48.63
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_4|674KB/s"
-    network: ws
-    port: 443
-    server: 185.242.106.251
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_11|3.8MB/s"
-    network: ws
-    port: 443
-    server: 167.71.222.177
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_13|1.9MB/s"
-    network: ws
-    port: 2053
-    server: 64.226.88.144
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_10|536KB/s"
-    network: ws
-    port: 443
-    server: 185.36.141.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_14|798KB/s"
-    network: ws
-    port: 443
-    server: 138.226.222.106
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1F0DK_2|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 89.28.236.192
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_11|1.9MB/s"
-    network: ws
-    port: 8443
-    server: 138.124.86.149
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_9|2.1MB/s"
-    network: ws
-    port: 8443
-    server: 31.59.120.179
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_12|853KB/s"
-    network: ws
-    port: 443
-    server: 185.36.142.88
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_5|1.9MB/s"
-    network: ws
-    port: 443
-    server: 216.173.71.171
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_14|1.8MB/s"
-    network: ws
-    port: 443
-    server: 193.124.58.171
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1ECBG_1|1.1MB/s"
-    network: ws
-    port: 443
-    server: 104.152.48.248
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_10|1.6MB/s"
-    network: ws
-    port: 8443
-    server: 95.182.97.46
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_13|1.3MB/s"
-    network: ws
-    port: 443
-    server: 185.58.115.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_2|2.6MB/s"
-    network: ws
-    port: 443
-    server: 172.104.120.92
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_3|3.3MB/s"
-    network: ws
-    port: 443
-    server: 153.121.45.101
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_6|1.9MB/s"
-    network: ws
-    port: 443
-    server: 159.253.23.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_4|3.2MB/s"
-    network: ws
-    port: 2053
-    server: 140.238.58.181
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F9IT_1|1.3MB/s"
-    network: ws
-    port: 443
-    server: 57.131.35.117
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_14|1.6MB/s"
-    network: ws
-    port: 443
-    server: 142.111.244.5
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_15|1.9MB/s"
-    network: ws
-    port: 8443
-    server: 193.124.56.100
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_5|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 45.43.77.109
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_7|2.1MB/s"
-    network: ws
-    port: 443
-    server: 79.72.91.32
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_6|2.1MB/s"
-    network: ws
-    port: 443
-    server: 5.34.212.114
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_15|1.1MB/s"
-    network: ws
-    port: 2053
-    server: 178.173.255.115
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_5|2.6MB/s"
-    network: ws
-    port: 443
-    server: 172.104.80.248
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1EDCH_2|784KB/s"
-    network: ws
-    port: 443
-    server: 84.234.16.169
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_16|1.6MB/s"
-    network: ws
-    port: 443
-    server: 185.28.38.235
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_15|1.7MB/s"
-    network: ws
-    port: 8443
-    server: 185.36.140.228
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_16|1.8MB/s"
-    network: ws
-    port: 2053
-    server: 159.100.22.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_16|1.7MB/s"
-    network: ws
-    port: 443
-    server: 159.255.33.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_6|4.6MB/s"
-    network: ws
-    port: 443
-    server: 172.104.81.253
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_7|1.1MB/s"
-    network: ws
-    port: 443
-    server: 176.12.77.95
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_17|723KB/s"
-    network: ws
-    port: 443
-    server: 5.187.2.161
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_8|741KB/s"
-    network: ws
-    port: 443
-    server: 51.68.130.118
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_18|2.0MB/s"
-    network: ws
-    port: 2053
-    server: 91.184.248.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_17|1.5MB/s"
-    network: ws
-    port: 443
-    server: 62.182.197.18
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_7|1.6MB/s"
-    network: ws
-    port: 443
-    server: 159.253.21.228
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_6|1.8MB/s"
-    network: ws
-    port: 443
-    server: 188.253.23.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_11|2.0MB/s"
-    network: ws
-    port: 8443
-    server: 217.60.63.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_2|1.6MB/s"
-    network: ws
-    port: 12312
-    server: 14.52.210.173
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_12|3.3MB/s"
-    network: ws
-    port: 2096
-    server: 140.245.62.90
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_13|641KB/s"
-    network: ws
-    port: 48397
-    server: 138.2.71.48
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_17|1.7MB/s"
-    network: ws
-    port: 443
-    server: 45.135.58.68
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_18|1.7MB/s"
-    network: ws
-    port: 443
-    server: 62.182.192.195
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_19|1.6MB/s"
-    network: ws
-    port: 443
-    server: 94.242.59.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_19|528KB/s"
-    network: ws
-    port: 443
-    server: 193.124.58.60
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1F9AT_2|1.5MB/s"
-    network: ws
-    port: 8443
-    server: 45.134.48.53
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_8|1.4MB/s"
-    network: ws
-    port: 443
-    server: 159.253.21.82
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_20|694KB/s"
-    network: ws
-    port: 443
-    server: 5.189.254.168
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_14|4.7MB/s"
-    network: ws
-    port: 443
-    server: 152.42.187.83
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F9\U0001F1F7TR_1|1.5MB/s"
-    network: ws
-    port: 2053
-    server: 188.132.234.16
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_15|2.1MB/s"
-    network: ws
-    port: 443
-    server: 209.206.51.240
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_12|2.1MB/s"
-    network: ws
-    port: 8443
-    server: 31.59.121.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_9|1.1MB/s"
-    network: ws
-    port: 443
-    server: 170.64.229.30
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1EABE_1|1.3MB/s"
-    network: ws
-    port: 2053
-    server: 82.40.49.242
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_9|1.5MB/s"
-    network: ws
-    port: 443
-    server: 157.22.128.7
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_21|1.3MB/s"
-    network: ws
-    port: 443
-    server: 198.105.125.167
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_18|1.4MB/s"
-    network: ws
-    port: 443
-    server: 64.188.93.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_13|2.1MB/s"
-    network: ws
-    port: 8443
-    server: 31.57.108.170
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_19|632KB/s"
-    network: ws
-    port: 2053
-    server: 193.124.15.137
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1F0DK_3|1.4MB/s"
-    network: ws
-    port: 443
-    server: 93.92.112.216
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1ECBG_2|1.3MB/s"
-    network: ws
-    port: 443
-    server: 104.152.48.177
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_20|1.4MB/s"
-    network: ws
-    port: 443
-    server: 2.26.19.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_14|1.4MB/s"
-    network: ws
-    port: 2053
-    server: 31.59.121.156
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_8|1.5MB/s"
-    network: ws
-    port: 443
-    server: 35.176.75.87
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_10|2.1MB/s"
-    network: ws
-    port: 8443
-    server: 158.101.132.216
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1F9AT_3|577KB/s"
-    network: ws
-    port: 8443
-    server: 185.72.10.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_22|1.6MB/s"
-    network: ws
-    port: 443
-    server: 45.82.80.96
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_16|1.4MB/s"
-    network: ws
-    port: 443
-    server: 43.133.110.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_7|1.7MB/s"
-    network: ws
-    port: 443
-    server: 185.242.106.205
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_20|1.2MB/s"
-    network: ws
-    port: 8443
-    server: 213.239.156.121
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_9|668KB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.228
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_17|2.7MB/s"
-    network: ws
-    port: 443
-    server: 141.11.43.55
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_7|2.5MB/s"
-    network: ws
-    port: 443
-    server: 8.222.185.236
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1FFCZ_3|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 193.124.56.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_21|1.8MB/s"
-    network: ws
-    port: 443
-    server: 91.199.160.8
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_22|795KB/s"
-    network: ws
-    port: 8443
-    server: 144.31.1.178
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_18|3.6MB/s"
-    network: ws
-    port: 443
-    server: 167.71.213.95
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_8|2.7MB/s"
-    network: ws
-    port: 443
-    server: 150.230.212.247
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_10|902KB/s"
-    network: ws
-    port: 443
-    server: 78.141.239.13
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_9|1.1MB/s"
-    network: ws
-    port: 443
-    server: 168.138.46.67
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_23|2.0MB/s"
-    network: ws
-    port: 443
-    server: 62.182.196.25
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_19|1.9MB/s"
-    network: ws
-    port: 443
-    server: 168.144.33.100
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_21|1.8MB/s"
-    network: ws
-    port: 2053
-    server: 185.214.10.72
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_11|664KB/s"
-    network: ws
-    port: 443
-    server: 84.8.145.58
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_24|1.7MB/s"
-    network: ws
-    port: 8443
-    server: 130.49.178.164
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_7|597KB/s"
-    network: ws
-    port: 8443
-    server: 31.59.102.96
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_20|923KB/s"
-    network: ws
-    port: 443
-    server: 134.209.101.154
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_22|2.0MB/s"
-    network: ws
-    port: 443
-    server: 82.115.6.231
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_23|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 194.5.65.17
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_25|1.4MB/s"
-    network: ws
-    port: 443
-    server: 185.36.140.119
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_26|1.1MB/s"
-    network: ws
-    port: 443
-    server: 94.156.180.27
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1F8ES_1|1.1MB/s"
-    network: ws
-    port: 443
-    server: 5.22.216.139
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_23|2.1MB/s"
-    network: ws
-    port: 443
-    server: 91.223.119.197
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_21|4.3MB/s"
-    network: ws
-    port: 443
-    server: 172.236.154.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1ECBG_3|1.6MB/s"
-    network: ws
-    port: 443
-    server: 13.140.29.253
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_24|1.9MB/s"
-    network: ws
-    port: 8443
-    server: 38.180.48.182
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_12|1.8MB/s"
-    network: ws
-    port: 443
-    server: 45.77.57.122
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1ECBG_4|1.8MB/s"
-    network: ws
-    port: 443
-    server: 185.219.132.27
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_10|3.4MB/s"
-    network: ws
-    port: 443
-    server: 140.245.89.136
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_27|1.1MB/s"
-    network: ws
-    port: 443
-    server: 95.85.243.240
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_11|1.1MB/s"
-    network: ws
-    port: 20071
-    server: 217.142.227.105
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - auth: b7f917ca-0f4f-432d-9c11-fc1a221c6f16
-    name: "\U0001F1E8\U0001F1E6CA_1|2.1MB/s"
-    obfs: salamander
-    obfs-password: EWXiQvxRKEsITLW2
-    password: b7f917ca-0f4f-432d-9c11-fc1a221c6f16
-    port: 22724
-    server: ca.apifrrgrtdd.lol
-    skip-cert-verify: true
-    type: hysteria2
-    udp: true
-    sni: ca.apifrrgrtdd.lol
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1FFCZ_4|1.4MB/s"
-    network: ws
-    port: 443
-    server: 109.172.9.38
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_24|1.9MB/s"
-    network: ws
-    port: 443
-    server: 144.31.79.168
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_8|817KB/s"
-    network: ws
-    port: 443
-    server: 91.197.3.69
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_22|1.3MB/s"
-    network: ws
-    port: 443
-    server: 139.59.123.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_13|890KB/s"
-    network: ws
-    port: 443
-    server: 18.134.196.127
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1F0DK_4|1.7MB/s"
-    network: ws
-    port: 8443
-    server: 193.180.213.29
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_3|763KB/s"
-    network: ws
-    port: 12138
-    server: 14.52.210.173
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F7\U0001F1F4RO_62|1.4MB/s"
-    network: ws
-    port: 443
-    server: 82.152.132.14
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_4|2.1MB/s"
-    network: ws
-    port: 8443
-    server: 43.155.221.27
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_9|550KB/s"
-    network: ws
-    port: 443
-    server: 188.253.17.14
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_10|917KB/s"
-    network: ws
-    port: 443
-    server: 91.197.3.7
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_15|518KB/s"
-    network: ws
-    port: 8443
-    server: 31.56.228.250
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1FFCZ_5|1.4MB/s"
-    network: ws
-    port: 443
-    server: 193.124.58.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_28|1.8MB/s"
-    network: ws
-    port: 443
-    server: 41.216.182.98
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_25|2.1MB/s"
-    network: ws
-    port: 2053
-    server: 213.226.71.38
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1FAAU_2|1.3MB/s"
-    network: ws
-    port: 8443
-    server: 161.33.76.218
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_5|1.3MB/s"
-    network: ws
-    port: 443
-    server: 89.125.210.106
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1ECBG_5|1.6MB/s"
-    network: ws
-    port: 443
-    server: 13.140.29.144
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_11|1.1MB/s"
-    network: ws
-    port: 443
-    server: 45.32.79.105
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_25|713KB/s"
-    network: ws
-    port: 8443
-    server: 194.154.30.146
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_29|2.1MB/s"
-    network: ws
-    port: 2053
-    server: 195.123.209.7
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1F9AT_4|664KB/s"
-    network: ws
-    port: 443
-    server: 45.13.38.118
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_23|2.6MB/s"
-    network: ws
-    port: 443
-    server: 134.209.102.229
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_16|619KB/s"
-    network: ws
-    port: 443
-    server: 95.182.84.173
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_26|1.7MB/s"
-    network: ws
-    port: 443
-    server: 194.71.227.213
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_14|1.0MB/s"
-    network: ws
-    port: 443
-    server: 35.176.187.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_30|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 84.32.217.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_31|707KB/s"
-    network: ws
-    port: 8443
-    server: 5.189.254.168
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1FFCZ_6|1.1MB/s"
-    network: ws
-    port: 443
-    server: 91.184.249.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_26|1.7MB/s"
-    network: ws
-    port: 2053
-    server: 80.211.249.68
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_12|4.8MB/s"
-    network: ws
-    port: 443
-    server: 161.33.181.105
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1EDCH_3|2.1MB/s"
-    network: ws
-    port: 443
-    server: 140.238.209.8
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_17|2.1MB/s"
-    network: ws
-    port: 8443
-    server: 217.60.39.196
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_32|2.1MB/s"
-    network: ws
-    port: 443
-    server: 185.36.140.244
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_6|1.6MB/s"
-    network: ws
-    port: 443
-    server: 94.237.36.33
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_13|2.8MB/s"
-    network: ws
-    port: 34237
-    server: 140.83.54.126
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebe25de8-3d30-4e01-a508-93a48debf1ef
-    ws-opts:
-      headers:
-        Host: kjgdksgghre466.pages.dev
-      path: /
-    servername: kjgdksgghre466.pages.dev
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_24|695KB/s"
-    port: 443
-    reality-opts:
-      public-key: ZMYQqRPgpITMElFSEMesSocBj7jvhhw3JGGzWEfyrBk
-      short-id: "693f679d3294f967"
-    server: 163.128.99.246
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f3ed1945-dc1e-478a-b067-12b71badbea9
-    network: tcp
-    servername: www.apple.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1FFKZ_2|1.5MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_3|3.4MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: _-iZt_zsuSnYKNldfwXQlnH6SqbLJILP4qApHbaKax0
-      short-id: "3e70d5cbb01bddfd"
-    server: 194.32.141.11
+      public-key: 1xIu8ESLs4JviWXp8XaOceWAEVHqWLzNIiojA_uf8Ug
+      short-id: "83feb7aa267e9ddf"
+    server: 103.100.158.10
     tls: true
     type: vless
     udp: true
-    uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+    uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
     xudp: true
-    servername: savesafe.kz
+    servername: www.apple.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_11|2.5MB/s"
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+    ws-opts:
+      headers:
+        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      path: /
+    xudp: true
+    servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_4|3.5MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21109
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F0\U0001F1F7KR_1|3.2MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21114
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F0\U0001F1F7KR_2|3.4MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21107
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_5|3.1MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21119
+    server: 211.91.158.24
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_6|3.6MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21109
+    server: 211.91.158.27
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F0\U0001F1F7KR_3|3.2MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21107
+    server: 211.91.158.27
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_7|3.1MB/s"
+    password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+    port: 21119
+    server: 211.91.158.27
+    type: ss
+    udp: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: ❓Other_3|774KB/s
+    name: "\U0001F1EF\U0001F1F5JP_8|777KB/s"
     network: tcp
     port: 39411
     reality-opts:
@@ -3852,37 +913,22 @@ proxies:
     servername: cdnjs.cloudflare.com
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_25|863KB/s"
+    name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
     network: tcp
-    port: 443
+    port: 10877
     reality-opts:
-      public-key: ZMYQqRPgpITMElFSEMesSocBj7jvhhw3JGGzWEfyrBk
-      short-id: "693f679d3294f967"
-    server: 163.128.99.246
+      public-key: zX35soHloTc-mNt8U2GiZQaRZuKr4v_GjMEV7SMyiUw
+      short-id: ''
+    server: 104.225.232.25
     tls: true
     type: vless
     udp: true
-    uuid: f3ed1945-dc1e-478a-b067-12b71badbea9
+    uuid: 42613786-2036-4a79-ad64-cc65d4e60a8d
     xudp: true
-    servername: www.apple.com
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - zula.ir
-      path:
-        - /
-    name: "\U0001F1EB\U0001F1EEFI_7|1.8MB/s"
-    network: http
-    port: 28961
-    server: 94.237.85.204
-    type: vless
-    udp: true
-    uuid: 6a6f414c-0326-4764-8e90-04f53cdaac57
-    xudp: true
+    servername: www.paypal.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_14|3.9MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_9|3.8MB/s"
     obfs: ''
     obfs-password: ''
     password: Pwd_23g4oqdgv8uQJlgcmv_2026
@@ -3892,21 +938,6 @@ proxies:
     sni: www.bing.com
     type: hysteria2
     up: ''
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1E9\U0001F1EADE_27|3.2MB/s"
-    password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-    port: 17306
-    server: 89.144.35.232
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: tuic
-    udp: true
-    udp-relay-mode: native
-    uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-    version: 5
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
